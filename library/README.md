@@ -6,59 +6,74 @@ AI Superpowers
 
 
 ### on the shelf
-siddhartha
-thinking in bets
-range
-american psycho
-factfulness
-it's even worse than it ~~looks~~ was
+siddhartha  
+thinking in bets  
+range  
+american psycho  
+factfulness  
+it's even worse than it ~~looks~~ was  
+
 
 ### to-do
-- [ ] get kindle highlights
-- [ ] add thoughts by each book
-- [ ] read more
+[ ] get kindle highlights
+[ ] add thoughts by each book
+[ ] read more
 
 
 ## 2020
 1. Permanent Record
-2. The Hobbit
-3. Brave New World
-4. The Martian Chronicles
-5. Grit (via audiobook)
-6. Foundation
-7. The Handmaids Tale
+1. The Hobbit
+1. Brave New World
+1. The Martian Chronicles
+1. Grit (via audiobook)
+1. Foundation
+1. The Handmaids Tale
 
 
 ## 2019
 1. Firefighting
-2. Unbroken
-3. Zero to One
-4. Apollo 8
-5. The Circle
-6. The Spy and The Traitor
-7. Subliminal
+1. Unbroken
+1. Zero to One
+1. Apollo 8
+1. The Circle
+1. The Spy and The Traitor
+1. Subliminal
 
 
 ## 2018
 1. Red Notice
-2. Journey to the Center of the Earth
-3. Artemis
-4. The Godfather
-5. Mind Change
-6. The Martain
-7. Fahrenheit 451
-8. Travels with Charley
-9. Bad Blood
-10. The Da Vinci Code
+1. Journey to the Center of the Earth
+1. Artemis
+1. The Godfather
+1. Mind Change
+1. The Martain
+1. Fahrenheit 451
+1. Travels with Charley
+1. Bad Blood
+1. The Da Vinci Code
+1. Blitzed: Drugs in the Third Reich
 
 
 ## 2017
 1. East of Eden
-2. Predictably Irrational
-3. Shoe Dog
-4. Hogan
-5. All the Presidents men
-6. Outliers
+1. Predictably Irrational
+1. Shoe Dog
+1. Hogan
+1. All the Presidents men
+1. Outliers
+1. American Kingpin
 
 
-2016 and earlier... idk. i did not write them down
+##2016 and earlier... 
+*idk. i did not write them down*  
+from my kindle:  
+1. the hunger games trilogy
+1. the world is flat
+1. blood line
+1. map of bones
+1. sandstorm
+1. black order
+1. the silence of war
+1. red mist
+1. first to kill
+
