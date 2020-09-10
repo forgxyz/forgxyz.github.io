@@ -5,19 +5,16 @@
 AI Superpowers
 
 
+## listening now
+[Thinking in Bets](2020/thinkinginbets.md)
+
+
 ### on the shelf
 siddhartha  
-thinking in bets  
 range  
 american psycho  
-factfulness  
+factfulness (audiobook)  
 it's even worse than it ~~looks~~ was  
-
-
-### to-do
-[ ] get kindle highlights
-[ ] add thoughts by books
-[ ] keep reading
 
 
 ## 2020
@@ -25,7 +22,7 @@ it's even worse than it ~~looks~~ was
 1. The Hobbit
 1. Brave New World
 1. The Martian Chronicles
-1. Grit (via audiobook)
+1. Grit (audiobook)
 1. Foundation
 1. The Handmaids Tale
 
