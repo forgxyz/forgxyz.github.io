@@ -14,3 +14,5 @@
 	- challenge yourself to quantify ranges of alternatives
 	- our beiefs are not fully accurate. saying i'm 60% sure allows a 40% chance of being wrong
 	
+- the outcome of a decision != the quality of the decision. like making a bet, making a decision is about the process
+- thinking in probabilistic outcomes > binary win/lose mentality
