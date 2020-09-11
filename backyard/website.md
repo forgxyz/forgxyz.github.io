@@ -6,3 +6,7 @@
   - navbar with jekyll
   - basically i don't know anything about jekyll but i've seen it
   - markdown theming with bootstrap?
+
+...
+
+- i really need the solution tom critchlaw uses for generating pages
