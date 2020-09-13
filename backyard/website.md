@@ -1,5 +1,6 @@
 # ideas & thoughts for this website
 
+
 - light / dark mode
 - styling via jekyll or something like that
   - jekyll vs bootstrap
@@ -10,3 +11,5 @@
 ...
 
 - i really need the solution tom critchlaw uses for generating pages
+
+12 sept - ok gonna use jekyll which means i am learning ruby. fall activity, yay!
