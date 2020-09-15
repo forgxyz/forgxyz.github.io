@@ -24,3 +24,4 @@ title: website
   - just use something different?
 
 - font is not loading on mobile ... 
+- footer blocking content
