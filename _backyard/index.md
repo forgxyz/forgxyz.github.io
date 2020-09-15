@@ -1,5 +1,5 @@
 ---
-title: Digital Garden
+title: digital garden
 ---
 
 # digital garden ...?
@@ -8,4 +8,4 @@ not quite sure, but i like the sound of it. i only just heard about digital gard
 
 maybe i'll use this for a [running list of random thoughts](thoughts)  
 
-i am also still completely new to jekyll so the format will have to evolve over time. [follow that list of notes](/office/website), for whatever reason, 
+i am also still completely new to jekyll so the format will have to evolve over time. [follow that list of notes](/office/website), for whatever reason,

@@ -6,8 +6,11 @@ title: french writeups
 
 in early 2021, i'll be going to france for 5-6 months. major problem - i know **zero** french. so, i've got duolingo, drops & rosetta stone on deck.  
 
-*there will definitely be errors in the below. idc, i will not use google translate for anything here - simply relying on what i remember from studying... i have experience with spanish and german so there may be accidental crossover*  
+*there will definitely be errors in the below. idc, i will try not use google translate for anything here - simply relying on what i remember from studying... i have experience with spanish and german so there may be accidental crossover*  
 
+
+**15 september 2020**  
+J'ai deux chien. S'appelle Apollo et Freddie. Apollo est deux et Freddie est six. Apollo aime courir. Freddie aime manger. Ils aimont dormir beaucoup.
 
 **10 september 2020**  
 bonjour! je suis jack. beinvenue à mon "website." d'accord...  

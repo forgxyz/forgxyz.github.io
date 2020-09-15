@@ -1,8 +1,8 @@
-- name: Home
+- name: home
   link: /
-- name: Office
+- name: office
   link: /office
-- name: Library
+- name: library
   link: /library
-- name: Backyard
+- name: backyard
   link: /backyard

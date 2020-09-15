@@ -1,5 +1,5 @@
 ---
-title: Library
+title: library
 ---
 
 # my library
