@@ -4,6 +4,7 @@ title: website
 
 # ideas & thoughts. thoughts & ideas
 
+
 - light / dark mode
 - styling via jekyll or something like that
   - jekyll vs bootstrap
