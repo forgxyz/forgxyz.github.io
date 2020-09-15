@@ -25,3 +25,4 @@ title: website
 
 - font is not loading on mobile ... 
 - footer blocking content
+- resize social svgs to 16x16
