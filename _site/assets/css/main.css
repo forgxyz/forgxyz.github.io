@@ -2296,13 +2296,11 @@ p a { text-decoration: underline; text-decoration-style: dotted; font-weight: bo
 
 button:hover { color: #00CCC0; }
 
-body { background: #464646; color: #E5E5E5; font-family: "Proza Libre", sans-serif, "Apple Color Emoji"; }
+body { background: #464646; color: #E5E5E5; font-family: "Proza Libre", sans-serif, "Apple Color Emoji"; padding-bottom: 50px; }
 
 h1, h2, h3, h4, h5, h6 { color: #00CCC0; }
 
 img { max-width: 95%; height: auto; }
-
-.footer { background: #464646; bottom: 0px; position: fixed; width: 100%; }
 
 .navbar { background-color: #464646; }
 

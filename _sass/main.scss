@@ -32,6 +32,7 @@ body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
+  padding-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,13 +45,6 @@ img {
 }
 
 // classes
-.footer {
-  background: $backgroundColor;
-  bottom: 0px;
-  position: fixed;
-  width: 100%;
-}
-
 .navbar {
   background-color: $backgroundColor;
 }

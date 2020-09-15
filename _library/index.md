@@ -2,13 +2,11 @@
 title: Library
 ---
 
+# my library
+
 
 ## reading now
 AI Superpowers  
-
-
-## listening now
-Thinking in Bets  
 
 
 ### on the shelf
@@ -27,6 +25,7 @@ it's even worse than it ~~looks~~ was
 1. Grit (audiobook)
 1. Foundation
 1. The Handmaids Tale
+1. Thinking in Bets (audiobook)
 
 
 ## 2019

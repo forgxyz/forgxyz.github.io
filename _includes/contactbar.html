@@ -1,0 +1,13 @@
+<nav class="navbar fixed-bottom">
+  <a class="navbar-brand" href="#">JF</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    reach out
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText" align="right">
+    <ul class="navbar-nav mr-auto">
+      {% for info in site.data.contactbar %}
+        <li class="nav-item"><a href="{{ info.link }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/icons/minima-social-icons.svg' | relative_url }}{{ info.service | prepend: '#'}}"></use></svg>{{ info.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
