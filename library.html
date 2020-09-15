@@ -1,7 +1,10 @@
 ---
 title: Library
 ---
-<h1>my library</h1>
 
 
-{{ site.library.booklist.content }}
+{% for page in site.library  %}
+    {% if page.title == booklist %}
+        {{ page.content }}
+    {% endif %}
+{% endfor %}
