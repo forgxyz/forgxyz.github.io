@@ -1,6 +1,6 @@
 - service: email
-  name: jack@forgash.email
-  link: "mailto: jack@forgash.email"
+  name: hey@jackforgash.com
+  link: "mailto: hey@jackforgash.com"
 - service: linkedin
   name: jackforgash
   link: https://linkedin.com/in/jackforgash
