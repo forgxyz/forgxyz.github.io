@@ -14,3 +14,11 @@ anyway, here is a picture of the day (or week):
 ![picture of the day](assets/images/potd.jpg)
 
 sunset over ios, greece from 2018. yes a sunset pic and a travel pic - how original. but it's september, i've been at home for 6 months and i miss going places.
+
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+[p link color](#)

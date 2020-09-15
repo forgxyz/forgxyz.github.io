@@ -2292,16 +2292,27 @@ a { color: #E5E5E5; }
 
 a:hover { color: #00CCC0; text-decoration: none; }
 
-p a { text-decoration: underline; text-decoration-style: dotted; font-weight: bold; }
+p a { color: #BFF2EF; font-weight: bold; text-decoration: underline; text-decoration-style: dotted; }
 
 button:hover { color: #00CCC0; }
 
 body { background: #464646; color: #E5E5E5; font-family: "Proza Libre", sans-serif, "Apple Color Emoji"; padding-bottom: 50px; }
 
-h1, h2, h3, h4, h5, h6 { color: #00CCC0; }
+h1 { color: #00CCC0; }
+
+h2 { color: #20D2C8; }
+
+h3 { color: #40D9D0; }
+
+h4 { color: #60DFD8; }
+
+h5 { color: #80E6E0; }
+
+h6 { color: #9FECE7; }
 
 img { max-width: 95%; height: auto; }
 
+@media (min-width: 700px) { img { max-width: 500px; height: auto; } }
 .navbar { background-color: #464646; }
 
 .navbar-brand { color: #00CCC0; }

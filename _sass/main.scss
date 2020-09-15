@@ -4,7 +4,13 @@ $bodyColor: #E5E5E5;
 $bodyFont: "Proza Libre",sans-serif,"Apple Color Emoji";
 
 $accentColor: #00CCC0;
-
+$accentTwo: #20D2C8;
+$accentThree: #40D9D0;
+$accentFour: #60DFD8;
+$accentFive: #80E6E0;
+$accentSix: #9FECE7;
+$accentSeven: #BFF2EF;
+$accentEight: #DFF9F7;
 
 // tags
 
@@ -19,9 +25,10 @@ a:hover {
 }
 
 p a {
+  color: $accentSeven;
+  font-weight: bold;
   text-decoration: underline;
   text-decoration-style: dotted;
-  font-weight: bold;
 }
 
 button:hover {
@@ -35,13 +42,34 @@ body {
   padding-bottom: 50px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   color: $accentColor;
+}
+h2 {
+  color: $accentTwo;
+}
+h3 {
+  color: $accentThree;
+}
+h4 {
+  color: $accentFour;
+}
+h5 {
+  color: $accentFive;
+}
+h6 {
+  color: $accentSix;
 }
 
 img {
   max-width: 95%;
   height: auto;
+}
+@media (min-width: 700px) {
+  img {
+    max-width: 500px;
+    height: auto;
+  }
 }
 
 // classes
