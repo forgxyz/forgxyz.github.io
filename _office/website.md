@@ -33,3 +33,4 @@ title: website
   - or don't
 - determine what structure i want ... and content ... like what's the goal here?
   - but the structure of the collections / posts & pages is kinda important
+- just current year books ?
