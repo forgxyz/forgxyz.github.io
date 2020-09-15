@@ -22,3 +22,5 @@ title: website
 - how bad is it that i am asking it to compile bootstrap?
   - better way?
   - just use something different?
+
+- font is not loading on mobile ... 
