@@ -1,3 +1,0 @@
-# grit
-## Angela Duckworth
-

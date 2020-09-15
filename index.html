@@ -1,53 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hi</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap" rel="stylesheet">
-  </head>
+---
+title: Hi
+---
 
-  <body>
 
-    <div class="container" align="center">
-      <br>
-      <a href="/office" class="btn btn-outline-secondary" id="button">work</a>
-      <a href="/library" class="btn btn-outline-secondary" id="button">library</a>
-      <a href="/backyard" class="btn btn-outline-secondary" id="button">to the garden</a>
-    </div>
-    <br>
-    <div class="container">
-    	picture of the day, in honor of the return of the nfl season:<br>
-    	<img src="images/potd.jpg" height=50% width=50%>
-    </div>
+<h1>welcome</h1>
+<p>This is the main page.</p>
 
-    <nav class="navbar fixed-bottom navbar-dark" style="background-color: #464646">
-      <a class="navbar-brand" href="#" style="color: #00CCC0">JF</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        reach out
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText" align="right">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item"><a href="mailto: contact@jackforgash.com" class="nav-link" style="color: #00CCC0">contact@jackforgash.com</a></li>
-          <li class="nav-item"><a href="https://linkedin.com/in/jackforgash" class="nav-link"><img src="images/li-web.png"></a></li>
-          <li class="nav-item"><a href="https://twitter.com/forgxyz" class="nav-link"><img src="images/tw-web.png"></a></li>
-        </ul>
-      </div>
-    </nav>
-  	<!-- <div class="footer">
-      <div align="right" class="container">
-        <a href="mailto: contact@jackforgash.com" class="contact" style="padding-right:8px">contact@jackforgash.com</a>
-        <a href="https://linkedin.com/jackforgash"><img src="images/li.png" class="contact"></a>
-        <a href="https://twitter.com/forgxyz"><img src="images/tw.png" class="contact"></a>
-      </div>
-  		<div class="subtext">made with free time, curiosity & an iPad</div>
-      	<div class="bar"></div>
-    </div> -->
 
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
-</html>
+<p>there won't be much here for a while... <a href="backyard/website">for some thoughts & progression of this site</a><br>
+anyway, here is a picture of the day (or week):</p>
+
+<img src="{{ "assets/images/potd.jpg" | relative_url}}">

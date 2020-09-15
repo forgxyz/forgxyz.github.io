@@ -1,0 +1,13 @@
+---
+title: Digital Garden
+---
+
+<h1>garden</h1>
+
+<p>idk. maybe a digital garden if i want</p>
+
+<ul>
+  {% for file in site.backyard %}
+    <li><a href="{{ file.url }}">{{ file.title }}</a></li>
+  {% endfor %}
+</ul>

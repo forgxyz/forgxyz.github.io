@@ -1,0 +1,12 @@
+- service: email
+  name: jack@forgash.email
+  link: "mailto: jack@forgash.email"
+- service: linkedin
+  name: jackforgash
+  link: https://linkedin.com/in/jackforgash
+- service: twitter
+  name: forgxyz
+  link: https://twitter.com/forgxyz
+- service: github
+  name: forgxyz
+  link: https://github.com/forgxyz

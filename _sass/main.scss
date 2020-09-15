@@ -1,0 +1,76 @@
+// globals
+$backgroundColor: #464646;
+$bodyColor: #E5E5E5;
+$bodyFont: "Proza Libre",sans-serif,"Apple Color Emoji";
+
+$accentColor: #00CCC0;
+
+
+// tags
+
+a {
+  color: $bodyColor;
+}
+
+
+a:hover {
+  color: $accentColor;
+  text-decoration: none;
+}
+
+p a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  font-weight: bold;
+}
+
+button:hover {
+  color: $accentColor;
+}
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $accentColor;
+}
+
+
+// classes
+.footer {
+  background: $backgroundColor;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar {
+  background-color: $backgroundColor;
+}
+
+.navbar-brand {
+  color: $accentColor;
+}
+
+.navbar-toggler {
+  color: $bodyColor;
+}
+
+.nav-item {
+  color: $accentColor;
+  padding-bottom: 5px;
+}
+
+.svg-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  fill: $bodyColor;
+  vertical-align: text-bottom;
+}
+
+
+// ids
