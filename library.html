@@ -4,11 +4,4 @@ title: Library
 <h1>my library</h1>
 
 
-<ul>
-  {% for book in site.library %}
-    {% if book.reading_now %}
-      <li><em>currently reading:</em> <a href="{{ book.url }}">{{ book.title }}</a></li>
-    {% endif %}
-    <li><a href="{{ book.url }}">{{ book.title }}</a></li>
-  {% endfor %}
-</ul>
+{{ site.library.booklist.content }}
