@@ -33,4 +33,10 @@ title: website
   - or don't
 - determine what structure i want ... and content ... like what's the goal here?
   - but the structure of the collections / posts & pages is kinda important
-- just current year books ?
+- just current year books ?  
+
+**16 september**
+- for office: set up a github pages project page for my cs50 classes  
+*there was something in jekyll's docs about this. i don't think there is an issue as long as i do not have a conflicting name here ... [found it](https://jekyllrb.com/docs/github-pages/#project-pages)*  
+  - create a [test](/testprojectpage)
+  - for cs50w, for example, it would be cool if cs50w/project1 loaded the actual page i wrote
