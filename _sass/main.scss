@@ -24,7 +24,7 @@ a:hover {
   text-decoration: none;
 }
 
-p a {
+p a, li a {
   color: $accentSeven;
   font-weight: bold;
   text-decoration: underline;
