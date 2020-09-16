@@ -2288,11 +2288,11 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
   .table { border-collapse: collapse !important; }
   .table td, .table th { background-color: #fff !important; }
   .table-bordered th, .table-bordered td { border: 1px solid #ddd !important; } }
-a { color: #E5E5E5; }
+a { color: #BFF2EF; font-weight: bold; text-decoration: underline; text-decoration-style: dotted; }
 
 a:hover { color: #00CCC0; text-decoration: none; }
 
-p a { color: #BFF2EF; font-weight: bold; text-decoration: underline; text-decoration-style: dotted; }
+nav a { color: #E5E5E5; text-decoration: none; }
 
 button:hover { color: #00CCC0; }
 

@@ -15,20 +15,20 @@ $accentEight: #DFF9F7;
 // tags
 
 a {
-  color: $bodyColor;
+  color: $accentSeven;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
-
 
 a:hover {
   color: $accentColor;
   text-decoration: none;
 }
 
-p a, li a {
-  color: $accentSeven;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-style: dotted;
+nav a {
+  color: $bodyColor;
+  text-decoration: none;
 }
 
 button:hover {
