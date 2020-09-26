@@ -1,12 +1,15 @@
 - service: email
   name: hey@jackforgash.com
   link: "mailto: hey@jackforgash.com"
+- service: instagram
+  name: jackforgash
+  link: https://instagram.com/jackforgash
 - service: linkedin
   name: jackforgash
   link: https://linkedin.com/in/jackforgash
-- service: twitter
-  name: forgxyz
-  link: https://twitter.com/forgxyz
 - service: github
   name: forgxyz
   link: https://github.com/forgxyz
+- service: twitter
+  name: forgxyz
+  link: https://twitter.com/forgxyz
