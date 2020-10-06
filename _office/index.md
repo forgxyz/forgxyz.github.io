@@ -34,9 +34,9 @@ september 2019 rolled around and i gave myself an ultimatum. i *thought* i wante
 
 #### projects
 
-[this website](/) - my fun exploration in having a website and public content. [notes on its progression](website)  
+[this website](/) - my fun exploration in having a website and public content. written from the ground up and powered by jekyll. hosted on github pages. [notes on its progression](website)  
 
 
-[expensifly](/expensifly) - a basic django webapp for recording my expenses. i use google sheets right now and figured i could do better. my aim is to build a portal i can access from my phone for a quick glance at spending & budgeting.  
+[expensifly](/expensifly) - a django webapp for recording my expenses and broad fiancial management. i use google sheets right now and figured i could do better. my aim is to build a portal i can access from my phone for a quick glance at spending & budgeting.  
   - **28 sept 2020:** [it's up!](https://expensifly.herokuapp.com) ... it will be a continual work in progress but it's up! take a look by logging in with un: **testuser** / pw: **banana4g**
   - plenty of improvements to be made, like adding visualizations, but i am proud  
