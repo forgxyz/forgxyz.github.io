@@ -5,7 +5,7 @@ title: office
 # my work
 
 a portfolio of my successes, failures, ups & downs in learning  
-[download my resume](/assets/files/resume.pdf)  
+[view my resume](/assets/files/resume.pdf)  
 
 
 ## what am i working on now
