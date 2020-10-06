@@ -2,7 +2,7 @@
 title: office
 ---
 
-# office
+# my work
 
 a portfolio of my successes, failures, ups & downs in learning  
 [download my resume](/assets/files/resume.pdf)  
@@ -16,9 +16,9 @@ a portfolio of my successes, failures, ups & downs in learning
 [learning french](french) - i hope to spend several months in avignon next winter into spring, yet don't know the language. the linked page will be some practice writings as i learn.  
 
 
-## what have i done in the past
+### past work
 
-### classes
+#### classes
 everything highlighted on this page is due to the work i have done on the below classes. self-directed study is hard, but cs50 has built such a solid foundation that i feel i can learn just about anything. the below links lead to readme pages for each github repository, within which is my course work.  
 
 
@@ -32,7 +32,7 @@ september 2019 rolled around and i gave myself an ultimatum. i *thought* i wante
 [cs50w](/cs50w) - description pending, but taking this gave me the tools to work on expensifly. and, i just had fun taking this course. i've liked everything i have done with python so far, but there is just something different about building some step by step where you can actually see the change. web dev is pretty satisfying.  
 
 
-### projects
+#### projects
 
 [this website](/) - my fun exploration in having a website and public content. [notes on its progression](website)  
 

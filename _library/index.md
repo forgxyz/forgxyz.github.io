@@ -6,8 +6,8 @@ title: library
 # 2020 in books
 
 
-### what am i reading now
-*deciding next book...*    
+## what am i reading now
+21 lessons for the 21st century  
 
 
 ### past reads
