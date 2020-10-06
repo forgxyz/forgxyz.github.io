@@ -117,3 +117,24 @@ img {
 
 
 // ids
+
+
+@media only screen and (max-width: 600px) {
+
+   .welcome {
+      font-size: 66px;
+   }
+
+   .home {
+     font-size: 22px;
+   }
+}
+
+@media only screen and (max-width: 320px) {
+  .welcome {
+    font-size: 45px;
+  }
+  .home {
+    font-size: 15px;
+  }
+}

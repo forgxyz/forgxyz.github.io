@@ -36,3 +36,8 @@ img { max-width: 95%; height: auto; }
 .home { display: flex; font-size: 36px; justify-content: center; align-items: center; }
 
 .svg-icon { width: 20px; height: 20px; display: inline-block; fill: #E5E5E5; vertical-align: text-bottom; }
+
+@media only screen and (max-width: 600px) { .welcome { font-size: 66px; }
+  .home { font-size: 22px; } }
+@media only screen and (max-width: 320px) { .welcome { font-size: 45px; }
+  .home { font-size: 15px; } }
