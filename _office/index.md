@@ -34,7 +34,7 @@ september 2019 rolled around and i gave myself an ultimatum. i *thought* i wante
 
 #### projects
 
-[this website](/) - my fun exploration in having a website and public content. written from the ground up and powered by jekyll. hosted on github pages. [notes on its progression](website)  
+[this website](/) - my fun exploration in having a website and public content. written from the ground up and powered by jekyll. hosted on github pages. saved by bootstrap. [notes on its progression](website)  
 
 
 [expensifly](/expensifly) - a django webapp for recording my expenses and broad fiancial management. i use google sheets right now and figured i could do better. my aim is to build a portal i can access from my phone for a quick glance at spending & budgeting.  
