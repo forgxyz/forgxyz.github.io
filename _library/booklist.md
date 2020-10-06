@@ -2,20 +2,7 @@
 title: booklist
 ---
 
-# my library
-
-
-## reading now
-AI Superpowers  
-
-
-### on the shelf
-siddhartha  
-range  
-american psycho  
-factfulness (audiobook)  
-it's even worse than it ~~looks~~ was  
-
+# booklist
 
 ## 2020
 1. Permanent Record
@@ -26,6 +13,7 @@ it's even worse than it ~~looks~~ was
 1. Foundation
 1. The Handmaids Tale
 1. Thinking in Bets (audiobook)
+1. AI Superpowers
 
 
 ## 2019
