@@ -14,8 +14,8 @@ a portfolio of my successes, failures, ups & downs in learning
 
 
 [learning french](french) - i hope to spend several months in avignon next winter into spring, yet don't know the language. the linked page will be some practice writings as i learn.  
-
-
+  
+  
 ### past work
 
 #### classes
