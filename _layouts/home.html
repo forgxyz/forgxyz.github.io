@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% include meta.html %}
+  </head>
+  <body>
+
+    <div class="welcome">welcome,</div>
+
+    <nav>
+      <ul class="nav nav-pills home">
+        {% for item in site.data.navigation %}
+          <li class="nav-item"><a href="{{ item.link }}" class="nav-link">{{ item.name }}...</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    {% include contactbar.html %}
+    {% include bootstrap.html %}
+  </body>
+</html>

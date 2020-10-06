@@ -2,9 +2,8 @@
 title: library
 ---
 
-# my library
 
-## 2020 in books
+# 2020 in books
 
 
 ### reading now
@@ -26,3 +25,4 @@ range
 american psycho  
 factfulness (audiobook)  
 it's even worse than it ~~looks~~ was  
+21 lessons for the 21st century  

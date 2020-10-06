@@ -90,6 +90,23 @@ img {
   padding-bottom: 5px;
 }
 
+.welcome {
+  color: $accentColor;
+  display: flex;
+  font-size: 96px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15%;
+}
+
+.home {
+  display: flex;
+  font-size: 36px;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .svg-icon {
   width: 20px;
   height: 20px;
