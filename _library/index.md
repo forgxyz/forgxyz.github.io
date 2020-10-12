@@ -7,7 +7,7 @@ title: library
 
 
 ## what am i reading now
-21 lessons for the 21st century  
+the irishman  
   
   
 ### past reads
@@ -28,6 +28,6 @@ range
 american psycho  
 factfulness (audiobook)  
 it's even worse than it ~~looks~~ was  
+21 lessons for the 21st century  
   
-  
-*[beyond 2020](booklist)*  
+*[prior to 2020](booklist)*  
