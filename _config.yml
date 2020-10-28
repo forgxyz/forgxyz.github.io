@@ -11,6 +11,8 @@ collections:
     output: true
   dev:
     output: true
+  test2:
+    output: true
 
 defaults:
   - scope:
