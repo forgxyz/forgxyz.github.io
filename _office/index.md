@@ -13,7 +13,7 @@ a portfolio of my successes, failures, ups & downs in learning
 [cs50ai](/cs50ai) - i started this course in the spring, but tbh it's hard to commit to extracurriculars during the summer. so, i decided to push it to the fall. as of october 5th, i have begun again.  
 
 
-learning french - [mallory is off in avignon](https://www.travelswithmally.com) and i hope to join her, if covid allows. so, rosetta stone & hoping for the best!
+learning french - [mallory is off in avignon](https://www.travelswithmally.com) and i hope to join her, if covid allows. so, rosetta stone & hoping for the best! ... 10/29 maybe not :(
 
 
 ### past work
