@@ -7,7 +7,7 @@ title: library
 
 
 ## what am i reading now
-the irishman  
+lotr: fellowship of the ring  
   
   
 ### past reads
@@ -20,6 +20,7 @@ the irishman
 1. The Handmaids Tale
 1. Thinking in Bets (audiobook)
 1. AI Superpowers
+1. the irishman
 
 
 ### on the shelf / maybe reads
