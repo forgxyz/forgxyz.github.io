@@ -32,5 +32,6 @@ factfulness
 it's even worse than it ~~looks~~ was  
 21 lessons for the 21st century  
 influence  
+guns, germs and steel  
   
 *[prior to 2020](booklist)*  
