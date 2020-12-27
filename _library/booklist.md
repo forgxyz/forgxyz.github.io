@@ -5,60 +5,52 @@ title: booklist
 # booklist
 
 ## 2020
-1. Permanent Record
-1. The Hobbit
-1. Brave New World
-1. The Martian Chronicles
-1. Grit (audiobook)
-1. Foundation
-1. The Handmaids Tale
-1. Thinking in Bets (audiobook)
-1. AI Superpowers
-
+1. permanent record
+1. the hobbit
+1. brave new world
+1. the martian chronicles
+1. grit (audiobook)
+1. foundation
+1. the handmaids tale
+1. thinking in bets (audiobook)
+1. ai superpowers
+1. the irishman
+1. factfulness  
+1. lotr: fellowship of the ring  
 
 ## 2019
-1. Firefighting
-1. Unbroken
-1. Zero to One
-1. Apollo 8
-1. The Circle
-1. The Spy and The Traitor
-1. Subliminal
+1. firefighting
+1. unbroken
+1. zero to one
+1. apollo 8
+1. the circle
+1. the spy and the traitor
+1. subliminal
 
 
 ## 2018
-1. Red Notice
-1. Journey to the Center of the Earth
-1. Artemis
-1. The Godfather
-1. Mind Change
-1. The Martain
-1. Fahrenheit 451
-1. Travels with Charley
-1. Bad Blood
-1. The Da Vinci Code
-1. Blitzed: Drugs in the Third Reich
+1. red notice
+1. journey to the center of the earth
+1. artemis
+1. the godfather
+1. mind change
+1. the nartain
+1. fahrenheit 451
+1. travels with charley
+1. bad blood
+1. the da vinci code
+1. blitzed: drugs in the third reich
 
 
 ## 2017
-1. East of Eden
-1. Predictably Irrational
-1. Shoe Dog
-1. Hogan
-1. All the Presidents men
-1. Outliers
-1. American Kingpin
+1. east of eden
+1. predictably irrational
+1. shoe dog
+1. hogan
+1. all the presidents men
+1. outliers
+1. american kingpin
 
 
 ## 2016 and earlier...  
-*idk. i did not write them down*  
-from my kindle:  
-1. the hunger games trilogy
-1. the world is flat
-1. blood line
-1. map of bones
-1. sandstorm
-1. black order
-1. the silence of war
-1. red mist
-1. first to kill
+*idk. i did not write them down and tbh i did not read much for pleasure outside of books for school. that's something i'd like to fix, in part by making what i read public*  

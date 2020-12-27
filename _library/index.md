@@ -7,22 +7,22 @@ title: library
 
 
 ## what am i reading now
-factfulness  
-lotr: fellowship of the ring  
-  
-  
-### past reads
-1. Permanent Record
-1. The Hobbit
-1. Brave New World
-1. The Martian Chronicles
-1. Grit (audiobook)
-1. Foundation
-1. The Handmaids Tale
-1. Thinking in Bets (audiobook)
-1. AI Superpowers
-1. the irishman
+finishing up factfulness during the day and lord of the rings at night by the fire  
 
+
+### past reads
+1. permanent record
+1. the hobbit
+1. brave new world
+1. the martian chronicles
+1. grit (audiobook)
+1. foundation
+1. the handmaids tale
+1. thinking in bets (audiobook)
+1. ai superpowers
+1. the irishman
+1. factfulness  
+1. lotr: fellowship of the ring  
 
 ### on the shelf / maybe reads
 siddhartha  
@@ -33,5 +33,5 @@ it's even worse than it ~~looks~~ was
 21 lessons for the 21st century  
 influence  
 guns, germs and steel  
-  
+
 *[prior to 2020](booklist)*  
