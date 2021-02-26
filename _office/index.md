@@ -4,7 +4,7 @@ title: office
 
 # my work
 
-a portfolio of my successes, failures, ups & downs in learning  
+a portfolio of my successes, failures, ups & downs in learning. i strive to always stay curious and take on challenges that require adaptive learning  
 [view my resume](/assets/files/resume.pdf)  
 
 
