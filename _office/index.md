@@ -10,10 +10,7 @@ a portfolio of my successes, failures, ups & downs in learning
 
 ## what am i working on now
 
-[cs50ai](/cs50ai) - i started this course in the spring, but tbh it's hard to commit to extracurriculars during the summer. so, i decided to push it to the fall. as of october 5th, i have begun again.  
-
-
-learning french - [mallory is off in avignon](https://www.travelswithmally.com) and i hope to join her, if covid allows. so, rosetta stone & hoping for the best! ... 10/29 maybe not :(
+[cs50ai](/cs50ai) - i started this course when it was released in 2020, but tbh it's hard to commit to extracurriculars during the summer. so, i decided to push it to after busy season at work. as of 2021, i have begun again.  
 
 
 ### past work
@@ -34,7 +31,7 @@ september 2019 rolled around and i gave myself an ultimatum. i *thought* i wante
 
 #### projects
 
-[this website](/) - my fun exploration in having a website and public content. written from the ground up and powered by jekyll. hosted on github pages. saved by bootstrap. [notes on its progression](website)  
+[this website](/) - my fun exploration in having a website and public content. written from the ground up and powered by jekyll. hosted on github pages. saved by bootstrap. this experience has also helped me publish and manage [mallory's blog](https://travelswithmally.com/) while she is teaching in Avignon!  
 
 
 [expensifly](/expensifly) - a django webapp for recording my expenses and broad fiancial management. i use google sheets right now and figured i could do better. my aim is to build a portal i can access from my phone for a quick glance at spending & budgeting.  

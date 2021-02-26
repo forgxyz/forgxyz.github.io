@@ -3,18 +3,18 @@ title: library
 ---
 
 
-# 2020 in books
+# 2021 in books
 
 
 ## what am i reading now
 reading thru the lord of the rings series at night by the fire  
-
+the undoing project  
 
 ### 2021 planned reads
 tbd  
 
 
-### maybe / of interest
+### maybe / of interest / noticed books  
 siddhartha  
 range  
 american psycho  
