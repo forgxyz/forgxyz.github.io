@@ -3,7 +3,7 @@ title: flipside bounties
 ---
 
 # flipside crypto
-is an on-chain analytics company based in Boston. their ide is built on snowflake and they map on-chain data in to continuously updating tables that can be queried with simple sql. it's a fantastic way to learn. the list of dashboards below start with the first one i submitted for review. there were a few failed queries the week before, so the uniswap beginner bounties is really where is started to learn (mid June 2021)  
+an on-chain analytics company based in Boston. their ide is built on snowflake and they map on-chain data in to continuously updating tables that can be queried with simple sql. it's a fantastic way to learn. the list of dashboards below start with the first one i submitted for review. there were a few failed queries the week before, so the uniswap beginner bounties is really where is started to learn (mid June 2021)  
 
 details of the bounties and prompts can be found on [flipside](https://www.notion.so/Flipside-Crypto-Bounty-Programs-8a6400e3d85049b79875d5200206974e). i try to make sure each dashboard includes a label to refer back to the original bounty  
 *trophy emoji indicates dash was selected as the best answer*  
