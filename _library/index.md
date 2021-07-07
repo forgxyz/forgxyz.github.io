@@ -2,19 +2,7 @@
 title: library
 ---
 
-
-# 2021 in books
-
-
-## what am i reading now
-reading thru the lord of the rings series at night by the fire  
-the undoing project  
-
-### 2021 planned reads
-tbd  
-
-
-### maybe / of interest / noticed books  
+### maybe / of interest
 siddhartha  
 range  
 american psycho  
@@ -24,4 +12,4 @@ influence
 guns, germs and steel  
 invent and wander  
 
-*[prior to 2020](booklist)*  
+*[past reads](booklist)*  

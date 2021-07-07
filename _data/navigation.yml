@@ -1,6 +1,2 @@
-- name: office
+- name: continue
   link: /office
-- name: library
-  link: /library
-- name: backyard
-  link: /backyard

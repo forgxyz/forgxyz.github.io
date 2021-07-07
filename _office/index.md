@@ -7,10 +7,9 @@ title: office
 a portfolio of my successes, failures, ups & downs in learning. i strive to always stay curious and take on challenges that require adaptive learning  
 [view my resume](/assets/files/resume.pdf)  
 
+## current projects
 
-## what am i working on now
-
-[cs50ai](/cs50ai) - i started this course when it was released in 2020, but tbh it's hard to commit to extracurriculars during the summer. so, i decided to push it to after busy season at work. as of 2021, i have begun again.  
+learning **sql** through [flipside crypto](https://flipsidecrypto.com)'s weekly bounties.  [view my completed dashboards here](flipside.md).  
 
 
 ### past work
@@ -27,6 +26,10 @@ september 2019 rolled around and i gave myself an ultimatum. i *thought* i wante
 
 
 [cs50w](/cs50w) - description pending, but taking this gave me the tools to work on expensifly. and, i just had fun taking this course. i've liked everything i have done with python so far, but there is just something different about building some step by step where you can actually see the change. web dev is pretty satisfying.  
+
+
+[cs50ai](/cs50ai) - i started this course but it fizzled out. might come back at a later date, but as of now i do not plan to restart it. leaving on this list for the projects that i did work through.
+
 
 
 #### projects
