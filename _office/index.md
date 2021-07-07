@@ -9,7 +9,7 @@ a portfolio of my successes, failures, ups & downs in learning. i strive to alwa
 
 ## current projects
 
-learning **sql** through [flipside crypto](https://flipsidecrypto.com)'s weekly bounties.  [view my completed dashboards here](flipside.md).  
+learning **sql** by participating in [flipside crypto](https://flipsidecrypto.com)'s on-chain analytics bounty program.  [view my completed dashboards here](flipside).  
 
 
 ### past work
