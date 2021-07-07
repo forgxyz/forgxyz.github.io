@@ -9,8 +9,7 @@ details of the bounties and prompts can be found on [flipside](https://www.notio
 *trophy emoji indicates dash was selected as the best answer*  
 
  - [Uniswap Beginner Bounties](https://app.flipsidecrypto.com/dashboard/uni-beginner-bounties-fk3Pkh)
- - [Terra Scavenger Hunt](https://app.flipsidecrypto.com/dashboard/terra-scavenger-hunt-4eQcmK)
-  - [not a bounty](https://www.notion.so/Terra-Explorer-Hunt-7d77cf0c41be475daf1cdec34354fbc4)
+ - [Terra Scavenger Hunt](https://app.flipsidecrypto.com/dashboard/terra-scavenger-hunt-4eQcmK) *([not a bounty](https://www.notion.so/Terra-Explorer-Hunt-7d77cf0c41be475daf1cdec34354fbc4))*
  - [Terra Bounties Week 27](https://app.flipsidecrypto.com/dashboard/terra-bounties-week-27-NfBOiu)
  - 🏆[Terra Stablecoins, Are They?](https://app.flipsidecrypto.com/dashboard/terra-stablecoins-are-they-H4uNMJ)
  - [bLUNA Burns Bright](https://app.flipsidecrypto.com/dashboard/b-luna-burns-bright-GSCl6R)
