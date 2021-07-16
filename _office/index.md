@@ -5,16 +5,17 @@ title: office
 # my work
 
 a portfolio of my successes, failures, ups & downs in learning. i strive to always stay curious and take on challenges that require adaptive learning  
-[view my resume](/assets/files/resume.pdf)  
+📄 [view my resume](/assets/files/resume.pdf)  
 
-## current projects
+## current projects 📅
 
-learning **sql** by participating in [flipside crypto](https://flipsidecrypto.com)'s on-chain analytics bounty program.  [view my completed dashboards here](flipside).  
+learning **sql** by participating in [flipside crypto](https://flipsidecrypto.com)'s on-chain community analytics program.  
+💻 [view my completed dashboards here](flipside).  
 
 
 ### past work
 
-#### classes
+#### classes 📚
 everything highlighted on this page is due to the work i have done on the below classes. self-directed study is hard, but cs50 has built such a solid foundation that i feel i can learn just about anything. the below links lead to readme pages for each github repository, within which is my course work.  
 
 
@@ -32,7 +33,7 @@ september 2019 rolled around and i gave myself an ultimatum. i *thought* i wante
 
 
 
-#### projects
+#### projects 🕹
 
 [this website](/) - my fun exploration in having a website and public content. written from the ground up and powered by jekyll. hosted on github pages. saved by bootstrap. this experience has also helped me publish and manage [mallory's blog](https://travelswithmally.com/) while she is teaching in Avignon!  
 
