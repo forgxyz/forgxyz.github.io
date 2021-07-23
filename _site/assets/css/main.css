@@ -31,7 +31,7 @@ img { max-width: 95%; height: auto; }
 
 .nav-item { color: #00CCC0; padding-bottom: 5px; }
 
-.welcome { color: #00CCC0; display: flex; font-size: 96px; justify-content: center; align-items: center; padding-top: 15%; }
+.welcome { color: #00CCC0; display: flex; font-size: 96px; justify-content: center; align-items: center; padding-top: 3%; }
 
 .home { display: flex; font-size: 36px; justify-content: center; align-items: center; }
 
