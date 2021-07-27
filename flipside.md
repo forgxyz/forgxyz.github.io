@@ -7,7 +7,7 @@ an analytics company based in Boston. their ide is built on snowflake and they m
 
 details of the bounties and prompts can be found on [flipside's website](https://www.notion.so/Flipside-Crypto-Bounty-Programs-8a6400e3d85049b79875d5200206974e). i try to make sure each dashboard includes a label to refer back to the original bounty. current 'rank' by flipside on their best analytical minds leaderboard is [⭐️⭐️⭐️ Bounty Hunter](https://www.notion.so/teamflipside/Flipside-Crypto-BAM-Leaderboard-1154ce81580a4b8fadfcbb3753a9b21d)  
 
-*trophy emoji indicates dash was selected as the best answer*  
+*trophy emoji indicates submission was selected as the best answer*  
 
  - [Ethereum UST Peg - Uniswap Liquidity vs Volatility](https://app.flipsidecrypto.com/dashboard/ethereum-ust-peg-uniswap-liquidity-vs-volatility-aBtxcH)
  - [MIRror Trading Volume](https://app.flipsidecrypto.com/dashboard/mi-rror-trading-volume-sXHXCS)
