@@ -9,6 +9,7 @@ details of the bounties and prompts can be found on [flipside's website](https:/
 
 *trophy emoji indicates submission was selected as the best answer*  
 
+ - [Self-Validation](https://app.flipsidecrypto.com/dashboard/self-validation-xdSPyF)
  - [Ethereum UST Peg - Uniswap Liquidity vs Volatility](https://app.flipsidecrypto.com/dashboard/ethereum-ust-peg-uniswap-liquidity-vs-volatility-aBtxcH)
  - [MIRror Trading Volume](https://app.flipsidecrypto.com/dashboard/mi-rror-trading-volume-sXHXCS)
  - [ETH Bus](https://app.flipsidecrypto.com/dashboard/eth-bus-MjJMbl)  
