@@ -16,7 +16,7 @@ details of the bounties and prompts can be found on [flipside's website](https:/
  - 🥈 [Ethereum UST Peg - Uniswap Liquidity vs Volatility](https://app.flipsidecrypto.com/dashboard/ethereum-ust-peg-uniswap-liquidity-vs-volatility-aBtxcH)
  - [MIRror Trading Volume](https://app.flipsidecrypto.com/dashboard/mi-rror-trading-volume-sXHXCS)
  - [ETH Bus](https://app.flipsidecrypto.com/dashboard/eth-bus-MjJMbl)  
- - [bLUNA Burns Bright](https://app.flipsidecrypto.com/dashboard/b-luna-burns-bright-GSCl6R)
+ - [bLUNA Burns Bright🌑🔥](https://app.flipsidecrypto.com/dashboard/b-luna-burns-bright-GSCl6R)
  - 🏆 [Terra Stablecoins, Are They?](https://app.flipsidecrypto.com/dashboard/terra-stablecoins-are-they-H4uNMJ)
  - [Terra Bounties Week 27](https://app.flipsidecrypto.com/dashboard/terra-bounties-week-27-NfBOiu)
  - [Terra Scavenger Hunt](https://app.flipsidecrypto.com/dashboard/terra-scavenger-hunt-4eQcmK) *([not a bounty](https://www.notion.so/Terra-Explorer-Hunt-7d77cf0c41be475daf1cdec34354fbc4))*
