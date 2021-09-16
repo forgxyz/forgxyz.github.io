@@ -10,7 +10,10 @@ details of the bounties and prompts can be found on [flipside's website](https:/
 
 🏆x1  
 🥈x1  
-  
+
+ - [LUNA Staking Rewards](https://app.flipsidecrypto.com/dashboard/luna-staking-rewards-ZYGSRy)
+ - [Terra Gas](https://app.flipsidecrypto.com/dashboard/terra-gas-KiLJ3Y)
+ - [Ethereum vs Polygon: Fees Edition](https://app.flipsidecrypto.com/dashboard/ethereum-vs-polygon-fees-edition-ksmL4h)
  - [UST Anchors Down](https://app.flipsidecrypto.com/dashboard/ust-anchors-down-zIfkt5)
  - [Polygon Bridge](https://app.flipsidecrypto.com/dashboard/polygon-bridge-7l07Is)
  - [Terra Fees and Volume](https://app.flipsidecrypto.com/dashboard/terra-fees-and-volume-nbQqTr)
