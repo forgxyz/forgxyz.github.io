@@ -11,6 +11,8 @@ details of the bounties and prompts can be found on [flipside's website](https:/
 🏆x1  
 🥈x1  
 
+ - [Curve Liquidity for Liquid Staking](https://app.flipsidecrypto.com/dashboard/curve-liquidity-for-liquid-staking-VEGYbj)
+ - [CRV Token Uses](https://app.flipsidecrypto.com/dashboard/crv-token-uses-4MgDA7)
  - [LUNA Staking Rewards](https://app.flipsidecrypto.com/dashboard/luna-staking-rewards-ZYGSRy)
  - [Terra Gas](https://app.flipsidecrypto.com/dashboard/terra-gas-KiLJ3Y)
  - [Ethereum vs Polygon: Fees Edition](https://app.flipsidecrypto.com/dashboard/ethereum-vs-polygon-fees-edition-ksmL4h)
