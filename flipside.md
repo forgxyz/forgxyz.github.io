@@ -8,10 +8,10 @@ an analytics company based in Boston. their ide is built on snowflake and they m
 details of the bounties and prompts can be found on [flipside's website](https://www.notion.so/Flipside-Crypto-Bounty-Programs-8a6400e3d85049b79875d5200206974e). i try to make sure each dashboard includes a label to refer back to the original bounty. current 'rank' by flipside on their best analytical minds leaderboard is [⭐️⭐️⭐️ Bounty Hunter](https://www.notion.so/teamflipside/Flipside-Crypto-BAM-Leaderboard-1154ce81580a4b8fadfcbb3753a9b21d)  
 
 
-🏆x1  
+🏆x2  
 🥈x1  
 
- - [Curve Liquidity for Liquid Staking](https://app.flipsidecrypto.com/dashboard/curve-liquidity-for-liquid-staking-VEGYbj)
+ - 🏆 [Curve Liquidity for Liquid Staking](https://app.flipsidecrypto.com/dashboard/curve-liquidity-for-liquid-staking-VEGYbj)
  - [CRV Token Uses](https://app.flipsidecrypto.com/dashboard/crv-token-uses-4MgDA7)
  - [LUNA Staking Rewards](https://app.flipsidecrypto.com/dashboard/luna-staking-rewards-ZYGSRy)
  - [Terra Gas](https://app.flipsidecrypto.com/dashboard/terra-gas-KiLJ3Y)
