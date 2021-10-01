@@ -5,7 +5,7 @@ title: flipside bounties
 # flipside crypto // sql
 an analytics company based in Boston. their ide is built on snowflake and they map on-chain data in to continuously updating tables that can be queried with simple sql. it's a fantastic way to learn. the list of dashboards below start with the most recent up top with my first submission at the bottom.  
 
-details of the bounties and prompts can be found on [flipside's website](https://www.notion.so/Flipside-Crypto-Bounty-Programs-8a6400e3d85049b79875d5200206974e). i try to make sure each dashboard includes a label to refer back to the original bounty. current 'rank' by flipside on their best analytical minds leaderboard is [⭐️⭐️⭐️ Bounty Hunter](https://www.notion.so/teamflipside/Flipside-Crypto-BAM-Leaderboard-1154ce81580a4b8fadfcbb3753a9b21d)  
+details of the bounties and prompts can be found on [flipside's website](https://www.notion.so/Flipside-Crypto-Bounty-Programs-8a6400e3d85049b79875d5200206974e). i try to make sure each dashboard includes a label to refer back to the original bounty. current 'rank' by flipside on their best analytical minds leaderboard is [⭐️⭐️⭐️⭐️ Gunslinger](https://www.notion.so/teamflipside/Flipside-Crypto-BAM-Leaderboard-1154ce81580a4b8fadfcbb3753a9b21d)  
 
 
 🏆x2  
