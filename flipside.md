@@ -10,7 +10,16 @@ details of the bounties and prompts can be found on [flipside's website](https:/
 
 🏆x2  
 🥈x1  
-
+ - [thor] [RUNE Price and THOR Swaps](https://app.flipsidecrypto.com/dashboard/rune-price-and-thor-swaps-nup7td)
+ - [thor] [THORChain - Now Open 24/7!](https://app.flipsidecrypto.com/dashboard/thor-chain-now-open-24-7-FFlXqr)
+ - [thor] [THORewards](https://app.flipsidecrypto.com/dashboard/tho-rewards-6t6fb1)
+ - [thor] [THOR - Liquidity Pools](app.flipsidecrypto.com/dashboard/thor-liquidity-pools-A-HsVN)
+ - [thor] [THORSwap User Metrics](app.flipsidecrypto.com/dashboard/thor-swap-user-metrics-zweyo6)
+ - [thor] [THORBoard](app.flipsidecrypto.com/dashboard/thor-board-PNixC5)
+ - [thor] [THOR Bridge User Behavior](app.flipsidecrypto.com/dashboard/thor-bridge-user-behavior-3i7P2e)
+ - [thor] [THORBURN - Upgrades to Native RUNE](app.flipsidecrypto.com/dashboard/thorburn-upgrades-to-native-rune-kzVMhx)
+ - [thor] [Thor Rewards](app.flipsidecrypto.com/dashboard/thor-rewards-X3gFVa)
+ - [lido] [bETH to the moon 🌖 and back 🌏](app.flipsidecrypto.com/dashboard/b-eth-to-the-moon-🌖-and-back-🌏-NrZANL)
  - [yearn] [ZapIn ZapOut](https://app.flipsidecrypto.com/dashboard/zap-in-zap-out-vKo_SO)
  - [yearn] [Rewards and Gas](https://app.flipsidecrypto.com/dashboard/rewards-and-gas-JErope)
  - [yearn] [Curve BOOST via Yearn Fínance](https://app.flipsidecrypto.com/dashboard/curve-boost-via-yearn-finance-iVv66T)
