@@ -11,7 +11,7 @@ details of the bounties and prompts can be found on [flipside's website](https:/
 🏆x3  
 🥈x1  
 
- - [terra] [Into the Wormhole](terra13yxhrk08qvdf5zdc9ss5mwsg5sf7zva9xrgwgc)
+ - [terra] [Into the Wormhole](https://app.flipsidecrypto.com/dashboard/into-the-wormhole-Sqv35x)
  - 🏆 [terra] [terra user statistics](https://app.flipsidecrypto.com/dashboard/terra-user-statistics-lebOen)
  - [thor] [RUNE Price and THOR Swaps](https://app.flipsidecrypto.com/dashboard/rune-price-and-thor-swaps-nup7td)
  - [thor] [THORChain - Now Open 24/7!](https://app.flipsidecrypto.com/dashboard/thor-chain-now-open-24-7-FFlXqr)
