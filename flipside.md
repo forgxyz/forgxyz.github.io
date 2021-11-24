@@ -8,8 +8,10 @@ an analytics company based in Boston. their ide is built on snowflake and they m
 details of the bounties and prompts can be found on [flipside's website](https://www.notion.so/Flipside-Crypto-Bounty-Programs-8a6400e3d85049b79875d5200206974e). i try to make sure each dashboard includes a label to refer back to the original bounty. current 'rank' by flipside on their best analytical minds leaderboard is [⭐️⭐️⭐️⭐️ Gunslinger](https://www.notion.so/teamflipside/Flipside-Crypto-BAM-Leaderboard-1154ce81580a4b8fadfcbb3753a9b21d)  
 
 
-🏆x2  
+🏆x3  
 🥈x1  
+  
+ - 🏆 [terra] [terra user statistics](https://app.flipsidecrypto.com/dashboard/terra-user-statistics-lebOen)
  - [thor] [RUNE Price and THOR Swaps](https://app.flipsidecrypto.com/dashboard/rune-price-and-thor-swaps-nup7td)
  - [thor] [THORChain - Now Open 24/7!](https://app.flipsidecrypto.com/dashboard/thor-chain-now-open-24-7-FFlXqr)
  - [thor] [THORewards](https://app.flipsidecrypto.com/dashboard/tho-rewards-6t6fb1)
