@@ -9,7 +9,13 @@ nav-menu: true
 
 a portfolio of my successes, failures, ups & downs in learning. i strive to always stay curious and take on challenges that require adaptive learning  
 
-## past work
+## ⛳️ current projects
+
+Cleaning data and curating tables using dbt for <span><img src="{% link assets/images/metrics_dao_logo.png %}" alt="" height="22" width="22" /></span>[MetricsDAO](https://mirror.xyz/0x3138165f8d21d4869dbD406CD8bc8055CAC8fb6E)  
+First up, Harmony's raw blockchain ⛓ data is being indexed and our work will enable [community bounties and analytcis](https://bounty.metricsdao.xyz/bounty-programs/harmony).
+
+
+### 📜 past work
 
 #### classes 📚
 everything highlighted on this page is due to the work i have done on the below classes. self-directed study is hard, but cs50 has built such a solid foundation that i feel i can learn just about anything. the below links lead to readme pages for each github repository, within which is my course work and the details of what the courses taught me.  
