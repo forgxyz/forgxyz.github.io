@@ -1,21 +1,55 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <title>{{ page.title }} - {{ site.title }}</title>
-    {% include meta.html %}
-  </head>
-  <body>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
-    <div class="welcome">welcome,</div>
+{% include head.html %}
 
-    <!-- <nav>
-      <ul class="nav nav-pills home">
-        <li class="nav-item"><a href="/office" class="nav-link">continue to portfolio...</a></li>
-      </ul>
-    </nav> -->
-    <div class="container">{{ content }}</div>
+<body>
 
-    {% include contactbar.html %}
-    {% include bootstrap.html %}
-  </body>
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <!-- <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                </ul> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>Contact information, and all that</h2>
+                </header>
+                <p>{{ content }}</p>
+                <!-- <ul class="actions">
+                    <li><a href="landing.html" class="button next">Get Started</a></li>
+                </ul> -->
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
 </html>

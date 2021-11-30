@@ -1,21 +1,40 @@
-url: "https://www.jackforgash.com" # the base hostname & protocol for your site, e.g. http://example.com
+# site settings
+title: forgash_
+subtitle:
+email: jmforgash@gmail.com
+description: on-chain analytics powered by flipside crypto, sql, dbt and coffee. A full list of submitted bounties can be found in the menu, full posts (new) are extrapolations of bounty prompts.
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "JF" # the name of your site, e.g. ACME Corp.
+url: https://forgash.io # the base hostname & protocol for your site
+author: Jack Forgash
+street_address:
+city: Denver
+state: Colorado
+zip_code:
+country: United States of America
+phone:
 
-collections:
-  backyard:
-    output: true
-  library:
-    output: true
-  office:
-    output: true
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/forgxyz
+  Instagram: https://instagram.com/jackforgash
+  LinkedIn: https://www.linkedin.com/in/jackforgash
+  Twitter: https://twitter.com/forgash_
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md
