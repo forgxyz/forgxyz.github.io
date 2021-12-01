@@ -15,6 +15,8 @@ The list of dashboards below start with the most recent up top with my very firs
 🏆x3  
 🥈x1  
 
+
+ - [terra 103] [USD, Terra USD](https://app.flipsidecrypto.com/dashboard/usd-terra-usd-v5wGyB)
  - [terra 101] [Into the Wormhole](https://app.flipsidecrypto.com/dashboard/into-the-wormhole-Sqv35x)
  - 🏆 [terra flash bounty] [terra user statistics](https://app.flipsidecrypto.com/dashboard/terra-user-statistics-lebOen)
  - [thor 9] [RUNE Price and THOR Swaps](https://app.flipsidecrypto.com/dashboard/rune-price-and-thor-swaps-nup7td)
