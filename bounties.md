@@ -16,6 +16,7 @@ The list of dashboards below start with the most recent up top with my very firs
 🥈x1  
 
 
+ - [thor 22] [THORChain Restart - Third Time's the Charm ... ?](https://app.flipsidecrypto.com/dashboard/thor-chain-restart-third-times-the-charm-UDOUt0)
  - [terra 103] [USD, Terra USD](https://app.flipsidecrypto.com/dashboard/usd-terra-usd-v5wGyB)
  - [terra 101] [Into the Wormhole](https://app.flipsidecrypto.com/dashboard/into-the-wormhole-Sqv35x)
  - 🏆 [terra flash bounty] [terra user statistics](https://app.flipsidecrypto.com/dashboard/terra-user-statistics-lebOen)
