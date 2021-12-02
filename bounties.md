@@ -41,7 +41,7 @@ The list of dashboards below start with the most recent up top with my very firs
  - [terra 66] [LUNA Staking Rewards](https://app.flipsidecrypto.com/dashboard/luna-staking-rewards-ZYGSRy)
  - [polygon 7] [Ethereum vs Polygon: Fees Edition](https://app.flipsidecrypto.com/dashboard/ethereum-vs-polygon-fees-edition-ksmL4h)
  - [terra 61] [Stablecoin Supplies on the Terra Blockchain](https://app.flipsidecrypto.com/dashboard/stablecoin-supplies-on-the-terra-blockchain-3jdBUL)
- - [terra 57] (https://app.flipsidecrypto.com/dashboard/terraswap-pools-QHq_Dg)
+ - [terra 57] [Terraswap Pools](https://app.flipsidecrypto.com/dashboard/terraswap-pools-QHq_Dg)
  - [terra 49] [UST Anchors Down](https://app.flipsidecrypto.com/dashboard/ust-anchors-down-zIfkt5)
  - [polygon 1] [Polygon Bridge](https://app.flipsidecrypto.com/dashboard/polygon-bridge-7l07Is)
  - [terra 46] [bLUNA vs LUNA](https://app.flipsidecrypto.com/dashboard/b-luna-vs-luna-jd_GMW)
