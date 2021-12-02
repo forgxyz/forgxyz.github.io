@@ -1,7 +1,7 @@
 # site settings
 title: forgash_
 subtitle:
-email: jmforgash@gmail.com
+email: hello@forgash.io
 description: on-chain analytics powered by flipside crypto, sql, dbt and coffee. A full list of submitted bounties can be found in the menu ↗️, full posts (new) are extrapolations of bounty prompts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://forgash.io # the base hostname & protocol for your site

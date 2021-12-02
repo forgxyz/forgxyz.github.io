@@ -1,4 +1,4 @@
-I"c<p>Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytic <a href="https://www.flipsidecrypto.com/bounty-program">bounty program</a> and these are my submissions.</p>
+I"�<p>Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytic <a href="https://www.flipsidecrypto.com/bounty-program">bounty program</a> and these are my submissions.</p>
 
 <p>The list of dashboards below start with the most recent up top with my very first submission (and first time using sql) at the bottom.<br />
 <em>Past bounty queries/charts may be refreshed for some future posts</em></p>
@@ -7,6 +7,8 @@
 🥈x1</p>
 
 <ul>
+  <li>[thor 22] <a href="https://app.flipsidecrypto.com/dashboard/thor-chain-restart-third-times-the-charm-UDOUt0">THORChain Restart - Third Time’s the Charm … ?</a></li>
+  <li>[terra 103] <a href="https://app.flipsidecrypto.com/dashboard/usd-terra-usd-v5wGyB">USD, Terra USD</a></li>
   <li>[terra 101] <a href="https://app.flipsidecrypto.com/dashboard/into-the-wormhole-Sqv35x">Into the Wormhole</a></li>
   <li>🏆 [terra flash bounty] <a href="https://app.flipsidecrypto.com/dashboard/terra-user-statistics-lebOen">terra user statistics</a></li>
   <li>[thor 9] <a href="https://app.flipsidecrypto.com/dashboard/rune-price-and-thor-swaps-nup7td">RUNE Price and THOR Swaps</a></li>
