@@ -1,4 +1,4 @@
-I"„<p>Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytic <a href="https://www.flipsidecrypto.com/bounty-program">bounty program</a> and these are my submissions.</p>
+I" <p>Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytic <a href="https://www.flipsidecrypto.com/bounty-program">bounty program</a> and these are my submissions.</p>
 
 <p>The list of dashboards below start with the most recent up top with my very first submission (and first time using sql) at the bottom.<br />
 <em>Past bounty queries/charts may be refreshed for some future posts</em></p>
@@ -32,7 +32,7 @@
   <li>[terra 66] <a href="https://app.flipsidecrypto.com/dashboard/luna-staking-rewards-ZYGSRy">LUNA Staking Rewards</a></li>
   <li>[polygon 7] <a href="https://app.flipsidecrypto.com/dashboard/ethereum-vs-polygon-fees-edition-ksmL4h">Ethereum vs Polygon: Fees Edition</a></li>
   <li>[terra 61] <a href="https://app.flipsidecrypto.com/dashboard/stablecoin-supplies-on-the-terra-blockchain-3jdBUL">Stablecoin Supplies on the Terra Blockchain</a></li>
-  <li>[terra 57] (https://app.flipsidecrypto.com/dashboard/terraswap-pools-QHq_Dg)</li>
+  <li>[terra 57] <a href="https://app.flipsidecrypto.com/dashboard/terraswap-pools-QHq_Dg">Terraswap Pools</a></li>
   <li>[terra 49] <a href="https://app.flipsidecrypto.com/dashboard/ust-anchors-down-zIfkt5">UST Anchors Down</a></li>
   <li>[polygon 1] <a href="https://app.flipsidecrypto.com/dashboard/polygon-bridge-7l07Is">Polygon Bridge</a></li>
   <li>[terra 46] <a href="https://app.flipsidecrypto.com/dashboard/b-luna-vs-luna-jd_GMW">bLUNA vs LUNA</a></li>
