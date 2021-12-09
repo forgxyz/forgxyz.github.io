@@ -7,7 +7,7 @@ banner: assets/images/flipside_scrolling_banner.gif
 nav-menu: true
 ---
 
-Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytic [bounty program](https://www.flipsidecrypto.com/bounty-program) and these are my submissions.  
+Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytics [bounty program](https://www.flipsidecrypto.com/bounty-program) and these are my submissions.  
 
 The list of dashboards below start with the most recent up top with my very first submission (and first time using sql) at the bottom.  
 *Past bounty queries/charts may be refreshed for some future posts*
@@ -15,7 +15,7 @@ The list of dashboards below start with the most recent up top with my very firs
 🏆x3  
 🥈x1  
 
- - [terra 104] [Terra-BSC Cross-chain Transfers](https://app.flipsidecrypto.com/dashboard/terra-bsc-cross-chain-transfers-pdFmGu)
+ <!-- - [terra 104] [Terra-BSC Cross-chain Transfers](https://app.flipsidecrypto.com/dashboard/terra-bsc-cross-chain-transfers-pdFmGu) -->
  - [thor 22] [THORChain Restart - Third Time's the Charm ... ?](https://app.flipsidecrypto.com/dashboard/thor-chain-restart-third-times-the-charm-UDOUt0)
  - [terra 103] [USD, Terra USD](https://app.flipsidecrypto.com/dashboard/usd-terra-usd-v5wGyB)
  - [terra 101] [Into the Wormhole](https://app.flipsidecrypto.com/dashboard/into-the-wormhole-Sqv35x)
