@@ -1,0 +1,54 @@
+I"5<p>Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytic <a href="https://www.flipsidecrypto.com/bounty-program">bounty program</a> and these are my submissions.</p>
+
+<p>The list of dashboards below start with the most recent up top with my very first submission (and first time using sql) at the bottom.<br />
+<em>Past bounty queries/charts may be refreshed for some future posts</em></p>
+
+<p>🏆x3<br />
+🥈x1</p>
+
+<ul>
+  <li>[terra 104] <a href="https://app.flipsidecrypto.com/dashboard/terra-bsc-cross-chain-transfers-pdFmGu">Terra-BSC Cross-chain Transfers</a></li>
+  <li>[thor 22] <a href="https://app.flipsidecrypto.com/dashboard/thor-chain-restart-third-times-the-charm-UDOUt0">THORChain Restart - Third Time’s the Charm … ?</a></li>
+  <li>[terra 103] <a href="https://app.flipsidecrypto.com/dashboard/usd-terra-usd-v5wGyB">USD, Terra USD</a></li>
+  <li>[terra 101] <a href="https://app.flipsidecrypto.com/dashboard/into-the-wormhole-Sqv35x">Into the Wormhole</a></li>
+  <li>🏆 [terra flash bounty] <a href="https://app.flipsidecrypto.com/dashboard/terra-user-statistics-lebOen">terra user statistics</a></li>
+  <li>[thor 9] <a href="https://app.flipsidecrypto.com/dashboard/rune-price-and-thor-swaps-nup7td">RUNE Price and THOR Swaps</a></li>
+  <li>[thor 8] <a href="https://app.flipsidecrypto.com/dashboard/thor-chain-now-open-24-7-FFlXqr">THORChain - Now Open 24/7!</a></li>
+  <li>[thor 7] <a href="https://app.flipsidecrypto.com/dashboard/tho-rewards-6t6fb1">THORewards</a></li>
+  <li>[thor 6] <a href="https://app.flipsidecrypto.com/dashboard/thor-liquidity-pools-A-HsVN">THOR - Liquidity Pools</a></li>
+  <li>[thor 5] <a href="https://app.flipsidecrypto.com/dashboard/thor-swap-user-metrics-zweyo6">THORSwap User Metrics</a></li>
+  <li>[thor 4] <a href="https://app.flipsidecrypto.com/dashboard/thor-board-PNixC5">THORBoard</a></li>
+  <li>[thor 3] <a href="https://app.flipsidecrypto.com/dashboard/thor-bridge-user-behavior-3i7P2e">THOR Bridge User Behavior</a></li>
+  <li>[thor 2] <a href="https://app.flipsidecrypto.com/dashboard/thorburn-upgrades-to-native-rune-kzVMhx">THORBURN - Upgrades to Native RUNE</a></li>
+  <li>[thor 1] <a href="https://app.flipsidecrypto.com/dashboard/thor-rewards-X3gFVa">Thor Rewards</a></li>
+  <li>[terra 93] <a href="https://app.flipsidecrypto.com/dashboard/around-the-loop-OebepE">Around the LOOP</a></li>
+  <li>[lido 1] <a href="https://app.flipsidecrypto.com/dashboard/b-eth-to-the-moon-🌖-and-back-🌏-NrZANL">bETH to the moon 🌖 and back 🌏</a></li>
+  <li>[yearnCurve 3] <a href="https://app.flipsidecrypto.com/dashboard/zap-in-zap-out-vKo_SO">ZapIn ZapOut</a></li>
+  <li>[yearnCurve 2] <a href="https://app.flipsidecrypto.com/dashboard/rewards-and-gas-JErope">Rewards and Gas</a></li>
+  <li>[yearnCurve 1] <a href="https://app.flipsidecrypto.com/dashboard/curve-boost-via-yearn-finance-iVv66T">Curve BOOST via Yearn Fínance</a></li>
+  <li>🏆 [curve 2] <a href="https://app.flipsidecrypto.com/dashboard/curve-liquidity-for-liquid-staking-VEGYbj">Curve Liquidity for Liquid Staking</a></li>
+  <li>[curve 1] <a href="https://app.flipsidecrypto.com/dashboard/crv-token-uses-4MgDA7">CRV Token Uses</a></li>
+  <li>[terra 68] <a href="https://app.flipsidecrypto.com/dashboard/chai-on-terra-FCux74">Chai on Terra</a></li>
+  <li>[terra 66 (yes, also 66 🙃)] <a href="https://app.flipsidecrypto.com/dashboard/terra-gas-KiLJ3Y">Terra Gas</a></li>
+  <li>[terra 66] <a href="https://app.flipsidecrypto.com/dashboard/luna-staking-rewards-ZYGSRy">LUNA Staking Rewards</a></li>
+  <li>[polygon 7] <a href="https://app.flipsidecrypto.com/dashboard/ethereum-vs-polygon-fees-edition-ksmL4h">Ethereum vs Polygon: Fees Edition</a></li>
+  <li>[terra 61] <a href="https://app.flipsidecrypto.com/dashboard/stablecoin-supplies-on-the-terra-blockchain-3jdBUL">Stablecoin Supplies on the Terra Blockchain</a></li>
+  <li>[terra 57] <a href="https://app.flipsidecrypto.com/dashboard/terraswap-pools-QHq_Dg">Terraswap Pools</a></li>
+  <li>[terra 49] <a href="https://app.flipsidecrypto.com/dashboard/ust-anchors-down-zIfkt5">UST Anchors Down</a></li>
+  <li>[polygon 1] <a href="https://app.flipsidecrypto.com/dashboard/polygon-bridge-7l07Is">Polygon Bridge</a></li>
+  <li>[terra 46] <a href="https://app.flipsidecrypto.com/dashboard/b-luna-vs-luna-jd_GMW">bLUNA vs LUNA</a></li>
+  <li>[terra 45] <a href="https://app.flipsidecrypto.com/dashboard/chai-volume-and-terra-fees-AZ-_fM">Chai Volume and Terra Fees</a></li>
+  <li>[terra 44] <a href="app.flipsidecrypto.com/dashboard/delegator-overlap-W1igi8">Delegator Overlap</a></li>
+  <li>[terra 41] <a href="https://app.flipsidecrypto.com/dashboard/terra-fees-and-volume-nbQqTr">Terra Fees and Volume</a></li>
+  <li>[terra 32] <a href="https://app.flipsidecrypto.com/dashboard/anchor-protocol-NMwB-4">⚓️ The Robust Anchor Protocol</a></li>
+  <li>[terra 31] <a href="https://app.flipsidecrypto.com/dashboard/luna-price-volatility-yTquMU">LUNA Price Volatility</a></li>
+  <li>[terra 30] <a href="https://app.flipsidecrypto.com/dashboard/self-validation-xdSPyF">Self-Validation</a></li>
+  <li>🥈 [terra 28] <a href="https://app.flipsidecrypto.com/dashboard/ethereum-ust-peg-uniswap-liquidity-vs-volatility-aBtxcH">Ethereum UST Peg - Uniswap Liquidity vs Volatility</a></li>
+  <li>[terra 19] <a href="app.flipsidecrypto.com/dashboard/mi-rror-trading-volume-sXHXCS">MIRror Trading Volume</a></li>
+  <li>[terra 16] <a href="https://app.flipsidecrypto.com/dashboard/eth-bus-MjJMbl">ETH Bus</a></li>
+  <li>[terra 11] <a href="https://app.flipsidecrypto.com/dashboard/b-luna-burns-bright-GSCl6R">bLUNA Burns Bright🌑🔥</a></li>
+  <li>🏆 [terra 6] <a href="https://app.flipsidecrypto.com/dashboard/terra-stablecoins-are-they-H4uNMJ">Terra Stablecoins, Are They?</a></li>
+  <li>[terra 3 &amp; 4] <a href="app.flipsidecrypto.com/dashboard/terra-bounties-week-27-NfBOiu">Terra Bounties, Week 27</a></li>
+  <li>[uniswap 28] <a href="https://app.flipsidecrypto.com/dashboard/uni-beginner-bounties-fk3Pkh">Uniswap Beginner Bounties</a></li>
+</ul>
+:ET
