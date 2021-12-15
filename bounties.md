@@ -15,6 +15,8 @@ The list of dashboards below start with the most recent up top with my very firs
 🏆x3  
 🥈x1  
 
+ - [ens 7] [ENS Registration & ETH Fees](https://app.flipsidecrypto.com/dashboard/ens-registration-eth-fees-x40jZg)
+ - [ens 4] [ENS Claims and Price Action](https://app.flipsidecrypto.com/dashboard/ens-claims-and-price-action-oK5JxZ)
  - [terra 104] [Terra-BSC Cross-chain Transfers](https://app.flipsidecrypto.com/dashboard/terra-bsc-cross-chain-transfers-pdFmGu)
  - [thor 22] [THORChain Restart - Third Time's the Charm ... ?](https://app.flipsidecrypto.com/dashboard/thor-chain-restart-third-times-the-charm-UDOUt0)
  - [terra 103] [USD, Terra USD](https://app.flipsidecrypto.com/dashboard/usd-terra-usd-v5wGyB)
