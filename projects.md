@@ -11,8 +11,8 @@ a portfolio of my successes, failures, ups & downs in learning. i strive to alwa
 
 ## ⛳️ current projects
 
-Cleaning data and curating tables using dbt for <span><img src="{% link assets/images/metrics_dao_logo.png %}" alt="" height="22" width="22" /></span>[MetricsDAO](https://mirror.xyz/0x3138165f8d21d4869dbD406CD8bc8055CAC8fb6E)  
-First up, Harmony's raw blockchain ⛓ data is being indexed and our work will enable [community bounties and analytcis](https://bounty.metricsdao.xyz/bounty-programs/harmony).
+Cleaning data and curating tables [using dbt](https://github.com/MetricsDAO/harmony_dbt) for <span><img src="{% link assets/images/metrics_dao_logo.png %}" alt="" height="22" width="22" /></span>[MetricsDAO](https://mirror.xyz/0x3138165f8d21d4869dbD406CD8bc8055CAC8fb6E)  
+First up, Harmony's raw blockchain ⛓ data is being indexed and our work will enable [community bounties and analytics](https://bounty.metricsdao.xyz/bounty-programs/harmony).
 
 
 ### 📜 past work
