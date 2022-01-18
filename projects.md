@@ -11,7 +11,7 @@ a portfolio of my successes, failures, ups & downs in learning. i strive to alwa
 
 ## ⛳️ current projects
 
-### <span><img src="{% link assets/images/metrics_dao_logo.png %}" alt="" height="22" width="22" /></span>MetricsDAO
+### <span><img src="{% link assets/images/metrics_dao_logo.png %}" alt="" height="22" width="22" /></span> MetricsDAO
 
 #### NEAR
 After a successful data curation for Harmony, MDAO and NEAR have partnered to chainwalk and curate blockchain data. Starting up now (mid-late January).
@@ -20,7 +20,7 @@ After a successful data curation for Harmony, MDAO and NEAR have partnered to ch
 Taking a leadership role in designing and running workshops to educate anyone who wants to come and learn. Topics will cover crypto specific tools, like Dune, Flipside, and the Graph as well as granular sessions on languages and the data stack.  
 
 ##### Harmony
-Cleaning data and curating tables [using dbt](https://github.com/MetricsDAO/harmony_dbt) for <span><img src="{% link assets/images/metrics_dao_logo.png %}" alt="" height="22" width="22" /></span>[MetricsDAO](https://mirror.xyz/0x3138165f8d21d4869dbD406CD8bc8055CAC8fb6E).  
+Cleaning data and curating tables [using dbt](https://github.com/MetricsDAO/harmony_dbt) for <span><img src="{% link assets/images/metrics_dao_logo.png %}" alt="" height="18" width="18" /></span>[MetricsDAO](https://mirror.xyz/0x3138165f8d21d4869dbD406CD8bc8055CAC8fb6E).  
 
 First up, Harmony's raw blockchain ⛓ data is being indexed and the core tables have been built for public access via Snowflake's data marketplace to enable [community bounties and analytics](https://bounty.metricsdao.xyz/bounty-programs/harmony).  
 
