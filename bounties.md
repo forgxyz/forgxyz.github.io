@@ -12,10 +12,9 @@ Flipside is a crypto analytics company based in Boston. Their chainwalker softwa
 The list of dashboards below start with the most recent up top with my very first submission (and first time using sql) at the bottom.  
 *Past bounty queries/charts may be refreshed for some future posts*
 
-🏆x3  
-🥈x1  
+🏆x5  
 
- - [anchor 1] [Anchor User Behavior](https://app.flipsidecrypto.com/dashboard/anchor-user-behavior-1hY6Pd)
+ - 🏆 [anchor 1] [Anchor User Behavior](https://app.flipsidecrypto.com/dashboard/anchor-user-behavior-1hY6Pd)
  - [terra 123] [Anchors Aweigh! ⚓️💸](https://app.flipsidecrypto.com/dashboard/anchors-aweigh-%E2%9A%93%EF%B8%8F-%F0%9F%92%B8-0k1Wfe)
  - [stader 1] [🛸 Stader Staking: Do the users like it?](https://app.flipsidecrypto.com/dashboard/%F0%9F%9B%B8-stader-staking-do-the-users-like-it-ycG7gt)
  - [ens 7] [ENS Registration & ETH Fees](https://app.flipsidecrypto.com/dashboard/ens-registration-eth-fees-x40jZg)
@@ -57,7 +56,7 @@ The list of dashboards below start with the most recent up top with my very firs
  - [terra 32] [⚓️ The Robust Anchor Protocol](https://app.flipsidecrypto.com/dashboard/anchor-protocol-NMwB-4)
  - [terra 31] [LUNA Price Volatility](https://app.flipsidecrypto.com/dashboard/luna-price-volatility-yTquMU)
  - [terra 30] [Self-Validation](https://app.flipsidecrypto.com/dashboard/self-validation-xdSPyF)
- - 🥈 [terra 28] [Ethereum UST Peg - Uniswap Liquidity vs Volatility](https://app.flipsidecrypto.com/dashboard/ethereum-ust-peg-uniswap-liquidity-vs-volatility-aBtxcH)
+ - 🏆 [terra 28] [Ethereum UST Peg - Uniswap Liquidity vs Volatility](https://app.flipsidecrypto.com/dashboard/ethereum-ust-peg-uniswap-liquidity-vs-volatility-aBtxcH)
  - [terra 19] [MIRror Trading Volume](app.flipsidecrypto.com/dashboard/mi-rror-trading-volume-sXHXCS)
  - [terra 16] [ETH Bus](https://app.flipsidecrypto.com/dashboard/eth-bus-MjJMbl)  
  - [terra 11] [bLUNA Burns Bright🌑🔥](https://app.flipsidecrypto.com/dashboard/b-luna-burns-bright-GSCl6R)
