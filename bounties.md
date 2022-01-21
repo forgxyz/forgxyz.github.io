@@ -15,6 +15,7 @@ The list of dashboards below start with the most recent up top with my very firs
 🏆x3  
 🥈x1  
 
+ - [anchor 1] [Anchor User Behavior](https://app.flipsidecrypto.com/dashboard/anchor-user-behavior-1hY6Pd)
  - [terra 123] [Anchors Aweigh! ⚓️💸](https://app.flipsidecrypto.com/dashboard/anchors-aweigh-%E2%9A%93%EF%B8%8F-%F0%9F%92%B8-0k1Wfe)
  - [stader 1] [🛸 Stader Staking: Do the users like it?](https://app.flipsidecrypto.com/dashboard/%F0%9F%9B%B8-stader-staking-do-the-users-like-it-ycG7gt)
  - [ens 7] [ENS Registration & ETH Fees](https://app.flipsidecrypto.com/dashboard/ens-registration-eth-fees-x40jZg)
