@@ -7,7 +7,7 @@ banner: assets/images/flipside_scrolling_banner.gif
 nav-menu: true
 ---
 
-Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytics [bounty program](https://www.flipsidecrypto.com/bounty-program) and these are my submissions.  
+Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytics [bounty program](https://www.flipsidecrypto.com/bounty-program) and these are my submissions. View all top community work [here](https://airtable.com/shrfI0Bf61fTHkhpJ/tblbhDrqZZvaAJh92).  
 
 The list of dashboards below start with the most recent up top with my very first submission (and first time using sql) at the bottom.  
 *Past bounty queries/charts may be refreshed for some future posts*
