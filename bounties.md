@@ -14,6 +14,7 @@ The list of dashboards below start with the most recent up top with my very firs
 
 🏆x5  
 
+ - [terra 140] [Anchor Collateralization](https://forgash.retool.com/embedded/public/ccb5c638-73de-4f99-9669-65b8919762f5)
  - [anchor 1] [Anchor User Behavior](https://app.flipsidecrypto.com/dashboard/anchor-user-behavior-1hY6Pd)
  - 🏆 [terra 123] [Anchors Aweigh! ⚓️💸](https://app.flipsidecrypto.com/dashboard/anchors-aweigh-%E2%9A%93%EF%B8%8F-%F0%9F%92%B8-0k1Wfe)
  - [stader 1] [🛸 Stader Staking: Do the users like it?](https://app.flipsidecrypto.com/dashboard/%F0%9F%9B%B8-stader-staking-do-the-users-like-it-ycG7gt)
