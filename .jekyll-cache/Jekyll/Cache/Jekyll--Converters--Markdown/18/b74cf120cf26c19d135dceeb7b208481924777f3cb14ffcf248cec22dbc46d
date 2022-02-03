@@ -1,12 +1,15 @@
-I"�<p>Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytics <a href="https://www.flipsidecrypto.com/bounty-program">bounty program</a> and these are my submissions.</p>
+I"�<p>Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytics <a href="https://www.flipsidecrypto.com/bounty-program">bounty program</a> and these are my submissions. View all top community work <a href="https://airtable.com/shrfI0Bf61fTHkhpJ/tblbhDrqZZvaAJh92">here</a>.</p>
 
 <p>The list of dashboards below start with the most recent up top with my very first submission (and first time using sql) at the bottom.<br />
 <em>Past bounty queries/charts may be refreshed for some future posts</em></p>
 
-<p>🏆x3<br />
-🥈x1</p>
+<p>🏆x5</p>
 
 <ul>
+  <li>[terra 140] <a href="https://forgash.retool.com/embedded/public/ccb5c638-73de-4f99-9669-65b8919762f5">Anchor Collateralization</a></li>
+  <li>[anchor 1] <a href="https://app.flipsidecrypto.com/dashboard/anchor-user-behavior-1hY6Pd">Anchor User Behavior</a></li>
+  <li>🏆 [terra 123] <a href="https://app.flipsidecrypto.com/dashboard/anchors-aweigh-%E2%9A%93%EF%B8%8F-%F0%9F%92%B8-0k1Wfe">Anchors Aweigh! ⚓️💸</a></li>
+  <li>[stader 1] <a href="https://app.flipsidecrypto.com/dashboard/%F0%9F%9B%B8-stader-staking-do-the-users-like-it-ycG7gt">🛸 Stader Staking: Do the users like it?</a></li>
   <li>[ens 7] <a href="https://app.flipsidecrypto.com/dashboard/ens-registration-eth-fees-x40jZg">ENS Registration &amp; ETH Fees</a></li>
   <li>[ens 5] <a href="https://app.flipsidecrypto.com/dashboard/ens-airdrop-the-best-kept-secret-on-twitter-ULm5Zx">ENS Airdrop - the best kept secret on Twitter</a></li>
   <li>[ens 4] <a href="https://app.flipsidecrypto.com/dashboard/ens-claims-and-price-action-oK5JxZ">ENS Claims and Price Action</a></li>
@@ -46,7 +49,7 @@
   <li>[terra 32] <a href="https://app.flipsidecrypto.com/dashboard/anchor-protocol-NMwB-4">⚓️ The Robust Anchor Protocol</a></li>
   <li>[terra 31] <a href="https://app.flipsidecrypto.com/dashboard/luna-price-volatility-yTquMU">LUNA Price Volatility</a></li>
   <li>[terra 30] <a href="https://app.flipsidecrypto.com/dashboard/self-validation-xdSPyF">Self-Validation</a></li>
-  <li>🥈 [terra 28] <a href="https://app.flipsidecrypto.com/dashboard/ethereum-ust-peg-uniswap-liquidity-vs-volatility-aBtxcH">Ethereum UST Peg - Uniswap Liquidity vs Volatility</a></li>
+  <li>🏆 [terra 28] <a href="https://app.flipsidecrypto.com/dashboard/ethereum-ust-peg-uniswap-liquidity-vs-volatility-aBtxcH">Ethereum UST Peg - Uniswap Liquidity vs Volatility</a></li>
   <li>[terra 19] <a href="app.flipsidecrypto.com/dashboard/mi-rror-trading-volume-sXHXCS">MIRror Trading Volume</a></li>
   <li>[terra 16] <a href="https://app.flipsidecrypto.com/dashboard/eth-bus-MjJMbl">ETH Bus</a></li>
   <li>[terra 11] <a href="https://app.flipsidecrypto.com/dashboard/b-luna-burns-bright-GSCl6R">bLUNA Burns Bright🌑🔥</a></li>

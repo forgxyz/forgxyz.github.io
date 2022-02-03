@@ -1,0 +1,108 @@
+I"8<h1 id="anchor-growing-pains">Anchor Growing Pains</h1>
+
+<blockquote>
+  <p>Unpacking the road to 6bn in deposits, 10bn in TVL, and the aftermath of the degenbox fiasco.</p>
+</blockquote>
+
+<h3 id="disclaimer">Disclaimer</h3>
+<p><em>I have a vested stake in the terra ecosystem and own assets described in this write-up. All data is sourced from Flipside Crypto’s database index of the Terra blockchain. In no way in this financial advice and I am neither seeking to boost nor harm Anchor Protocol. Data is data.</em></p>
+
+<p>📊 All charts replicated here are <a href="https://forgash.retool.com/embedded/public/a8941498-3423-446f-a60d-32763d875a83">interactive on Retool</a>, where they will continuously update.<br />
+My data models behind these charts are open source and available on <a href="https://github.com/forgxyz/flipside">GitHub</a>.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">1/ December was Anchor’s best month yet with over $2.6B new <a href="https://twitter.com/search?q=%24UST&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$UST</a> deposits. 🚀 The surge in deposits helped propel Anchor’s TVL over $10B just 9 months after launch. But that’s not the only thing that happened in December… 🧵</p>&mdash; Anchor Protocol (@anchor_protocol) <a href="https://twitter.com/anchor_protocol/status/1480732475223461888?ref_src=twsrc%5Etfw">January 11, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h3 id="introduction">Introduction</h3>
+<p>I initially set out to provide some simple context to this major headline and had planned to write about how Anchor protocol was sitting on 6bn in deposits and 10bn in TVL, fueled by users and protocols alike flocking to 20% in low-risk yield. These are both numbers to be celebrated, but it would be wrong to not dive in and provide deeper context around what’s happened within Anchor over the past two months. So, this is coming a bit later due to some obvious factors: The Wonderland drama unfolding over the final weeks of January. Do Kwon’s tweet offering to recapitalize the reserve with upwards of $300mm. The Anchor v2 announcement and roadmap for greater revenue generation to sustain a higher reserve. Anchor has been the center of attention recently, for better or for worse.</p>
+
+<h3 id="growth">Growth</h3>
+<p>On November 24th, 2021 the gross balance of Anchor Earn was 2.13bn in user deposits. By year end, that number crossed $5,000,000,000. Yes I am writing out all the zeros to show just how big that number is. But, 5bn alone is not a crazy TVL, it’s the $3bn in depositor growth over 37 days that is eye catching. Now, we all know about the Wonderland fiasco, so I’ll stick to the numbers here.</p>
+
+<p>24 November is not an arbitrary date. I’ve identified this as an inflection point in Anchor as it is the first day we see an individual deposit greater than 100mm UST. Over the remainder of the year, there were 6 additional &gt;100mm deposits into Anchor Earn, totaling <strong>1.25bn</strong> UST in deposits over <a href="https://app.flipsidecrypto.com/dashboard/anchor-protocol-yEpGtX">just 7 transactions in 2021</a>.</p>
+
+<p>Note: One of these deposits (100mm) is actually not the degenbox but an individual. However, there was a 131mm deposit on 2/1 so I am comfortable referencing 1.25bn. Further, one can investigate these addresses and find a significant number of deposits &lt;100mm. Community members, like <a href="https://www.youtube.com/watch?v=kobiOyU092M&amp;t=425s">danku_r</a>, have identified a figure closer to 1.6bn as the deposit impact.</p>
+
+<p><img src="/assets/images/posts/2022/2/anchor/_1_max_deposits.png" class="image fit" /></p>
+
+<p>Now, it would be wrong to jump to the conclusion that the degenbox alone put the pressure on Anchor. We can clearly see that the gross volume passing through Anchor had been steadily increasing by looking at the max daily transaction size. Well before the whale dumps, users were regularly comfortable dropping tens of millions in and out of Anchor on a daily basis. The young stable coin, UST, had and has been tested through several market dumps and 20% is an astounding rate for cash. Plus, Terra is fast, low-fee and has plenty of bridges so why not park idle funds in Anchor.</p>
+
+<p>[(2 &amp; 3) 2 charts - max deposit and max redemption]</p>
+
+<h3 id="total-net-transaction-flow">Total Net Transaction Flow</h3>
+<p>Another view that we’ll jump into quickly is net transaction flows through anchor. That is, the absolute sum of deposits, redemptions and liquidations happening on Anchor Earn. Why? This gives us another picture of what is happening on the protocol, from a very high level.</p>
+
+<p>[(4) <strong>NEW</strong> chart for gross volume]</p>
+
+<p>A couple highlights here:
+-The 11/24 net flows were at or around 25bn
+-12/31 net flows 38bn</p>
+
+<p>Compare this to the net 3bn increase in Earn deposits and this is where the theme of the story gets a bit more clear. Of the 13bn in transaction flow, 23% remained in Anchor as a deposit. It took 25bn in transaction flow for the first 2bn - a capture rate of just 8%.</p>
+
+<p>This is a story of balance, Anchor Protocol needs to balance revenue from the borrow side with the costs of paying depositors. The Yield Reserve is, in effect, a measure of that balance.</p>
+
+<p>Throughout the late summer and into the fall, as Anchor passed 1bn then 2bn in deposits, the protocol had little issue supporting this growth. Total Collateral Value increased in (mostly) lock-step and the yield reserve gently ticked up. 20% was, for a time, sustainable, because the value of collateral exceeded the amount of deposits.</p>
+
+<p>[insert new 4b - value]</p>
+
+<p>What you’re seeing here is the growth of deposits and collateral value, from 3/17 to 9/1, on a relative scale. So, the 3/17/2021 value for each is set to 100. Total Collateral Value and Earn Depositor Balance move in tandem. That’s good - it’s what Anchor needs to support a high yield.</p>
+
+<p>20% is a big number, and there’s been a lot of discussion recently on sustainability of Anchor Protocol to continue offering this fantastic rate. I’ll point out, as I often do when talking about this, that the 20% was known to be unsustainable in the long run. <em>The yield will not be 20% forever, and that is by design.</em></p>
+
+<p>There are mechanics in place to hold the yield at 20% while the protocol scales and the plan is to release the peg to market forces when Anchor is fully capable. It is still in v1, only on the mother chain, and supports just two forms of bonded collateral. Plans for v2 have recently been announced, go read about that here.</p>
+
+<p>[insert tweet to v2]</p>
+
+<h3 id="balance">Balance</h3>
+<p>The Anchor made a point on the recent community call with Flipside Crypto. The Yield Reserve is a measure but not <strong>the</strong> measure. Collateral and borrowing generate real income for Anchor and this is what sustains the rate. The Yield Reserve is a measure of that profit balance - and it is an important one - but this comment inspired me to put forth these additional protocol metrics. The conversation has to grow if Anchor is to…</p>
+
+<p>I said the core of this write-up, and the core of Anchor in particular, was balance. Total Collateral Value needs to be a factor greater than Earn deposits in order to meet the 20% APY target. This is because bLUNA yields about 10%, bETH around 5% (per LIDO) and borrowing costs 11.4% presently. None of these individual components are enough to generate sufficient revenue to pay 20% to depositors. So, scaling is a careful balance.</p>
+
+<p>Anchor Earn is both incredibly attractive and the devs have made it a priority that embedding access to Anchor’s 20% savings rate is just a few lines of code. Scaling the Earn side is easy business and with that “Stripe for Savings” mantra, we would expect the proliferation of Anchor Earn to outpace the Borrow side. This is naturally a problem, because that’s the side that pays the bills.</p>
+
+<p>Here’s where we get to the second risk factor, which I would argue is a far bigger problem than the degenbox. Collateral has not grown, at least not naturally. In an “up only” market like we just had in Q4, a lot of problems can be masked with macro figures like $10bn TVL and looking at Total Collateral Value but not actual collateral amounts. Using the above chart, I showed how collateral value was growing alongside deposits over the first six months of Anchor. That’s true, from a high level.</p>
+
+<p>Here’s what’s really happened.</p>
+
+<p>[(5) <strong>new</strong> chart - bLUNA count growth vs net deposits on a relative scale]
+This chart is similarly setting the starting date, in this case September 1, to 100 so we can compare relative growth. However, instead of bLUNA <em>value</em>, we’re looking at the count of bLUNA captured by Anchor.</p>
+
+<p>In mid-August, ANC incentives to borrowers fell to a natural rate of around net 0% (thanks Alpha DeFi for this chart [link to Alpha]) and bLUNA bonded to Anchor plummeted from 80mm to 60mm. It’s stayed there ever since. Sure, bETH has been onboarded and that helps… a bit.</p>
+
+<p>Ok, I’ll drop a positive note here. On the recent Anchor x Flipside community call [link], the Anchor team mentioned that, during this dip, the value of bETH had remained flat. In other words, as ETH fell from $4k to $2500, users increased bonding and base bETH increased. This is true, and bETH has had some tremendous growth in 2022.</p>
+
+<p>[bETH count chart]</p>
+
+<p>I put together [link to terra 140 bounty] dashboard tracking exactly this growth for a Flipside bounty. Feel free to take a quick look.</p>
+
+<h3 id="the-balance-upset">The Balance Upset</h3>
+<p>Two tremors are not enough to rock a foundation, but they set the stage for drama. Anchor continued to generate higher levels of income because the yield generated by bLUNA was continuously worth more as the price rocketed to ATHs all fall into December. But, because the protocol was unable to garner new interest in the Borrow side in the form of fresh bLUNA, the ability to generate revenue began to lose ground to the explosive growth in Anchor Earn deposits.</p>
+
+<p>So, how exactly did this open Anchor to excess risk?</p>
+
+<p>[reserve from 11/24 to present]</p>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />At its peak, on 12/9, the reserve was 78.9mm</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Over just the 7 largest Q4 transactions, Earn grew by 1.25bn. At 20% yield, this costs the protocol 20.83mm in yield per month</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />On 1/28, the yield reserve sat at 38.7mm, down 40mm in under 2 months
+We know that the excess deposits cannibalized the yield reserve, but the macro conditions added further pressure, driving the value of Anchor’s collateral down and thus the revenue generated plummeted and the reserve continued to take a beating.
+<em>I know others have identified a number closer to 1.6bn as the degenbox Earn deposit due leveraging up … I am choosing to isolate these mega transactions. Thus, the cost is likely higher.</em></li>
+</ul>
+
+<p>Had the market stayed hot, or at least not hit a dip, the reserve would still be leaking away. It’s possible to calculate what the reserve might currently be had LUNA stayed in the $80 range, but that is not what happened and I find that to be an unnecessary exercise at the moment.</p>
+
+<h3 id="where-do-we-go-from-here">Where do we go from here?</h3>
+<p>First, and foremost, it is massively important to remember that the yield reserve is but one metric measuring the success of Anchor Protocol. Some could call it the measure of profitability, but I prefer to look at it through the lens of balance. Anchor launched in March 17th, 2021. It’s not a year old yet and has, so far, weathered some rocky markets and a yield locust swarm.</p>
+
+<p>One final explanation of the yield reserve and how Anchor works. Deposits are captured in the Anchor Market Contract [link] and aUST is minted and transferred to the user. aUST accrues value at the Earn APY and can be redeemed at any time from Anchor Protocol. The initial deposit is paid from the Market Reserve and accrued interest that cannot be covered by collateral revenue is siphoned from the yield reserve. As of this writing, the Market contract holds 3.9bn in UST on 5.2bn in deposits. That is a <strong>75%</strong> reserve ratio. (The rest is currently borrowed by users out via collateralized lending at a maximum LTV of 60%). Consider the fact that the Fed dropped the reserve requirement to 0% in March of 2020 and have left it there and let me know if you think 75% is conservative enough to mitigate a bank run on Anchor… [link] - also post actual reserves above requirement</p>
+
+<p>Anyway.</p>
+
+<p>My takeaway from this tumultuous month is the massive need to address Anchor’s revenue generation. The link between incentivized borrowing and bLUNA growth is clear. bETH has been a successful test of alternative collateral options for users, but it hasn’t been enough.</p>
+
+<p>In recent days, the Anchor team released the roadmap to v2 and, for me, this provides a lot of context to Do Kwon’s tweet regarding recapitalizing the yield reserve [link to tweet]. I’ll add a bit of opinion here - I do not think only refilling the coffers with hundreds of millions is the move, even if it is just to buy time until v2 can be implemented. I understand the move, but I believe there are additional moves that could accompany a recapitalization.</p>
+
+<p>It’s not over yet. Anchor has proven to be a highly desirable destination of capital and the promise of real yield for consumers is a formidable goal. v1 has forged admirable milestones in its first year of operation and I am optimistic and excited to see what is in store for v2. As I have made clear, it is my opinion that attracting collateral and capturing yield is absolutely essential and, thus far, the roadmap is leading us in the right direction. Time will tell if Anchor is able to execute.</p>
+:ET

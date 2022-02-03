@@ -1,11 +1,23 @@
-I"�<h2 id="my-work">my work</h2>
+I"�<h2 id="my-work">my work</h2>
 
 <p>a portfolio of my successes, failures, ups &amp; downs in learning. i strive to always stay curious and take on challenges that require adaptive learning</p>
 
 <h2 id="️-current-projects">⛳️ current projects</h2>
 
-<p>Cleaning data and curating tables using dbt for <span><img src="/assets/images/metrics_dao_logo.png" alt="" height="22" width="22" /></span><a href="https://mirror.xyz/0x3138165f8d21d4869dbD406CD8bc8055CAC8fb6E">MetricsDAO</a><br />
-First up, Harmony’s raw blockchain ⛓ data is being indexed and our work will enable <a href="https://bounty.metricsdao.xyz/bounty-programs/harmony">community bounties and analytcis</a>.</p>
+<h3 id="-metricsdao"><span><img src="/assets/images/metrics_dao_logo.png" alt="" height="22" width="22" /></span> MetricsDAO</h3>
+
+<h4 id="near">NEAR</h4>
+<p>After a successful data curation for Harmony, MDAO and NEAR have partnered to chainwalk and curate blockchain data. Starting up now (mid-late January).</p>
+
+<h4 id="mentors-circle-and-workshops">Mentors Circle and Workshops</h4>
+<p>Taking a leadership role in designing and running workshops to educate anyone who wants to come and learn. Topics will cover crypto specific tools, like Dune, Flipside, and the Graph as well as granular sessions on languages and the data stack.</p>
+
+<h5 id="harmony">Harmony</h5>
+<p>Cleaning data and curating tables <a href="https://github.com/MetricsDAO/harmony_dbt">using dbt</a> for <span><img src="/assets/images/metrics_dao_logo.png" alt="" height="18" width="18" /></span><a href="https://mirror.xyz/0x3138165f8d21d4869dbD406CD8bc8055CAC8fb6E">MetricsDAO</a>.</p>
+
+<p>First up, Harmony’s raw blockchain ⛓ data is being indexed and the core tables have been built for public access via Snowflake’s data marketplace to enable <a href="https://bounty.metricsdao.xyz/bounty-programs/harmony">community bounties and analytics</a>.</p>
+
+<p>Core tables are done, but curated metrics will be built as the data finds more uses in the community.</p>
 
 <h3 id="-past-work">📜 past work</h3>
 
