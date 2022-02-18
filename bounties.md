@@ -7,14 +7,13 @@ banner: assets/images/flipside_scrolling_banner.gif
 nav-menu: true
 ---
 
-Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytics [bounty program](https://www.flipsidecrypto.com/bounty-program) and these are my submissions. View all top community work [here](https://airtable.com/shrfI0Bf61fTHkhpJ/tblbhDrqZZvaAJh92).  
+Flipside is a crypto analytics company based in Boston. Their chainwalker software maps on-chain data in to a continuously updating Snowflake database that can be queried with simple sql. They run a community analytics [bounty program](https://www.flipsidecrypto.com/bounty-program) and these are my submissions. View all top community work [here](https://airtable.com/shrfI0Bf61fTHkhpJ/tblbhDrqZZvaAJh92).
 
-The list of dashboards below start with the most recent up top with my very first submission (and first time using sql) at the bottom.  
+The list of dashboards below start with the most recent up top with my very first submission (and first time using sql) at the bottom.
 *Past bounty queries/charts may be refreshed for some future posts*
 
-🏆x5  
 
- - [terra 140] [Anchor Collateralization](https://forgash.retool.com/embedded/public/ccb5c638-73de-4f99-9669-65b8919762f5)
+ - 🏆 [terra 140] [Anchor Collateralization](https://forgash.retool.com/embedded/public/ccb5c638-73de-4f99-9669-65b8919762f5)
  - [anchor 1] [Anchor User Behavior](https://app.flipsidecrypto.com/dashboard/anchor-user-behavior-1hY6Pd)
  - 🏆 [terra 123] [Anchors Aweigh! ⚓️💸](https://app.flipsidecrypto.com/dashboard/anchors-aweigh-%E2%9A%93%EF%B8%8F-%F0%9F%92%B8-0k1Wfe)
  - [stader 1] [🛸 Stader Staking: Do the users like it?](https://app.flipsidecrypto.com/dashboard/%F0%9F%9B%B8-stader-staking-do-the-users-like-it-ycG7gt)
@@ -59,7 +58,7 @@ The list of dashboards below start with the most recent up top with my very firs
  - [terra 30] [Self-Validation](https://app.flipsidecrypto.com/dashboard/self-validation-xdSPyF)
  - 🏆 [terra 28] [Ethereum UST Peg - Uniswap Liquidity vs Volatility](https://app.flipsidecrypto.com/dashboard/ethereum-ust-peg-uniswap-liquidity-vs-volatility-aBtxcH)
  - [terra 19] [MIRror Trading Volume](https://app.flipsidecrypto.com/dashboard/mi-rror-trading-volume-sXHXCS)
- - [terra 16] [ETH Bus](https://app.flipsidecrypto.com/dashboard/eth-bus-MjJMbl)  
+ - [terra 16] [ETH Bus](https://app.flipsidecrypto.com/dashboard/eth-bus-MjJMbl)
  - [terra 11] [bLUNA Burns Bright🌑🔥](https://app.flipsidecrypto.com/dashboard/b-luna-burns-bright-GSCl6R)
  - 🏆 [terra 6] [Terra Stablecoins, Are They?](https://app.flipsidecrypto.com/dashboard/terra-stablecoins-are-they-H4uNMJ)
  - [terra 3 & 4] [Terra Bounties, Week 27](https://app.flipsidecrypto.com/dashboard/terra-bounties-week-27-NfBOiu)
