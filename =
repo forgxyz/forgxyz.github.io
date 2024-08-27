@@ -1,0 +1,559 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ruby-full is already the newest version (1:2.7+1).
+The following packages were automatically installed and are no longer required:
+  libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  acl adwaita-icon-theme apg aptdaemon aptdaemon-data aspell aspell-en
+  at-spi2-core avahi-daemon avahi-utils bluez bubblewrap cheese-common colord
+  colord-data cracklib-runtime crda cups-pk-helper dconf-cli
+  desktop-file-utils dictionaries-common dns-root-data dnsmasq-base
+  docbook-xml emacsen-common enchant-2 evolution-data-server
+  evolution-data-server-common fontconfig fprintd gcr gdm3 geoclue-2.0 ghc
+  ghc-prof gir1.2-accountsservice-1.0 gir1.2-atk-1.0 gir1.2-atspi-2.0
+  gir1.2-dbusmenu-glib-0.4 gir1.2-dbusmenu-gtk3-0.4 gir1.2-freedesktop
+  gir1.2-gck-1 gir1.2-gcr-3 gir1.2-gdesktopenums-3.0 gir1.2-gdkpixbuf-2.0
+  gir1.2-gdm-1.0 gir1.2-geoclue-2.0 gir1.2-gnomebluetooth-1.0
+  gir1.2-gnomedesktop-3.0 gir1.2-graphene-1.0 gir1.2-gtk-3.0
+  gir1.2-gweather-3.0 gir1.2-harfbuzz-0.0 gir1.2-ibus-1.0 gir1.2-json-1.0
+  gir1.2-mutter-6 gir1.2-nm-1.0 gir1.2-nma-1.0 gir1.2-notify-0.7
+  gir1.2-pango-1.0 gir1.2-polkit-1.0 gir1.2-rsvg-2.0 gir1.2-secret-1
+  gir1.2-soup-2.4 gir1.2-upowerglib-1.0 gir1.2-vte-2.91 gjs gkbd-capplet
+  gnome-control-center gnome-control-center-data gnome-control-center-faces
+  gnome-desktop3-data gnome-keyring gnome-keyring-pkcs11 gnome-menus
+  gnome-online-accounts gnome-session-bin gnome-session-common
+  gnome-settings-daemon gnome-settings-daemon-common gnome-shell
+  gnome-shell-common gnome-startup-applications gnome-user-docs
+  gobject-introspection gstreamer1.0-clutter-3.0 gstreamer1.0-gl
+  gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-pulseaudio
+  gstreamer1.0-x gtk-update-icon-cache hicolor-icon-theme hspec-discover
+  humanity-icon-theme hunspell-en-us ibus ibus-data ibus-gtk ibus-gtk3
+  iio-sensor-proxy im-config ippusbxd iw language-selector-gnome libaa1
+  libappindicator3-1 libasound2-plugins libaspell15 libatk-bridge2.0-0
+  libatk-bridge2.0-dev libatk1.0-0 libatk1.0-data libatk1.0-dev
+  libatkmm-1.6-1v5 libatspi2.0-0 libatspi2.0-dev libavahi-client3
+  libavahi-common-data libavahi-common3 libavahi-core7 libavahi-glib1
+  libavc1394-0 libblkid-dev libbluetooth3 libboost-thread1.71.0 libbsd-dev
+  libc-ares2 libcaca0 libcairo-gobject2 libcairo-script-interpreter2 libcairo2
+  libcairo2-dev libcairomm-1.0-1v5 libcamel-1.2-62 libcanberra-gtk3-0
+  libcanberra-gtk3-module libcanberra-pulse libcdparanoia0 libcheese-gtk25
+  libcheese8 libclutter-1.0-0 libclutter-1.0-common libclutter-gtk-1.0-0
+  libcogl-common libcogl-pango20 libcogl-path20 libcogl20 libcolord-gtk1
+  libcolord2 libcolorhug2 libcrack2 libcups2 libdaemon0 libdatrie-dev
+  libdatrie1 libdbus-1-dev libdbus-glib-1-2 libdbus-glib-1-dev
+  libdbus-glib-1-dev-bin libdbusmenu-glib-dev libdbusmenu-glib4
+  libdbusmenu-gtk3-4 libdbusmenu-gtk3-dev libdv4 libebackend-1.2-10
+  libebook-1.2-20 libebook-contacts-1.2-3 libecal-2.0-1 libedata-book-1.2-26
+  libedata-cal-2.0-1 libedataserver-1.2-24 libedataserverui-1.2-2 libegl-dev
+  libegl-mesa0 libegl1 libegl1-mesa-dev libenchant-2-2 libepoxy-dev libepoxy0
+  libevdev2 libexif12 libfprint-2-2 libfribidi-dev libgail-common libgail18
+  libgbm1 libgck-1-0 libgcr-base-3-1 libgcr-ui-3-1 libgd3 libgdata-common
+  libgdata22 libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common
+  libgdk-pixbuf2.0-dev libgdm1 libgee-0.8-2 libgeoclue-2-0 libgeocode-glib0
+  libghc-adjunctions-dev libghc-adjunctions-prof libghc-ansi-terminal-dev
+  libghc-ansi-terminal-prof libghc-async-dev libghc-async-prof
+  libghc-attoparsec-dev libghc-attoparsec-prof libghc-base-compat-dev
+  libghc-base-compat-prof libghc-base-orphans-dev libghc-base-orphans-prof
+  libghc-bifunctors-dev libghc-bifunctors-prof libghc-blaze-builder-dev
+  libghc-blaze-builder-prof libghc-blaze-html-dev libghc-blaze-html-prof
+  libghc-blaze-markup-dev libghc-blaze-markup-prof
+  libghc-bytestring-to-vector-dev libghc-bytestring-to-vector-prof
+  libghc-cairo-dev libghc-cairo-prof libghc-call-stack-dev
+  libghc-call-stack-prof libghc-case-insensitive-dev
+  libghc-case-insensitive-prof libghc-cereal-dev libghc-cereal-prof
+  libghc-clock-dev libghc-clock-prof libghc-colour-dev libghc-colour-prof
+  libghc-comonad-dev libghc-comonad-prof libghc-conduit-dev
+  libghc-conduit-extra-dev libghc-conduit-extra-prof libghc-conduit-prof
+  libghc-configfile-dev libghc-configfile-prof libghc-contravariant-dev
+  libghc-contravariant-prof libghc-data-default-class-dev
+  libghc-data-default-class-prof libghc-data-default-dev
+  libghc-data-default-instances-containers-dev
+  libghc-data-default-instances-containers-prof
+  libghc-data-default-instances-dlist-dev
+  libghc-data-default-instances-dlist-prof
+  libghc-data-default-instances-old-locale-dev
+  libghc-data-default-instances-old-locale-prof libghc-data-default-prof
+  libghc-dbus-dev libghc-dbus-hslogger-dev libghc-dbus-hslogger-prof
+  libghc-dbus-prof libghc-distributive-dev libghc-distributive-prof
+  libghc-dlist-dev libghc-dlist-prof libghc-dyre-dev libghc-dyre-prof
+  libghc-either-dev libghc-either-prof libghc-enclosed-exceptions-dev
+  libghc-enclosed-exceptions-prof libghc-erf-dev libghc-erf-prof
+  libghc-exceptions-dev libghc-exceptions-prof libghc-executable-path-dev
+  libghc-executable-path-prof libghc-extensible-exceptions-dev
+  libghc-extensible-exceptions-prof libghc-free-dev libghc-free-prof
+  libghc-genvalidity-dev libghc-genvalidity-prof libghc-ghc-paths-dev
+  libghc-ghc-paths-prof libghc-gi-atk-dev libghc-gi-atk-prof
+  libghc-gi-cairo-connector-dev libghc-gi-cairo-connector-prof
+  libghc-gi-cairo-dev libghc-gi-cairo-prof libghc-gi-cairo-render-dev
+  libghc-gi-cairo-render-prof libghc-gi-dbusmenu-dev libghc-gi-dbusmenu-prof
+  libghc-gi-dbusmenugtk3-dev libghc-gi-dbusmenugtk3-prof libghc-gi-gdk-dev
+  libghc-gi-gdk-prof libghc-gi-gdkpixbuf-dev libghc-gi-gdkpixbuf-prof
+  libghc-gi-gdkx11-dev libghc-gi-gdkx11-prof libghc-gi-gio-dev
+  libghc-gi-gio-prof libghc-gi-glib-dev libghc-gi-glib-prof
+  libghc-gi-gobject-dev libghc-gi-gobject-prof libghc-gi-gtk-dev
+  libghc-gi-gtk-hs-dev libghc-gi-gtk-hs-prof libghc-gi-gtk-prof
+  libghc-gi-pango-dev libghc-gi-pango-prof libghc-gi-xlib-dev
+  libghc-gi-xlib-prof libghc-glib-dev libghc-glib-prof libghc-gtk-sni-tray-dev
+  libghc-gtk-sni-tray-prof libghc-gtk-strut-dev libghc-gtk-strut-prof
+  libghc-hashable-dev libghc-hashable-prof libghc-haskell-gi-base-dev
+  libghc-haskell-gi-base-prof libghc-haskell-gi-dev libghc-haskell-gi-prof
+  libghc-haskell-lexer-dev libghc-haskell-lexer-prof libghc-hslogger-dev
+  libghc-hslogger-prof libghc-hspec-core-dev libghc-hspec-core-prof
+  libghc-hspec-dev libghc-hspec-expectations-dev
+  libghc-hspec-expectations-prof libghc-hspec-prof libghc-hstringtemplate-dev
+  libghc-hstringtemplate-prof libghc-http-dev libghc-http-prof
+  libghc-http-types-dev libghc-http-types-prof libghc-hunit-dev
+  libghc-hunit-prof libghc-integer-logarithms-dev
+  libghc-integer-logarithms-prof libghc-invariant-dev libghc-invariant-prof
+  libghc-io-storage-dev libghc-io-storage-prof libghc-kan-extensions-dev
+  libghc-kan-extensions-prof libghc-lens-dev libghc-lens-prof
+  libghc-lifted-base-dev libghc-lifted-base-prof libghc-missingh-dev
+  libghc-missingh-prof libghc-monad-control-dev libghc-monad-control-prof
+  libghc-mono-traversable-dev libghc-mono-traversable-prof libghc-multimap-dev
+  libghc-multimap-prof libghc-network-dev libghc-network-prof
+  libghc-network-uri-dev libghc-network-uri-prof libghc-old-locale-dev
+  libghc-old-locale-prof libghc-old-time-dev libghc-old-time-prof
+  libghc-onetuple-dev libghc-onetuple-prof libghc-parallel-dev
+  libghc-parallel-prof libghc-pretty-show-dev libghc-pretty-show-prof
+  libghc-primitive-dev libghc-primitive-prof libghc-profunctors-dev
+  libghc-profunctors-prof libghc-quickcheck-io-dev libghc-quickcheck-io-prof
+  libghc-quickcheck2-dev libghc-quickcheck2-prof libghc-random-dev
+  libghc-random-prof libghc-rate-limit-dev libghc-rate-limit-prof
+  libghc-reflection-dev libghc-reflection-prof libghc-regex-base-dev
+  libghc-regex-base-prof libghc-regex-compat-dev libghc-regex-compat-prof
+  libghc-regex-posix-dev libghc-regex-posix-prof libghc-regex-tdfa-dev
+  libghc-regex-tdfa-prof libghc-resourcet-dev libghc-resourcet-prof
+  libghc-safe-dev libghc-safe-prof libghc-scientific-dev
+  libghc-scientific-prof libghc-semigroupoids-dev libghc-semigroupoids-prof
+  libghc-semigroups-dev libghc-semigroups-prof libghc-setenv-dev
+  libghc-setenv-prof libghc-setlocale-dev libghc-setlocale-prof
+  libghc-split-dev libghc-split-prof libghc-statevar-dev libghc-statevar-prof
+  libghc-status-notifier-item-dev libghc-status-notifier-item-prof
+  libghc-streaming-commons-dev libghc-streaming-commons-prof libghc-strict-dev
+  libghc-strict-prof libghc-syb-dev libghc-syb-prof libghc-tagged-dev
+  libghc-tagged-prof libghc-tf-random-dev libghc-tf-random-prof
+  libghc-th-abstraction-dev libghc-th-abstraction-prof libghc-th-lift-dev
+  libghc-th-lift-prof libghc-time-locale-compat-dev
+  libghc-time-locale-compat-prof libghc-time-units-dev libghc-time-units-prof
+  libghc-transformers-base-dev libghc-transformers-base-prof
+  libghc-transformers-compat-dev libghc-transformers-compat-prof
+  libghc-tuple-dev libghc-tuple-prof libghc-typed-process-dev
+  libghc-typed-process-prof libghc-unix-compat-dev libghc-unix-compat-prof
+  libghc-unliftio-core-dev libghc-unliftio-core-prof
+  libghc-unordered-containers-dev libghc-unordered-containers-prof
+  libghc-utf8-string-dev libghc-utf8-string-prof libghc-validity-dev
+  libghc-validity-prof libghc-vault-dev libghc-vault-prof
+  libghc-vector-algorithms-dev libghc-vector-algorithms-prof libghc-vector-dev
+  libghc-vector-prof libghc-void-dev libghc-void-prof libghc-wai-dev
+  libghc-wai-prof libghc-x11-dev libghc-x11-prof libghc-x11-xft-dev
+  libghc-x11-xft-prof libghc-xdg-basedir-dev libghc-xdg-basedir-prof
+  libghc-xml-conduit-dev libghc-xml-conduit-prof libghc-xml-dev
+  libghc-xml-helpers-dev libghc-xml-helpers-prof libghc-xml-prof
+  libghc-xml-types-dev libghc-xml-types-prof libghc-xmonad-contrib-dev
+  libghc-xmonad-contrib-prof libghc-xmonad-dev libghc-xmonad-prof
+  libghc-zlib-dev libghc-zlib-prof libgirepository1.0-dev libgjs0g libgl-dev
+  libgl1-mesa-dev libgles-dev libgles1 libgles2 libglib2.0-dev
+  libglib2.0-dev-bin libglibmm-2.4-1v5 libglvnd-dev libglx-dev
+  libgnome-autoar-0-0 libgnome-bluetooth13 libgnome-desktop-3-19
+  libgnomekbd-common libgnomekbd8 libgoa-1.0-0b libgoa-1.0-common
+  libgoa-backend-1.0-1 libgphoto2-6 libgphoto2-l10n libgphoto2-port12
+  libgraphene-1.0-0 libgraphite2-3 libgraphite2-dev libgsound0 libgssdp-1.2-0
+  libgstreamer-gl1.0-0 libgstreamer-plugins-base1.0-0
+  libgstreamer-plugins-good1.0-0 libgtk-3-bin libgtk-3-common libgtk-3-dev
+  libgtk2.0-0 libgtk2.0-bin libgtk2.0-common libgtkmm-3.0-1v5
+  libgtksourceview-3.0-1 libgtksourceview-3.0-common libgtkspell3-3-0
+  libgtop-2.0-11 libgtop2-common libgupnp-1.2-0 libgupnp-av-1.0-2
+  libgupnp-dlna-2.0-3 libgweather-3-16 libgweather-common libharfbuzz-dev
+  libharfbuzz-gobject0 libharfbuzz-icu0 libharfbuzz0b libhunspell-1.7-0
+  libhyphen0 libibus-1.0-5 libical3 libidn11 libiec61883-0 libieee1284-3
+  libimobiledevice6 libinput-bin libinput10 libjack-jackd2-0 libjansson4
+  libjavascriptcoregtk-4.0-18 libjbig0 libjpeg-turbo8 libjpeg8 liblcms2-2
+  libldb2 libmediaart-2.0-0 libmount-dev libmozjs-68-0 libmp3lame0 libmpg123-0
+  libmtdev1 libmutter-6-0 libmysqlclient21 libndp0 libnl-3-200
+  libnl-genl-3-200 libnl-route-3-200 libnm0 libnma0 libnode64 libnotify4
+  libnss-mdns libopengl-dev libopengl0 libopenjp2-7 libopus0 liborc-0.4-0
+  libpam-fprintd libpam-gnome-keyring libpango-1.0-0 libpango1.0-dev
+  libpangocairo-1.0-0 libpangoft2-1.0-0 libpangomm-1.4-1v5 libpangoxft-1.0-0
+  libpcre16-3 libpcre2-16-0 libpcre2-32-0 libpcre2-dev libpcre2-posix2
+  libpcre3-dev libpcre32-3 libpcrecpp0v5 libpcsclite1 libphonenumber7
+  libpixman-1-0 libpixman-1-dev libplist3 libprotobuf17 libproxy-tools
+  libpulse-mainloop-glib0 libpwquality-common libpwquality1 libraw1394-11
+  librest-0.7-0 librsvg2-2 librsvg2-common librust-autocfg-dev
+  librust-backtrace+default-dev librust-backtrace+libbacktrace-dev
+  librust-backtrace-dev librust-backtrace-sys-dev librust-cfg-if-dev
+  librust-failure+std-dev librust-failure-dev librust-libc-dev
+  librust-rustc-demangle-dev librust-winapi-dev
+  librust-winapi-i686-pc-windows-gnu-dev
+  librust-winapi-x86-64-pc-windows-gnu-dev librygel-core-2.6-2
+  librygel-db-2.6-2 librygel-renderer-2.6-2 librygel-server-2.6-2
+  libsamplerate0 libsane libsane-common libsbc1 libsecret-1-0 libsecret-common
+  libselinux1-dev libsepol1-dev libshout3 libsigc++-2.0-0v5 libsmbclient
+  libsnapd-glib1 libsnmp-base libsnmp35 libsoup-gnome2.4-1 libsoxr0 libspeex1
+  libspeexdsp1 libstartup-notification0 libtag1v5 libtag1v5-vanilla libtalloc2
+  libteamdctl0 libtevent0 libthai-data libthai-dev libthai0 libtheora0
+  libtiff5 libtwolame0 libupower-glib3 libusbmuxd6 libv4l-0 libv4lconvert0
+  libvisual-0.4-0 libvpx6 libvte-2.91-0 libvte-2.91-common libwacom-bin
+  libwacom-common libwacom2 libwavpack1 libwayland-bin libwayland-cursor0
+  libwayland-dev libwayland-egl1 libwayland-server0 libwbclient0
+  libwebkit2gtk-4.0-37 libwebp6 libwebpdemux2 libwebrtc-audio-processing1
+  libwhoopsie-preferences0 libwhoopsie0 libwoff1 libwxgtk3.0-gtk3-0v5
+  libxatracker2 libxcb-icccm4 libxcb-image0 libxcb-keysyms1
+  libxcb-render-util0 libxcb-render0 libxcb-render0-dev libxcb-res0
+  libxcb-shm0-dev libxcb-util1 libxcb-xkb1 libxcb-xv0 libxcomposite-dev
+  libxcursor-dev libxcursor1 libxdamage-dev libxdamage1 libxfixes-dev
+  libxfont2 libxi-dev libxinerama-dev libxkbcommon-dev libxkbcommon-x11-0
+  libxkbcommon0 libxklavier16 libxrandr-dev libxtst-dev libxvmc1 libyelp0
+  mobile-broadband-provider-info mousetweaks mutter mutter-common mysql-common
+  network-manager network-manager-gnome network-manager-pptp nodejs nodejs-doc
+  p11-kit p11-kit-modules pango1.0-tools pinentry-gnome3 ppp pptp-linux
+  pulseaudio pulseaudio-module-bluetooth python3-aptdaemon
+  python3-aptdaemon.gtk3widgets python3-cairo python3-cups python3-cupshelpers
+  python3-defer python3-ibus-1.0 python3-ldb python3-macaroonbakery
+  python3-mako python3-markdown python3-packaging python3-protobuf
+  python3-pyparsing python3-rfc3339 python3-talloc python3-tz rtkit rygel
+  samba-libs sane-utils session-migration sgml-base sgml-data
+  switcheroo-control system-config-printer system-config-printer-common
+  system-config-printer-udev ubuntu-docs ubuntu-mono ubuntu-session
+  ubuntu-wallpapers ubuntu-wallpapers-focal update-inetd upower usbmuxd
+  wamerican wayland-protocols whoopsie-preferences wireless-regdb
+  wpasupplicant x11-xkb-utils x11-xserver-utils x11proto-input-dev
+  x11proto-randr-dev x11proto-record-dev x11proto-xinerama-dev xdg-dbus-proxy
+  xfonts-base xfonts-encodings xfonts-utils xml-core xserver-common
+  xserver-xephyr xserver-xorg xserver-xorg-core xserver-xorg-input-all
+  xserver-xorg-input-libinput xserver-xorg-input-wacom xserver-xorg-legacy
+  xserver-xorg-video-all xserver-xorg-video-amdgpu xserver-xorg-video-ati
+  xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-nouveau
+  xserver-xorg-video-qxl xserver-xorg-video-radeon xserver-xorg-video-vesa
+  xserver-xorg-video-vmware xwayland yaru-theme-gnome-shell yelp yelp-xsl
+  zenity zenity-common
+Suggested packages:
+  aspell-doc spellutils avahi-autoipd colord-sensor-argyll docbook
+  docbook-dsssl docbook-xsl docbook-defguide evolution gnome-orca ghc-doc
+  haskell-doc llvm-6.0 gnome-software | gnome-packagekit gnome-user-share
+  realmd libcanberra-gtk-module usbguard chrome-gnome-shell
+  gir1.2-telepathyglib-0.12 gnome-themes-standard-data gnome-backgrounds
+  gir1.2-telepathylogger-0.2 gvfs hunspell openoffice.org-hunspell
+  | openoffice.org-core ibus-clutter ibus-doc indicator-application
+  libcairo2-doc cups-common libdatrie-doc libdv-bin oss-compat
+  libenchant-2-voikko libgd-tools libghc-adjunctions-doc
+  libghc-ansi-terminal-doc libghc-async-doc libghc-attoparsec-doc
+  libghc-base-compat-doc libghc-base-orphans-doc libghc-bifunctors-doc
+  libghc-blaze-builder-doc libghc-blaze-html-doc libghc-blaze-markup-doc
+  libghc-bmp-doc libghc-bytestring-to-vector-doc libghc-cairo-doc
+  libghc-call-stack-doc libghc-case-insensitive-doc libghc-cereal-doc
+  libghc-clock-doc libghc-colour-doc libghc-comonad-doc libghc-conduit-doc
+  libghc-conduit-extra-doc libghc-configfile-doc libghc-configurator-doc
+  libghc-contravariant-doc libghc-data-default-class-doc
+  libghc-data-default-doc libghc-data-default-instances-containers-doc
+  libghc-data-default-instances-dlist-doc
+  libghc-data-default-instances-old-locale-doc libghc-dbus-doc
+  libghc-dbus-hslogger-doc libghc-distributive-doc libghc-dlist-doc
+  libghc-dyre-doc libghc-either-doc libghc-enclosed-exceptions-doc
+  libghc-erf-doc libghc-exceptions-doc libghc-executable-path-doc
+  libghc-extensible-exceptions-doc libghc-free-doc libghc-genvalidity-doc
+  libghc-genvalidity-property-doc libghc-ghc-paths-doc
+  libghc-ghc-syb-utils-doc libghc-gi-atk-doc libghc-gi-cairo-connector-doc
+  libghc-gi-cairo-doc libghc-gi-cairo-render-doc libghc-gi-dbusmenu-doc
+  libghc-gi-dbusmenugtk3-doc libghc-gi-gdk-doc libghc-gi-gdkpixbuf-doc
+  libghc-gi-gdkx11-doc libghc-gi-gio-doc libghc-gi-glib-doc
+  libghc-gi-gobject-doc libghc-gi-gtk-doc libghc-gi-gtk-hs-doc
+  libghc-gi-pango-doc libghc-gi-xlib-doc libghc-glib-doc
+  libghc-gtk-sni-tray-doc libghc-gtk-strut-doc libghc-hashable-doc
+  libghc-haskell-gi-base-doc libghc-haskell-gi-doc libghc-haskell-lexer-doc
+  xclip libghc-hclip-doc libghc-hslogger-doc libghc-hspec-core-doc
+  libghc-hspec-doc libghc-hspec-expectations-doc libghc-hstringtemplate-doc
+  libghc-http-doc libghc-http-types-doc libghc-hunit-doc
+  libghc-integer-logarithms-doc libghc-invariant-doc libghc-io-storage-doc
+  libghc-kan-extensions-doc libghc-lens-doc libghc-lifted-base-doc
+  libghc-missingh-doc libghc-monad-control-doc libghc-mono-traversable-doc
+  libghc-multimap-doc libghc-names-th-doc libghc-network-doc
+  libghc-network-uri-doc libghc-old-locale-doc libghc-old-time-doc
+  libghc-onetuple-doc libghc-parallel-doc libghc-pretty-show-doc
+  libghc-primitive-doc libghc-profunctors-doc libghc-quickcheck-io-doc
+  libghc-quickcheck2-doc libghc-random-doc libghc-rate-limit-doc
+  libghc-reflection-doc libghc-regex-base-doc libghc-regex-compat-doc
+  libghc-regex-posix-doc libghc-regex-tdfa-doc libghc-resourcet-doc
+  libghc-safe-doc libghc-scientific-doc libghc-semigroupoids-doc
+  libghc-semigroups-doc libghc-setenv-doc libghc-setlocale-doc
+  libghc-split-doc libghc-statevar-doc libghc-status-notifier-item-doc
+  libghc-stm-chans-doc libghc-streaming-commons-doc libghc-strict-doc
+  libghc-syb-doc libghc-taffybar-doc libghc-tagged-doc libghc-tf-random-doc
+  libghc-th-abstraction-doc libghc-th-lift-doc libghc-time-locale-compat-doc
+  libghc-time-units-doc libghc-transformers-base-doc
+  libghc-transformers-compat-doc libghc-tuple-doc libghc-typed-process-doc
+  libghc-unix-compat-doc libghc-unliftio-core-doc
+  libghc-unordered-containers-doc libghc-utf8-string-doc libghc-validity-doc
+  libghc-vault-doc libghc-vector-algorithms-doc libghc-vector-doc
+  libghc-void-doc libghc-wai-conduit-doc libghc-wai-doc libghc-x11-doc
+  libghc-x11-xft-doc libghc-xdg-basedir-doc libghc-xml-conduit-doc
+  libghc-xml-doc libghc-xml-helpers-doc libghc-xml-types-doc
+  libghc-xmonad-contrib-doc libghc-xmonad-doc libghc-zlib-doc
+  libgirepository1.0-doc libglib2.0-doc libxml2-utils gphoto2
+  libgraphite2-utils libvisual-0.4-plugins libgtk-3-doc libusbmuxd-tools
+  jackd2 liblcms2-utils avahi-autoipd | zeroconf opus-tools imagemagick
+  libpango1.0-doc pcscd libraw1394-doc librsvg2-bin
+  librust-backtrace+addr2line-dev librust-backtrace+backtrace-sys-dev
+  librust-backtrace+cpp-demangle-dev librust-backtrace+findshlibs-dev
+  librust-backtrace+gimli-dev librust-backtrace+gimli-symbolize-dev
+  librust-backtrace+memmap-dev librust-backtrace+object-dev
+  librust-backtrace+rustc-serialize-dev librust-backtrace+serde-dev
+  librust-backtrace+serde-derive-dev librust-backtrace+serialize-rustc-dev
+  librust-backtrace+serialize-serde-dev librust-failure+backtrace-dev
+  librust-failure+derive-dev librust-failure+failure-derive-dev
+  librust-libc+rustc-dep-of-std-dev librust-libc+rustc-std-workspace-core-dev
+  hplip snmp-mibs-downloader speex libthai-doc libwayland-doc
+  gstreamer1.0-libav libteam-utils network-manager-openconnect-gnome
+  network-manager-openvpn-gnome network-manager-vpnc-gnome
+  network-manager-pptp-gnome npm pinentry-doc pavumeter pavucontrol paman
+  paprefs ubuntu-sounds python3-beaker python-mako-doc python-markdown-doc
+  python-pyparsing-doc gstreamer1.0-plugins-ugly rygel-playbin
+  rygel-preferences rygel-ruih rygel-tracker tumbler unpaper sgml-base-doc
+  perlsgml w3-recs opensp gnome-software python3-smbc ubuntu-wallpapers-karmic
+  ubuntu-wallpapers-lucid ubuntu-wallpapers-maverick ubuntu-wallpapers-natty
+  ubuntu-wallpapers-oneiric ubuntu-wallpapers-precise
+  ubuntu-wallpapers-quantal ubuntu-wallpapers-raring ubuntu-wallpapers-saucy
+  ubuntu-wallpapers-trusty ubuntu-wallpapers-utopic ubuntu-wallpapers-vivid
+  ubuntu-wallpapers-wily ubuntu-wallpapers-xenial ubuntu-wallpapers-yakkety
+  ubuntu-wallpapers-zesty ubuntu-wallpapers-artful ubuntu-wallpapers-bionic
+  ubuntu-wallpapers-cosmic ubuntu-wallpapers-disco ubuntu-wallpapers-eoan
+  wpagui libengine-pkcs11-openssl nickle cairo-5c xorg-docs-core debhelper
+  xfonts-100dpi | xfonts-75dpi xfonts-scalable xinput firmware-amd-graphics
+  xserver-xorg-video-r128 xserver-xorg-video-mach64 firmware-misc-nonfree
+Recommended packages:
+  librust-failure+default-dev
+The following NEW packages will be installed:
+  acl adwaita-icon-theme apg aptdaemon aptdaemon-data aspell aspell-en
+  at-spi2-core avahi-daemon avahi-utils bluez bubblewrap cheese-common colord
+  colord-data cracklib-runtime crda cups-pk-helper dconf-cli
+  desktop-file-utils dictionaries-common dns-root-data dnsmasq-base
+  docbook-xml emacsen-common enchant-2 evolution-data-server
+  evolution-data-server-common fontconfig fprintd gcr gdm3 geoclue-2.0 ghc
+  ghc-prof gir1.2-accountsservice-1.0 gir1.2-atk-1.0 gir1.2-atspi-2.0
+  gir1.2-dbusmenu-glib-0.4 gir1.2-dbusmenu-gtk3-0.4 gir1.2-freedesktop
+  gir1.2-gck-1 gir1.2-gcr-3 gir1.2-gdesktopenums-3.0 gir1.2-gdkpixbuf-2.0
+  gir1.2-gdm-1.0 gir1.2-geoclue-2.0 gir1.2-gnomebluetooth-1.0
+  gir1.2-gnomedesktop-3.0 gir1.2-graphene-1.0 gir1.2-gtk-3.0
+  gir1.2-gweather-3.0 gir1.2-harfbuzz-0.0 gir1.2-ibus-1.0 gir1.2-json-1.0
+  gir1.2-mutter-6 gir1.2-nm-1.0 gir1.2-nma-1.0 gir1.2-notify-0.7
+  gir1.2-pango-1.0 gir1.2-polkit-1.0 gir1.2-rsvg-2.0 gir1.2-secret-1
+  gir1.2-soup-2.4 gir1.2-upowerglib-1.0 gir1.2-vte-2.91 gjs gkbd-capplet
+  gnome-control-center gnome-control-center-data gnome-control-center-faces
+  gnome-desktop3-data gnome-keyring gnome-keyring-pkcs11 gnome-menus
+  gnome-online-accounts gnome-session-bin gnome-session-common
+  gnome-settings-daemon gnome-settings-daemon-common gnome-shell
+  gnome-shell-common gnome-startup-applications gnome-user-docs
+  gobject-introspection gstreamer1.0-clutter-3.0 gstreamer1.0-gl
+  gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-pulseaudio
+  gstreamer1.0-x gtk-update-icon-cache hicolor-icon-theme hspec-discover
+  humanity-icon-theme hunspell-en-us ibus ibus-data ibus-gtk ibus-gtk3
+  iio-sensor-proxy im-config ippusbxd iw language-selector-gnome libaa1
+  libappindicator3-1 libasound2-plugins libaspell15 libatk-bridge2.0-0
+  libatk-bridge2.0-dev libatk1.0-0 libatk1.0-data libatk1.0-dev
+  libatkmm-1.6-1v5 libatspi2.0-0 libatspi2.0-dev libavahi-client3
+  libavahi-common-data libavahi-common3 libavahi-core7 libavahi-glib1
+  libavc1394-0 libblkid-dev libbluetooth3 libboost-thread1.71.0 libbsd-dev
+  libc-ares2 libcaca0 libcairo-gobject2 libcairo-script-interpreter2 libcairo2
+  libcairo2-dev libcairomm-1.0-1v5 libcamel-1.2-62 libcanberra-gtk3-0
+  libcanberra-gtk3-module libcanberra-pulse libcdparanoia0 libcheese-gtk25
+  libcheese8 libclutter-1.0-0 libclutter-1.0-common libclutter-gst-3.0-0
+  libclutter-gtk-1.0-0 libcogl-common libcogl-pango20 libcogl-path20 libcogl20
+  libcolord-gtk1 libcolord2 libcolorhug2 libcrack2 libcups2 libdaemon0
+  libdatrie-dev libdatrie1 libdbus-1-dev libdbus-glib-1-2 libdbus-glib-1-dev
+  libdbus-glib-1-dev-bin libdbusmenu-glib-dev libdbusmenu-glib4
+  libdbusmenu-gtk3-4 libdbusmenu-gtk3-dev libdv4 libebackend-1.2-10
+  libebook-1.2-20 libebook-contacts-1.2-3 libecal-2.0-1 libedata-book-1.2-26
+  libedata-cal-2.0-1 libedataserver-1.2-24 libedataserverui-1.2-2 libegl-dev
+  libegl-mesa0 libegl1 libegl1-mesa-dev libenchant-2-2 libepoxy-dev libepoxy0
+  libevdev2 libexif12 libfprint-2-2 libfribidi-dev libgail-common libgail18
+  libgbm1 libgck-1-0 libgcr-base-3-1 libgcr-ui-3-1 libgd3 libgdata-common
+  libgdata22 libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common
+  libgdk-pixbuf2.0-dev libgdm1 libgee-0.8-2 libgeoclue-2-0 libgeocode-glib0
+  libghc-adjunctions-dev libghc-adjunctions-prof libghc-ansi-terminal-dev
+  libghc-ansi-terminal-prof libghc-async-dev libghc-async-prof
+  libghc-attoparsec-dev libghc-attoparsec-prof libghc-base-compat-dev
+  libghc-base-compat-prof libghc-base-orphans-dev libghc-base-orphans-prof
+  libghc-bifunctors-dev libghc-bifunctors-prof libghc-blaze-builder-dev
+  libghc-blaze-builder-prof libghc-blaze-html-dev libghc-blaze-html-prof
+  libghc-blaze-markup-dev libghc-blaze-markup-prof libghc-bmp-dev
+  libghc-bmp-prof libghc-bytestring-to-vector-dev
+  libghc-bytestring-to-vector-prof libghc-cairo-dev libghc-cairo-prof
+  libghc-call-stack-dev libghc-call-stack-prof libghc-case-insensitive-dev
+  libghc-case-insensitive-prof libghc-cereal-dev libghc-cereal-prof
+  libghc-clock-dev libghc-clock-prof libghc-colour-dev libghc-colour-prof
+  libghc-comonad-dev libghc-comonad-prof libghc-conduit-dev
+  libghc-conduit-extra-dev libghc-conduit-extra-prof libghc-conduit-prof
+  libghc-configfile-dev libghc-configfile-prof libghc-configurator-dev
+  libghc-configurator-prof libghc-contravariant-dev libghc-contravariant-prof
+  libghc-data-default-class-dev libghc-data-default-class-prof
+  libghc-data-default-dev libghc-data-default-instances-containers-dev
+  libghc-data-default-instances-containers-prof
+  libghc-data-default-instances-dlist-dev
+  libghc-data-default-instances-dlist-prof
+  libghc-data-default-instances-old-locale-dev
+  libghc-data-default-instances-old-locale-prof libghc-data-default-prof
+  libghc-dbus-dev libghc-dbus-hslogger-dev libghc-dbus-hslogger-prof
+  libghc-dbus-prof libghc-distributive-dev libghc-distributive-prof
+  libghc-dlist-dev libghc-dlist-prof libghc-dyre-dev libghc-dyre-prof
+  libghc-either-dev libghc-either-prof libghc-enclosed-exceptions-dev
+  libghc-enclosed-exceptions-prof libghc-erf-dev libghc-erf-prof
+  libghc-exceptions-dev libghc-exceptions-prof libghc-executable-path-dev
+  libghc-executable-path-prof libghc-extensible-exceptions-dev
+  libghc-extensible-exceptions-prof libghc-free-dev libghc-free-prof
+  libghc-genvalidity-dev libghc-genvalidity-prof
+  libghc-genvalidity-property-dev libghc-genvalidity-property-prof
+  libghc-ghc-paths-dev libghc-ghc-paths-prof libghc-ghc-syb-utils-dev
+  libghc-ghc-syb-utils-prof libghc-gi-atk-dev libghc-gi-atk-prof
+  libghc-gi-cairo-connector-dev libghc-gi-cairo-connector-prof
+  libghc-gi-cairo-dev libghc-gi-cairo-prof libghc-gi-cairo-render-dev
+  libghc-gi-cairo-render-prof libghc-gi-dbusmenu-dev libghc-gi-dbusmenu-prof
+  libghc-gi-dbusmenugtk3-dev libghc-gi-dbusmenugtk3-prof libghc-gi-gdk-dev
+  libghc-gi-gdk-prof libghc-gi-gdkpixbuf-dev libghc-gi-gdkpixbuf-prof
+  libghc-gi-gdkx11-dev libghc-gi-gdkx11-prof libghc-gi-gio-dev
+  libghc-gi-gio-prof libghc-gi-glib-dev libghc-gi-glib-prof
+  libghc-gi-gobject-dev libghc-gi-gobject-prof libghc-gi-gtk-dev
+  libghc-gi-gtk-hs-dev libghc-gi-gtk-hs-prof libghc-gi-gtk-prof
+  libghc-gi-pango-dev libghc-gi-pango-prof libghc-gi-xlib-dev
+  libghc-gi-xlib-prof libghc-glib-dev libghc-glib-prof libghc-gtk-sni-tray-dev
+  libghc-gtk-sni-tray-prof libghc-gtk-strut-dev libghc-gtk-strut-prof
+  libghc-hashable-dev libghc-hashable-prof libghc-haskell-gi-base-dev
+  libghc-haskell-gi-base-prof libghc-haskell-gi-dev libghc-haskell-gi-prof
+  libghc-haskell-lexer-dev libghc-haskell-lexer-prof libghc-hclip-dev
+  libghc-hclip-prof libghc-hslogger-dev libghc-hslogger-prof
+  libghc-hspec-core-dev libghc-hspec-core-prof libghc-hspec-dev
+  libghc-hspec-expectations-dev libghc-hspec-expectations-prof
+  libghc-hspec-prof libghc-hstringtemplate-dev libghc-hstringtemplate-prof
+  libghc-http-dev libghc-http-prof libghc-http-types-dev
+  libghc-http-types-prof libghc-hunit-dev libghc-hunit-prof
+  libghc-integer-logarithms-dev libghc-integer-logarithms-prof
+  libghc-invariant-dev libghc-invariant-prof libghc-io-storage-dev
+  libghc-io-storage-prof libghc-kan-extensions-dev libghc-kan-extensions-prof
+  libghc-lens-dev libghc-lens-prof libghc-lifted-base-dev
+  libghc-lifted-base-prof libghc-missingh-dev libghc-missingh-prof
+  libghc-monad-control-dev libghc-monad-control-prof
+  libghc-mono-traversable-dev libghc-mono-traversable-prof libghc-multimap-dev
+  libghc-multimap-prof libghc-names-th-dev libghc-names-th-prof
+  libghc-network-dev libghc-network-prof libghc-network-uri-dev
+  libghc-network-uri-prof libghc-old-locale-dev libghc-old-locale-prof
+  libghc-old-time-dev libghc-old-time-prof libghc-onetuple-dev
+  libghc-onetuple-prof libghc-parallel-dev libghc-parallel-prof
+  libghc-pretty-show-dev libghc-pretty-show-prof libghc-primitive-dev
+  libghc-primitive-prof libghc-profunctors-dev libghc-profunctors-prof
+  libghc-quickcheck-io-dev libghc-quickcheck-io-prof libghc-quickcheck2-dev
+  libghc-quickcheck2-prof libghc-random-dev libghc-random-prof
+  libghc-rate-limit-dev libghc-rate-limit-prof libghc-reflection-dev
+  libghc-reflection-prof libghc-regex-base-dev libghc-regex-base-prof
+  libghc-regex-compat-dev libghc-regex-compat-prof libghc-regex-posix-dev
+  libghc-regex-posix-prof libghc-regex-tdfa-dev libghc-regex-tdfa-prof
+  libghc-resourcet-dev libghc-resourcet-prof libghc-safe-dev libghc-safe-prof
+  libghc-scientific-dev libghc-scientific-prof libghc-semigroupoids-dev
+  libghc-semigroupoids-prof libghc-semigroups-dev libghc-semigroups-prof
+  libghc-setenv-dev libghc-setenv-prof libghc-setlocale-dev
+  libghc-setlocale-prof libghc-split-dev libghc-split-prof libghc-statevar-dev
+  libghc-statevar-prof libghc-status-notifier-item-dev
+  libghc-status-notifier-item-prof libghc-stm-chans-dev libghc-stm-chans-prof
+  libghc-streaming-commons-dev libghc-streaming-commons-prof libghc-strict-dev
+  libghc-strict-prof libghc-syb-dev libghc-syb-prof libghc-taffybar-dev
+  libghc-taffybar-prof libghc-tagged-dev libghc-tagged-prof
+  libghc-tf-random-dev libghc-tf-random-prof libghc-th-abstraction-dev
+  libghc-th-abstraction-prof libghc-th-lift-dev libghc-th-lift-prof
+  libghc-time-locale-compat-dev libghc-time-locale-compat-prof
+  libghc-time-units-dev libghc-time-units-prof libghc-transformers-base-dev
+  libghc-transformers-base-prof libghc-transformers-compat-dev
+  libghc-transformers-compat-prof libghc-tuple-dev libghc-tuple-prof
+  libghc-typed-process-dev libghc-typed-process-prof libghc-unix-compat-dev
+  libghc-unix-compat-prof libghc-unliftio-core-dev libghc-unliftio-core-prof
+  libghc-unordered-containers-dev libghc-unordered-containers-prof
+  libghc-utf8-string-dev libghc-utf8-string-prof libghc-validity-dev
+  libghc-validity-prof libghc-vault-dev libghc-vault-prof
+  libghc-vector-algorithms-dev libghc-vector-algorithms-prof libghc-vector-dev
+  libghc-vector-prof libghc-void-dev libghc-void-prof libghc-wai-conduit-dev
+  libghc-wai-conduit-prof libghc-wai-dev libghc-wai-prof libghc-x11-dev
+  libghc-x11-prof libghc-x11-xft-dev libghc-x11-xft-prof
+  libghc-xdg-basedir-dev libghc-xdg-basedir-prof libghc-xml-conduit-dev
+  libghc-xml-conduit-prof libghc-xml-dev libghc-xml-helpers-dev
+  libghc-xml-helpers-prof libghc-xml-prof libghc-xml-types-dev
+  libghc-xml-types-prof libghc-xmonad-contrib-dev libghc-xmonad-contrib-prof
+  libghc-xmonad-dev libghc-xmonad-prof libghc-zlib-dev libghc-zlib-prof
+  libgirepository1.0-dev libgjs0g libgl-dev libgl1-mesa-dev libgles-dev
+  libgles1 libgles2 libglib2.0-dev libglib2.0-dev-bin libglibmm-2.4-1v5
+  libglvnd-dev libglx-dev libgmime-3.0-0 libgnome-autoar-0-0
+  libgnome-bluetooth13 libgnome-desktop-3-19 libgnomekbd-common libgnomekbd8
+  libgoa-1.0-0b libgoa-1.0-common libgoa-backend-1.0-1 libgphoto2-6
+  libgphoto2-l10n libgphoto2-port12 libgraphene-1.0-0 libgraphite2-3
+  libgraphite2-dev libgsound0 libgssdp-1.2-0 libgstreamer-gl1.0-0
+  libgstreamer-plugins-base1.0-0 libgstreamer-plugins-good1.0-0 libgtk-3-0
+  libgtk-3-bin libgtk-3-common libgtk-3-dev libgtk2.0-0 libgtk2.0-bin
+  libgtk2.0-common libgtkmm-3.0-1v5 libgtksourceview-3.0-1
+  libgtksourceview-3.0-common libgtksourceviewmm-3.0-0v5 libgtkspell3-3-0
+  libgtkspellmm-3.0-0v5 libgtop-2.0-11 libgtop2-common libgupnp-1.2-0
+  libgupnp-av-1.0-2 libgupnp-dlna-2.0-3 libgweather-3-16 libgweather-common
+  libharfbuzz-dev libharfbuzz-gobject0 libharfbuzz-icu0 libharfbuzz0b
+  libhunspell-1.7-0 libhyphen0 libibus-1.0-5 libical3 libidn11 libiec61883-0
+  libieee1284-3 libimobiledevice6 libinput-bin libinput10 libjack-jackd2-0
+  libjansson4 libjavascriptcoregtk-4.0-18 libjbig0 libjpeg-turbo8 libjpeg8
+  libkeybinder-3.0-0 liblcms2-2 libldb2 libmediaart-2.0-0 libmount-dev
+  libmozjs-68-0 libmp3lame0 libmpg123-0 libmtdev1 libmutter-6-0
+  libmysqlclient21 libndp0 libnl-3-200 libnl-genl-3-200 libnl-route-3-200
+  libnm0 libnma0 libnode64 libnotify4 libnss-mdns libopengl-dev libopengl0
+  libopenjp2-7 libopus0 liborc-0.4-0 libpam-fprintd libpam-gnome-keyring
+  libpango-1.0-0 libpango1.0-dev libpangocairo-1.0-0 libpangoft2-1.0-0
+  libpangomm-1.4-1v5 libpangoxft-1.0-0 libpcre16-3 libpcre2-16-0 libpcre2-32-0
+  libpcre2-dev libpcre2-posix2 libpcre3-dev libpcre32-3 libpcrecpp0v5
+  libpcsclite1 libphonenumber7 libpixman-1-0 libpixman-1-dev libplist3
+  libprotobuf17 libproxy-tools libpulse-mainloop-glib0 libpwquality-common
+  libpwquality1 libraw1394-11 librest-0.7-0 librsvg2-2 librsvg2-common
+  librust-autocfg-dev librust-backtrace+default-dev
+  librust-backtrace+libbacktrace-dev librust-backtrace-dev
+  librust-backtrace-sys-dev librust-cfg-if-dev librust-failure+std-dev
+  librust-failure-dev librust-libc-dev librust-rustc-demangle-dev
+  librust-which+failure-dev librust-which-dev librust-winapi-dev
+  librust-winapi-i686-pc-windows-gnu-dev
+  librust-winapi-x86-64-pc-windows-gnu-dev librygel-core-2.6-2
+  librygel-db-2.6-2 librygel-renderer-2.6-2 librygel-server-2.6-2
+  libsamplerate0 libsane libsane-common libsbc1 libsecret-1-0 libsecret-common
+  libselinux1-dev libsepol1-dev libshout3 libsigc++-2.0-0v5 libsmbclient
+  libsnapd-glib1 libsnmp-base libsnmp35 libsoup-gnome2.4-1 libsoxr0 libspeex1
+  libspeexdsp1 libstartup-notification0 libtag1v5 libtag1v5-vanilla libtalloc2
+  libteamdctl0 libtevent0 libthai-data libthai-dev libthai0 libtheora0
+  libtiff5 libtwolame0 libupower-glib3 libusbmuxd6 libv4l-0 libv4lconvert0
+  libvisual-0.4-0 libvlccore9 libvpx6 libvte-2.91-0 libvte-2.91-common
+  libwacom-bin libwacom-common libwacom2 libwavpack1 libwayland-bin
+  libwayland-cursor0 libwayland-dev libwayland-egl1 libwayland-server0
+  libwbclient0 libwebkit2gtk-4.0-37 libwebp6 libwebpdemux2
+  libwebrtc-audio-processing1 libwhoopsie-preferences0 libwhoopsie0 libwoff1
+  libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 libwxsqlite3-3.0-0 libxatracker2
+  libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0
+  libxcb-render0 libxcb-render0-dev libxcb-res0 libxcb-shm0-dev libxcb-util1
+  libxcb-xkb1 libxcb-xv0 libxcomposite-dev libxcursor-dev libxcursor1
+  libxdamage-dev libxdamage1 libxfixes-dev libxfont2 libxi-dev libxinerama-dev
+  libxkbcommon-dev libxkbcommon-x11-0 libxkbcommon0 libxklavier16
+  libxrandr-dev libxtst-dev libxvmc1 libyelp0 mobile-broadband-provider-info
+  mousetweaks mutter mutter-common mysql-common network-manager
+  network-manager-gnome network-manager-pptp node-unicode-13.0.0 nodejs
+  nodejs-doc p11-kit p11-kit-modules pango1.0-tools pinentry-gnome3 ppp
+  pptp-linux pulseaudio pulseaudio-module-bluetooth python3-aptdaemon
+  python3-aptdaemon.gtk3widgets python3-cairo python3-cups python3-cupshelpers
+  python3-defer python3-ibus-1.0 python3-ldb python3-macaroonbakery
+  python3-mako python3-markdown python3-packaging python3-protobuf
+  python3-pyparsing python3-rfc3339 python3-talloc python3-tz rtkit rygel
+  samba-libs sane-utils session-migration sgml-base sgml-data
+  switcheroo-control system-config-printer system-config-printer-common
+  system-config-printer-udev ubuntu-docs ubuntu-mono ubuntu-session
+  ubuntu-wallpapers ubuntu-wallpapers-focal update-inetd upower usbmuxd
+  wamerican wayland-protocols whoopsie-preferences wireless-regdb
+  wpasupplicant x11-xkb-utils x11-xserver-utils x11proto-input-dev
+  x11proto-randr-dev x11proto-record-dev x11proto-xinerama-dev xdg-dbus-proxy
+  xfonts-base xfonts-encodings xfonts-utils xml-core xserver-common
+  xserver-xephyr xserver-xorg xserver-xorg-core xserver-xorg-input-all
+  xserver-xorg-input-libinput xserver-xorg-input-wacom xserver-xorg-legacy
+  xserver-xorg-video-all xserver-xorg-video-amdgpu xserver-xorg-video-ati
+  xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-nouveau
+  xserver-xorg-video-qxl xserver-xorg-video-radeon xserver-xorg-video-vesa
+  xserver-xorg-video-vmware xwayland yaru-theme-gnome-shell yelp yelp-xsl
+  zenity zenity-common
+0 upgraded, 835 newly installed, 0 to remove and 3 not upgraded.
+Need to get 385 MB of archives.
+After this operation, 3665 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
