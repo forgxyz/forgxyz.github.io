@@ -1,0 +1,19 @@
+{% assign nested_pages = pages | where_exp: "item", "item.path contains include.parent_path" | where_exp: "item", "item.path != include.parent_path" %}
+
+{% if nested_pages.size > 0 %}
+  <ul>
+  {% for nested_page in nested_pages %}
+    {% assign nested_path_parts = nested_page.path | split: "/" %}
+    {% if nested_path_parts.size == include.parent_path | split: "/" | size | plus: 1 %}
+      <li>
+        {% if nested_page.name == "README.md" %}
+          <a href="{{ nested_page.url | relative_url }}">{{ nested_path_parts | last | capitalize }}</a>
+          {% include nested_pages.html parent_path=nested_page.path | split: ".md" | first %}
+        {% else %}
+          <a href="{{ nested_page.url | relative_url }}">{{ nested_page.title }}</a>
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endif %}

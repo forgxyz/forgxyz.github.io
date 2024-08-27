@@ -1,18 +1,17 @@
 {% assign pages = site.sql_101 | sort: "path" %}
 
+{% assign top_level_pages = pages | where_exp: "item", "item.path contains '/' and item.path | split: '/' | size == 2" %}
+
 <ul>
-{% for page in pages %}
-  {% assign path_parts = page.path | split: "/" %}
-  {% assign level = path_parts | size %}
-  
-  {% if level == 2 %}
-    <li>
-      {% if page.name == "README.md" %}
-        <a href="{{ page.url | relative_url }}">{{ path_parts[0] | capitalize }}</a>
-      {% else %}
-        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-      {% endif %}
-    </li>
-  {% endif %}
+{% for page in top_level_pages %}
+  <li>
+    {% if page.name == "README.md" %}
+      {% assign path_parts = page.path | split: "/" %}
+      <a href="{{ page.url | relative_url }}">{{ path_parts[0] | capitalize }}</a>
+      {% include nested_pages.html parent_path=path_parts[0] %}
+    {% else %}
+      <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+    {% endif %}
+  </li>
 {% endfor %}
 </ul>
