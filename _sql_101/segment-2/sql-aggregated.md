@@ -32,11 +32,12 @@ WHERE block_timestamp::DATE BETWEEN '2022-06-01' AND '2022-06-30'
 
 [Link to Query](https://app.flipsidecrypto.com/velocity/queries/5212ef91-5405-4d63-a4ec-38a6628e936e)
 
-{% hint style="info" %}
+{% capture hint_content %}
 **Using Visualizations in Our Analytical Process**
 
 As mentioned, presentation is not the only purpose of visualization tools. They can seriously help us in our analytical process, and can spark curiosity as we work through data.&#x20;
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="info" title="Info" content=hint_content %}
 
 Fork the above query and make a donut chart with the results, it should look something like this:
 
@@ -104,7 +105,7 @@ Notice here we use `GROUP BY 1, 2` - per above we should be able to infer that t
 
 $1,000 was selected fairly arbitrarily, it's up to the analyst and the purpose behind setting these parameters!
 
-{% hint style="warning" %}
+{% capture hint_content %}
 ****[**Order of Operations**](https://mode.com/sql-tutorial/sql-having/#query-clause-order)****
 
 Confused about what goes where? Not a problem, there's a lot to keep track of! Of the concepts we've learned _so far_, here's the order of operations for how you should structure your query:
@@ -121,7 +122,8 @@ Think about it in clusters:
 * First we have to get the data and create our result set `SELECT FROM WHERE`
 * then we might want to do something to that result set- transform it in some way `GROUP BY HAVING`
 * finally, we might want to stay organized so we`ORDER BY`
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="warning" title="Warning" content=hint_content %}
 
 ## [DATE\_TRUNC](https://docs.snowflake.com/en/sql-reference/functions/date\_trunc.html)
 
@@ -222,7 +224,7 @@ ORDER BY 1, 4 DESC;</code></pre>
 
 [Link to Query](https://app.flipsidecrypto.com/velocity/queries/1d75c38c-cea0-4bc5-85b6-d94a3bcc7a21)
 
-{% hint style="info" %}
+{% capture hint_content %}
 **Structure**
 
 There's a lot of structure and syntax to keep track of, right?
@@ -244,7 +246,8 @@ The only other thing to remember is that each is comma separated, so:
 `SELECT * FROM <alias>`
 
 Notice how we have a final `SELECT` outside any CTE. This is a must! This is the last query that will return your ultimate result set.
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="info" title="Info" content=hint_content %}
 
 CTE Example 2: Bringing in \~other data\~ from the prices table.
 
@@ -293,9 +296,10 @@ But, while we're in the CTE section, 1 more thing to add. Yes, data from a CTE c
 
 So we just introduced something wholly new - working with data from multiple sources (tables). How did we combine the disparate result sets into one? That happens with line 25, above, where we reference `LEFT JOIN x USING (y)`.
 
-{% hint style="info" %}
+{% capture hint_content %}
 You may also be used to `LEFT JOIN x ON a.y = b.y`, the keyword `USING` is supported by Snowflake and is a bit more streamlined to use _when both columns use the same name or alias._
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="info" title="Info" content=hint_content %}
 
 Here we are joining on a common date, but you can take data from a wide variety of columns
 
@@ -367,11 +371,12 @@ ORDER BY 1, 3 DESC
 
 [Link to Query](https://app.flipsidecrypto.com/velocity/queries/c1902224-9a7f-4da3-a9f8-ce9c3fe83c03)
 
-{% hint style="info" %}
+{% capture hint_content %}
 This was written out of a community question and is not refined or polished. The linked query goes on to further join contract labels to add some readability to the result.
 
 Feel free to fork it and try some analysis of your own with this as a base!
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="info" title="Info" content=hint_content %}
 
 **What's happening in this query?**
 

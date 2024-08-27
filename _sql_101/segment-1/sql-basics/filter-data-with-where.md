@@ -47,9 +47,10 @@ __[_Link to Query_](https://app.flipsidecrypto.com/velocity/queries/f308e8d1-f1f
 
 We can use `ORDER BY` to organize our result set using any column. By default, `ORDER BY` will use ascending (`ASC`) order (A->Z, 0->9, past->present) unless you pass `DESC` to specify descending order (Z->A, 9->0, present->past).
 
-{% hint style="info" %}
+{% capture hint_content %}
 This slots in _after_ the `WHERE` clause and _before_ any `LIMIT`.
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="info" title="Info" content=hint_content %}
 
 In the above example, we are explicitly stating `block_timestamp` but we can also refer to columns by their position. Open the linked query and we can see that `block_timestamp` is the second column, so we can, alternatively, use `ORDER BY 2` ([which is the preferred method over listing the column name](https://www.getdbt.com/blog/write-better-sql-a-defense-of-group-by-1/)).
 
@@ -70,11 +71,12 @@ LIMIT 10000;
 
 or just transactions within the past few days.&#x20;
 
-{% hint style="info" %}
+{% capture hint_content %}
 #### CURRENT DATE
 
 We can use a [context function](https://docs.snowflake.com/en/sql-reference/functions-context.html), `CURRENT_DATE` to write the `block_timestamp >=` filter to update as time progresses.
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="info" title="Info" content=hint_content %}
 
 ```sql
 SELECT 
@@ -122,11 +124,12 @@ Each logical condition does not need to refer to the same column. Say we wanted 
 | `from_address = '0x66b870ddf78c975af5cd8edc6de25eca81791de1'` | `block_timestamp > CURRENT_DATE - 7` |
 | `to_address = '0x66b870ddf78c975af5cd8edc6de25eca81791de1'`   |                                      |
 
-{% hint style="success" %}
+{% capture hint_content %}
 How would this look in SQL? Try writing it out using [Flipside](https://flipside.new) or [Dune](https://dune.com/browse/dashboards).
 
 Still confused? Take a look at [this page](https://www.bennadel.com/blog/126-sql-and-or-order-of-operations.htm) for further discussion on AND / OR.
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="success" title="Success" content=hint_content %}
 
 ### LIKE
 
@@ -220,7 +223,7 @@ LIMIT 100;
 
 [Link to Query](https://app.flipsidecrypto.com/velocity/queries/12956021-1de3-4325-80fb-146626378811)
 
-{% hint style="info" %}
+{% capture hint_content %}
 Note the new `::DATE` added to `block_timestamp` in the where clause. This is called typecasting and what's happening here is that we are taking `block_timestamp` which is a [`timestamp`](https://docs.snowflake.com/en/sql-reference/data-types-datetime.html#timestamp) and we are changing that to a [`date`](https://docs.snowflake.com/en/sql-reference/data-types-datetime.html#date).
 
 `BETWEEN` _is_ inclusive, but when we compare a timestamp to a date, we run into some issues. The second date is interpreted as midnight _when the day starts_.
@@ -230,7 +233,8 @@ In practice, this takes a timestamp (like `2022-08-01T14:00:00Z` or `2022-08-01T
 Take a look at [this example query](https://app.flipsidecrypto.com/velocity/queries/7361f017-6f5e-4b30-a9ac-f8f49ad8ea6f) and run the where clause both ways, with and without the typecast. Notice how the result set differs?
 
 If you _really_ want to get into the weeds with how between, timestamp, and dates interact check out [this post](https://sqlblog.org/2009/10/16/bad-habits-to-kick-mis-handling-date-range-queries).
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="info" title="Info" content=hint_content %}
 
 ### NOT
 

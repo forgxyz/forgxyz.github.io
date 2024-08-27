@@ -4,9 +4,10 @@
 
 To get the number of records, we can use `COUNT()` and pass in a column name. If we want just distinct records, we can simply add `DISTINCT` to the function.&#x20;
 
-{% hint style="success" %}
+{% capture hint_content %}
 Run the below query with and without `DISTINCT`, do we get the same number of transactions? What about with `ez_nft_sales`? Join the [course chat channel](https://discord.com/channels/902943676685230100/992490932412883064) to discuss what you found and what your thoughts are!
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="success" title="Success" content=hint_content %}
 
 ```sql
 SELECT 
@@ -38,11 +39,12 @@ WHERE block_timestamp::DATE BETWEEN '2022-06-01' AND '2022-06-30'
     AND platform_name = 'opensea';
 ```
 
-{% hint style="warning" %}
+{% capture hint_content %}
 Ok so we have around $12mm in USD and.... a massive number for native token fees. Why is this? We should check the [table documentation](https://docs.flipsidecrypto.com/our-data/tables/ethereum\_core-tables) for the `total_platform_fee` column to see what we're working with in here.
 
 Is there anything that leads us to question our data or change approach?
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="warning" title="Warning" content=hint_content %}
 
 <details>
 

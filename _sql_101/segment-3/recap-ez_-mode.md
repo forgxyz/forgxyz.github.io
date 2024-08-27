@@ -75,9 +75,10 @@ We can always search Etherscan for "Uniswap" and see what comes up under tokens 
 
 So, let's get directly to the point - the activity to be modeled out is a swap. So, let's look at a swap. Interacting with a protocol is not only a great way to learn how it works, but it also creates some sample data you can investigate.
 
-{% hint style="warning" %}
+{% capture hint_content %}
 It cannot be stressed enough, but always be careful about the webpage you are on. Verify that the Uniswap you are about to connect to is the legitimate protocol. Anyone can buy an ad on Google and phishing is all too popular amongst scammers.
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="info" title="Info" content=hint_content %}
 
 
 

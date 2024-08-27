@@ -72,11 +72,12 @@ And why do we use this particular language to analyze data?
 
 **S**tructured **Q**uery **L**anguage, SQL (or sequel) for short, is a programming language used to interact with relational databases.&#x20;
 
-{% hint style="info" %}
+{% capture hint_content %}
 We won't go into much detail about database design or how to set up a SQL database of your own over the course of these workshops. If you'd like to take it upon yourself to learn more, my recommendation is CS50x, or Harvard's Intro to CS course that is available for free as OpenCourseWare.
 
 [https://cs50.harvard.edu/x/2022/notes/7/#relational-databases](https://cs50.harvard.edu/x/2022/notes/7/#relational-databases)
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="info" title="Info" content=hint_content %}
 
 Ok, but again. _Why SQL? Why databases in general? I thought blockchains replaced databases with decentralized solutions?_
 

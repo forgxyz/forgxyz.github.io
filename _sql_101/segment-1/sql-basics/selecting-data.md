@@ -21,9 +21,10 @@ LIMIT 100;
 
 __[_Link to Query_](https://app.flipsidecrypto.com/velocity/queries/65e5244d-5698-4e46-9b85-efd042079ca8)__
 
-{% hint style="info" %}
+{% capture hint_content %}
 Star `*` is a special character that means all columns, while the semi-colon `;` terminates the statement.
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="info" title="Info" content=hint_content %}
 
 We can single out just the data we want by explicitly stating the column names:
 
@@ -41,9 +42,10 @@ __[_Link to Query_](https://app.flipsidecrypto.com/velocity/queries/c241ce38-44f
 
 As a `SELECT` statement returns a result set, we can only run one `SELECT` statement at a time. It is possible to query data from multiple tables and return that in a single result set, but we'll touch on that later.
 
-{% hint style="success" %}
+{% capture hint_content %}
 Finally, a note on `LIMIT`. Users should always limit their result set when querying granular data (individual transactions or blocks). In general, we do this to see the format of particular transactions or to see how a table is constructed. As we often just need a few records as examples, a limit significantly reduces the waiting time for these results.
-{% endhint %}
+{% endcapture %}
+{% include hint.html type="success" title="Success" content=hint_content %}
 
 ## Dive Deeper
 
