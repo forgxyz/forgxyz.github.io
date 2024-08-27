@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: SQL in Dune V2 vs V1
---
+---
 
 # SQL in Dune V2 vs V1
 

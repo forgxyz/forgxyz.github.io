@@ -1,7 +1,9 @@
-<h3>Simple Navigation:</h3>
+<h3>Navigation:</h3>
 <ul>
 {% for page in site.sql_101 %}
   <li>
+    {% assign segment = page.path | split: "/" %}
+    {{ segment[1] | split: "-" | slice: 1, 1 }}
     <a href="{{ page.url | relative_url }}">
       {% if page.title %}
         {{ page.title }}
