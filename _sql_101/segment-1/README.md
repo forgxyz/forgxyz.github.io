@@ -9,7 +9,7 @@ description: >-
 
 ## Recording
 
-{% embed url="https://www.youtube.com/watch?v=Icx8jJLrUA8" %}
+{% include youtube.html id="Icx8jJLrUA8" %}
 Part 1 of the first lesson in Segment 1
 {% endembed %}
 
@@ -32,7 +32,7 @@ A brief review of Eshita's commentary, linked below:
 * Web3: read-write-own
   * “Ownership is one of the biggest features of Web3 - participants have full ownership over their content, data, and assets.”
 
-{% embed url="https://eshita.mirror.xyz/H5bNIXATsWUv_QbbEz6lckYcgAa2rhXEPDRkecOlCOI" %}
+{% include link-card.html url="https://eshita.mirror.xyz/H5bNIXATsWUv_QbbEz6lckYcgAa2rhXEPDRkecOlCOI" %}
 Eshita's full-length post on this evolution.
 {% endembed %}
 
@@ -60,11 +60,11 @@ Blocks are written in the order that they occur and the nodes securing the netwo
 
 ### Dive Deeper
 
-{% embed url="https://www.odysseydao.com/articles/what-is-blockchain" %}
+{% include link-card.html url="https://www.odysseydao.com/articles/what-is-blockchain" %}
 
-{% embed url="https://learn.rainbow.me/what-is-a-cryptoweb3-wallet-actually" %}
+{% include link-card.html url="https://learn.rainbow.me/what-is-a-cryptoweb3-wallet-actually" %}
 
-{% embed url="https://www.investopedia.com/tech/why-crypto-users-need-know-about-erc20-token-standard/" %}
+{% include link-card.html url="https://www.investopedia.com/tech/why-crypto-users-need-know-about-erc20-token-standard/" %}
 
 ## What is SQL?
 
@@ -91,4 +91,4 @@ In short, everyone. It’s essential information for these blockchains and proto
 
 There is a robust ecosystem of analysts and opportunity for work in the crypto space. For a nice overview of what's available, check out this board by Flipside Cantina member, [pinehearst](https://twitter.com/pinehearst\_).
 
-{% embed url="https://pine-sg.notion.site/pine-sg/6f0ee9021d364131abedf35cc3cb2c20?v=49557f78fd9343e6a84c9b4e3fb72bad" %}
+{% include link-card.html url="https://pine-sg.notion.site/pine-sg/6f0ee9021d364131abedf35cc3cb2c20?v=49557f78fd9343e6a84c9b4e3fb72bad" %}

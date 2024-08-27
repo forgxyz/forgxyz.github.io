@@ -47,8 +47,8 @@ Finally, a note on `LIMIT`. Users should always limit their result set when quer
 
 ## Dive Deeper
 
-{% embed url="https://www.w3schools.com/sql/sql_syntax.asp" %}
+{% include link-card.html url="https://www.w3schools.com/sql/sql_syntax.asp" %}
 
-{% embed url="https://mode.com/sql-tutorial/sql-select-statement/" %}
+{% include link-card.html url="https://mode.com/sql-tutorial/sql-select-statement/" %}
 
-{% embed url="https://mode.com/sql-tutorial/sql-limit/" %}
+{% include link-card.html url="https://mode.com/sql-tutorial/sql-limit/" %}

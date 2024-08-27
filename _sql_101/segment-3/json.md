@@ -463,4 +463,4 @@ Using all of these ideas and techniques together takes time and practice! Fortun
 
 ## Dive Deeper
 
-{% embed url="https://docs.snowflake.com/en/sql-reference/data-types-semistructured.html" %}
+{% include link-card.html url="https://docs.snowflake.com/en/sql-reference/data-types-semistructured.html" %}

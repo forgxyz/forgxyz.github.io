@@ -1,6 +1,6 @@
 # SQL, Aggregated
 
-{% embed url="https://www.youtube.com/watch?v=OAxQ-pOFf_E" %}
+{% include youtube.html id="OAxQ-pOFf_E" %}
 Replay of Segment 2 live session.
 {% endembed %}
 
@@ -285,9 +285,9 @@ But, while we're in the CTE section, 1 more thing to add. Yes, data from a CTE c
 
 ### Dive Deeper
 
-{% embed url="https://www.geeksforgeeks.org/cte-in-sql/" %}
+{% include link-card.html url="https://www.geeksforgeeks.org/cte-in-sql/" %}
 
-{% embed url="https://chartio.com/resources/tutorials/using-common-table-expressions/" %}
+{% include link-card.html url="https://chartio.com/resources/tutorials/using-common-table-expressions/" %}
 
 ## Joins
 
@@ -325,7 +325,7 @@ Declaring the type of join is effectively deciding what data overlap you want to
 
 The below tool does the best job, that I have found so far, at demonstrating what happens with data from two sources when they are joined together using different methods.
 
-{% embed url="https://joins.spathon.com/" %}
+{% include link-card.html url="https://joins.spathon.com/" %}
 
 ### Joining on Multiple Columns
 
@@ -383,4 +383,4 @@ Recall from the [visual join reference](https://joins.spathon.com/) that everyth
 
 ### Dive Deeper
 
-{% embed url="https://mode.com/sql-tutorial/sql-joins/" %}
+{% include link-card.html url="https://mode.com/sql-tutorial/sql-joins/" %}

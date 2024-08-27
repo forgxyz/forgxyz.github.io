@@ -45,7 +45,7 @@ But, if we don't leave the data we may miss something. Analysis requires familia
 
 So, to better answer this analytical bounty, one should research their subject. Let's start by simply going to Uniswap and poking around. Their homepage is a classic landing page, so let's check the blog for recent news.
 
-{% embed url="https://uniswap.org/blog" %}
+{% include link-card.html url="https://uniswap.org/blog" %}
 
 Right away (as of August 2022), we see something of note. In two separate blog posts, "Uniswap v3" is referenced.
 
@@ -55,7 +55,7 @@ Right away (as of August 2022), we see something of note. In two separate blog p
 
 Well that could be an issue if the question is asking about all of Uniswap, in general, and not just v2. v3 is presumably newer than v2, but does that even matter? Let's see what we can find about these two versions, starting with what Uniswap itself provides.
 
-{% embed url="https://info.uniswap.org/#/" %}
+{% include link-card.html url="https://info.uniswap.org/#/" %}
 
 The current stats page shows... >4bn TVL and >1bn in 24h volume. Seems like a lot but we'd need to look at some relative figures to get a feel for that. There's a link on this page for [v2 Analytics](https://v2.info.uniswap.org/#/), seems like a good place to check.
 

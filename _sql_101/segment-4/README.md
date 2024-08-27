@@ -8,4 +8,4 @@ description: >-
 
 ## Recording
 
-{% embed url="https://www.youtube.com/watch?v=ahBFD_eQvKU" %}
+{% include youtube.html id="ahBFD_eQvKU" %}

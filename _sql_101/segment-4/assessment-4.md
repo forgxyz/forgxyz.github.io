@@ -1,6 +1,6 @@
 # Assessment 4
 
-{% embed url="https://s2w1pibxi3c.typeform.com/to/MML0RmD9" %}
+{% include link-card.html url="https://s2w1pibxi3c.typeform.com/to/MML0RmD9" %}
 
 ## **Educational Bounties: Dune edition**
 
@@ -14,4 +14,4 @@ Please note: these bounties are for your benefit! There will not be a formal rev
 
 Participants in August can earn 100 xMetric just by submitting a dashboard!&#x20;
 
-{% embed url="https://metricsdao.notion.site/metricsdao/Bounty-Programs-d4bac7f1908f412f8bf4ed349198e5fe?p=8e6be1bfef4a4e0f87887d857b7dad96&pm=c" %}
+{% include link-card.html url="https://metricsdao.notion.site/metricsdao/Bounty-Programs-d4bac7f1908f412f8bf4ed349198e5fe?p=8e6be1bfef4a4e0f87887d857b7dad96&pm=c" %}

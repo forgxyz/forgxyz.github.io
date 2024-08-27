@@ -12,7 +12,7 @@ The broader message structure, as seen on Etherscan and in the `fact` tables, wa
 
 ## Recording
 
-{% embed url="https://www.youtube.com/watch?v=OAxQ-pOFf_E" %}
+{% include youtube.html id="OAxQ-pOFf_E" %}
 
 ## SQL Topics Covered:
 

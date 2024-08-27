@@ -21,10 +21,10 @@ _This list is by no means comprehensive, and is heavily biased towards recent sh
 
 ## Interesting Reads
 
-{% embed url="https://github.com/readme/guides/publishing-your-work" %}
+{% include link-card.html url="https://github.com/readme/guides/publishing-your-work" %}
 
-{% embed url="https://metricsdao.notion.site/teamflipside/Bounty-dashboard-guide-442c0a79e7c04fc3b5a0b0c4d95f2133" %}
+{% include link-card.html url="https://metricsdao.notion.site/teamflipside/Bounty-dashboard-guide-442c0a79e7c04fc3b5a0b0c4d95f2133" %}
 
-{% embed url="https://teamflipside.notion.site/SQL-Basics-8b3a10aa657f4b84bc80229f4619b0ea" %}
+{% include link-card.html url="https://teamflipside.notion.site/SQL-Basics-8b3a10aa657f4b84bc80229f4619b0ea" %}
 
-{% embed url="https://teamflipside.notion.site/Ethereum-1-Ethereum_Core-Table-Walkthough-Swaps-290ad820a4724c2b97425da1b948ed51" %}
+{% include link-card.html url="https://teamflipside.notion.site/Ethereum-1-Ethereum_Core-Table-Walkthough-Swaps-290ad820a4724c2b97425da1b948ed51" %}

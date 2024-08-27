@@ -7,7 +7,7 @@ This dashboard by **@**[**chuxin\_h**](https://twitter.com/chuxin\_h) illustrate
 * Using Dune abstractions
 * Cross-chain analysis
 
-{% embed url="https://dune.com/chuxin/mdao-blockchain-analytics-segment4" %}
+{% include link-card.html url="https://dune.com/chuxin/mdao-blockchain-analytics-segment4" %}
 Dune Dashboard for Segment 4&#x20;
 {% endembed %}
 

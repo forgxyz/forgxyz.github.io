@@ -259,10 +259,10 @@ So, we have learned a lot of ways to filter data an look through the tables at t
 
 ## Dive Deeper
 
-{% embed url="https://www.w3schools.com/sql/sql_orderby.asp" %}
+{% include link-card.html url="https://www.w3schools.com/sql/sql_orderby.asp" %}
 
-{% embed url="https://mode.com/sql-tutorial/sql-operators/" %}
+{% include link-card.html url="https://mode.com/sql-tutorial/sql-operators/" %}
 
-{% embed url="https://mode.com/sql-tutorial/sql-logical-operators/" %}
+{% include link-card.html url="https://mode.com/sql-tutorial/sql-logical-operators/" %}
 
-{% embed url="https://www.bennadel.com/blog/126-sql-and-or-order-of-operations.htm" %}
+{% include link-card.html url="https://www.bennadel.com/blog/126-sql-and-or-order-of-operations.htm" %}

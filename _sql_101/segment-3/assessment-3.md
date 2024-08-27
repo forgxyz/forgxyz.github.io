@@ -1,6 +1,6 @@
 # Assessment 3
 
-{% embed url="https://s2w1pibxi3c.typeform.com/mdaoquiz3" %}
+{% include link-card.html url="https://s2w1pibxi3c.typeform.com/mdaoquiz3" %}
 
 ## **Educational Bounty**
 
@@ -14,4 +14,4 @@ Participants in August can earn 100 xMetric just by submitting a dashboard!
 
 Finally, I suggest you use the Flipside tables for these as the next live session is all about Dune and students should try converting what they do here into a Dune dashboard, after that lesson, to really go above and beyond.
 
-{% embed url="https://metricsdao.notion.site/Blockchain-Analytics-Course-Practice-Bounties-8e6be1bfef4a4e0f87887d857b7dad96" %}
+{% include link-card.html url="https://metricsdao.notion.site/Blockchain-Analytics-Course-Practice-Bounties-8e6be1bfef4a4e0f87887d857b7dad96" %}
