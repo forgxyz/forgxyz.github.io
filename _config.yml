@@ -24,6 +24,10 @@ description: >-
   Notes, publications, and information.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://forgash.io"
+collections:
+  sql_101:
+    output: true
+    permalink: /sql-101/:path/
 twitter_username: forgash_
 github_username:  FORGXYZ
 

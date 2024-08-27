@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <style>
+        body {
+            background-color: #002b36;
+            color: #839496;
+            font-family: monospace;
+            display: flex;
+            margin: 0;
+            height: 100vh;
+        }
+        .nav {
+            width: 250px;
+            padding: 20px;
+            background-color: #073642;
+            overflow-y: auto;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        a {
+            color: #2aa198;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h2>SQL 101</h2>
+        <ul>
+        {% for page in site.sql_101 %}
+            <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="content">
+        {{ content }}
+    </div>
+</body>
+</html>
