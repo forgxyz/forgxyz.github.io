@@ -1,4 +1,6 @@
 ---
+layout: tutorial
+title: Office Hours 2
 description: >-
   A recap of Week 2 Office Hours (August 10th, 2022) is below. Join live Office
   Hours weekly on Wednesdays 7-8pm ET on MetricsDAO Discord, for the duration of

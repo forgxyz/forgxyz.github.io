@@ -1,3 +1,8 @@
+---
+layout: tutorial
+title: Recap, ez_ mode
+---
+
 # Recap, ez\_ mode
 
 These notes pick up after the SQL recap in the video. To this point, we are able to compute metrics using Flipside's `ez_` tables and SQL aggregations, powered by `GROUP BY`, `CTE`s, and `JOIN`s.

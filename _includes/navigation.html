@@ -1,20 +1,14 @@
-{% assign pages = site.sql_101 | sort: "path" %}
-
+<h3>Simple Navigation:</h3>
 <ul>
-{% for page in pages %}
-  {% assign path_parts = page.path | split: "/" %}
-  {% assign level = path_parts | size %}
-  
-  {% if level == 2 %}
-    <li>
-      {% if page.name == "index.md" %}
-        <a href="{{ page.url | relative_url }}">{{ path_parts[0] | capitalize }}</a>
-        {% assign parent_path = path_parts[0] %}
-        {% include nested_pages.html parent_path=parent_path %}
+{% for page in site.sql_101 %}
+  <li>
+    <a href="{{ page.url | relative_url }}">
+      {% if page.title %}
+        {{ page.title }}
       {% else %}
-        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+        {{ page.name | remove: ".md" | capitalize }}
       {% endif %}
-    </li>
-  {% endif %}
+    </a>
+  </li>
 {% endfor %}
 </ul>

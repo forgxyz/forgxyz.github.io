@@ -1,3 +1,8 @@
+---
+layout: tutorial
+title: SQL in Dune V2 vs V1
+--
+
 # SQL in Dune V2 vs V1
 
 This dashboard by **@**[**chuxin\_h**](https://twitter.com/chuxin\_h) illustrates the material for Segment 4 of the Blockchain Analytics Course. It covers Dune Analytics and serves as an introduction on writing SQL queries using [Dune Engine V2](https://docs.dune.com/dune-engine-v2-beta/dunes-new-query-engine). The topics include:

@@ -1,3 +1,8 @@
+---
+layout: tutorial
+title: Assessment 3
+---
+
 # Assessment 3
 
 {% include link-card.html url="https://s2w1pibxi3c.typeform.com/mdaoquiz3" %}

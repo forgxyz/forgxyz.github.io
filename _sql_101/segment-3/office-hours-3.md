@@ -1,4 +1,6 @@
 ---
+layout: tutorial
+title: Office Hours 3
 description: A recap of Week 3 Office Hours (August 19th, 2022) is below.
 ---
 

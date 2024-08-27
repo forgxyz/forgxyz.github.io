@@ -1,3 +1,8 @@
+---
+layout: tutorial
+title: SQL, Aggregated
+---
+
 # SQL, Aggregated
 
 {% include youtube.html id="OAxQ-pOFf_E" %}
@@ -335,7 +340,6 @@ The below tool does the best job, that I have found so far, at demonstrating wha
 
 You can join tables using many columns! An example of this might be `date` and `address`. We developed an example on this in the video where it might make sense to track NFT mints and subsequent sales by joining the `ez_nft_mints` and `ez_nft_sales` columns on both date and nft contract address.
 
-{% code lineNumbers="true" %}
 ```sql
 WITH 
 sales AS (
@@ -367,7 +371,6 @@ FROM mints m -- here we alias the mints CTE as just m for simplicity
     ON m._date=s._date AND m.nft_address=s.nft_address
 ORDER BY 1, 3 DESC
 ```
-{% endcode %}
 
 [Link to Query](https://app.flipsidecrypto.com/velocity/queries/c1902224-9a7f-4da3-a9f8-ce9c3fe83c03)
 

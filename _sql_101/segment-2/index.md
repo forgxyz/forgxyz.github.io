@@ -1,3 +1,8 @@
+---
+layout: tutorial
+title: Segment 2
+---
+
 # Segment 2
 
 ## Overview

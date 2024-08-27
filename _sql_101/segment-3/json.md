@@ -1,7 +1,14 @@
+---
+layout: tutorial
+title: JSON
+---
+
 # JSON
 
-<pre class="language-sql"><code class="lang-sql"><strong>SELECT * FROM ethereum.core.fact_transactions 
-</strong>WHERE tx_hash = '0x32844e66c41bf08a8c3d249d1dd53a404831bc486e094342dc4b79ae9c7aa8d3'</code></pre>
+```sql
+SELECT * FROM ethereum.core.fact_transactions 
+WHERE tx_hash = '0x32844e66c41bf08a8c3d249d1dd53a404831bc486e094342dc4b79ae9c7aa8d3'
+```
 
 Or, specifically:
 
@@ -14,7 +21,6 @@ WHERE tx_hash = '0x32844e66c41bf08a8c3d249d1dd53a404831bc486e094342dc4b79ae9c7aa
 
 <summary><code>tx_json</code>, in all its glory</summary>
 
-{% code lineNumbers="true" %}
 ```json
 {
   "block_hash": "0xb82ff1bb63c41f68f84400329912dff52f3167b5eb2a41c7d7f962fc1eeefe70",
@@ -159,7 +165,7 @@ WHERE tx_hash = '0x32844e66c41bf08a8c3d249d1dd53a404831bc486e094342dc4b79ae9c7aa
   "value": 0
 }
 ```
-{% endcode %}
+
 
 </details>
 
@@ -347,7 +353,7 @@ So, going back to our `logs`, to access each log we simply index the array. Look
 
 <summary>The Swap Log</summary>
 
-{% code lineNumbers="true" %}
+
 ```json
 tx_json:receipt:logs[3] = 
   {
@@ -379,7 +385,7 @@ tx_json:receipt:logs[3] =
     "transactionIndex": "0x70"
   }
 ```
-{% endcode %}
+
 
 </details>
 

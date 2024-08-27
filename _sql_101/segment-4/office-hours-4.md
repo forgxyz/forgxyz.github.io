@@ -1,5 +1,7 @@
 ---
+layout: tutorial
 description: A recap of Week 4 Office Hours on Dune Analytics (August 26th, 2022).
+title: Office Hours 4
 ---
 
 # Office Hours 4

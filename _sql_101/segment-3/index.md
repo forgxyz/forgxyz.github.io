@@ -1,3 +1,8 @@
+---
+layout: tutorial
+title: Segment 3
+---
+
 # Segment 3
 
 ## Recording
