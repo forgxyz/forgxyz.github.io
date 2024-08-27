@@ -31,15 +31,35 @@
         a:hover {
             text-decoration: underline;
         }
+        .nav ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="nav">
         <h2>SQL 101</h2>
         <ul>
-        {% for page in site.sql_101 %}
-            <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-        {% endfor %}
+            {% for item in site.sql_101 %}
+                {% assign depth = item.path | split: "/" | size %}
+                {% if depth == 2 %}
+                    <li>
+                        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                        {% if item.path contains 'README.md' %}
+                            <ul>
+                            {% for subitem in site.sql_101 %}
+                                {% if subitem.path contains item.path | split: "/" | first %}
+                                    {% unless subitem.path == item.path %}
+                                        <li><a href="{{ subitem.url | relative_url }}">{{ subitem.title }}</a></li>
+                                    {% endunless %}
+                                {% endif %}
+                            {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </li>
+                {% endif %}
+            {% endfor %}
         </ul>
     </div>
     <div class="content">
