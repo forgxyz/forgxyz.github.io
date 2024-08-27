@@ -9,6 +9,6 @@ This dashboard by **@**[**chuxin\_h**](https://twitter.com/chuxin\_h) illustrate
 
 {% include link-card.html url="https://dune.com/chuxin/mdao-blockchain-analytics-segment4" %}
 Dune Dashboard for Segment 4&#x20;
-{% endembed %}
+-- TODO check text and delete
 
 <figure><img src="../../../.gitbook/assets/Screen Shot 2022-08-25 at 8.07.12 PM.png" alt=""><figcaption><p>Preview of part of the material in the Segment 4 dashboard</p></figcaption></figure>

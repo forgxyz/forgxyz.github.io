@@ -11,7 +11,7 @@ description: >-
 
 {% include youtube.html id="Icx8jJLrUA8" %}
 Part 1 of the first lesson in Segment 1
-{% endembed %}
+-- TODO check text and delete
 
 ## Blockchain Basics
 
@@ -34,7 +34,7 @@ A brief review of Eshita's commentary, linked below:
 
 {% include link-card.html url="https://eshita.mirror.xyz/H5bNIXATsWUv_QbbEz6lckYcgAa2rhXEPDRkecOlCOI" %}
 Eshita's full-length post on this evolution.
-{% endembed %}
+-- TODO check text and delete
 
 ![https://blockgeeks.com/](../../../.gitbook/assets/centradecentra.jpg)
 

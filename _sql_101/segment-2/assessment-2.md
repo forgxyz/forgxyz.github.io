@@ -4,7 +4,7 @@
 
 {% include link-card.html url="https://s2w1pibxi3c.typeform.com/metricsdaoquiz2" %}
 Qualified submissions (score >= 7/10) will also receive 10 xMETRIC on Polygon!
-{% endembed %}
+-- TODO check text and delete
 
 ## We talkin' practice??
 
@@ -28,4 +28,4 @@ However, straight-up taking someones work and calling it your own is not alright
 
 {% include link-card.html url="https://metricsdao.xyz/showcase" %}
 The Analytics Showcase
-{% endembed %}
+-- TODO check text and delete

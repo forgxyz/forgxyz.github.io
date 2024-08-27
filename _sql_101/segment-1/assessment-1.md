@@ -2,7 +2,7 @@
 
 {% include link-card.html url="https://s2w1pibxi3c.typeform.com/metricsdao" %}
 Qualified submissions (score >= 7/10) will also receive 10 xMETRIC on Polygon!
-{% endembed %}
+-- TODO check text and delete
 
 If you passed Quiz 1 successfully (scored a 7 or more out of 10), visit [**this link**](https://poap.delivery/blockchainanalytics1) **a few days after completing the quiz,** and claim your POAP! Be sure to use the same Ethereum address that you submitted in the Quiz 1 form.&#x20;
 

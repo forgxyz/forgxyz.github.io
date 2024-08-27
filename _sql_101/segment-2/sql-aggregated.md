@@ -2,7 +2,7 @@
 
 {% include youtube.html id="OAxQ-pOFf_E" %}
 Replay of Segment 2 live session.
-{% endembed %}
+-- TODO check text and delete
 
 
 
