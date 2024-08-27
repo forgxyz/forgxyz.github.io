@@ -7,7 +7,7 @@
   
   {% if level == 2 %}
     <li>
-      {% if page.name == "README.md" %}
+      {% if page.name == "index.md" %}
         <a href="{{ page.url | relative_url }}">{{ path_parts[0] | capitalize }}</a>
         {% assign parent_path = path_parts[0] %}
         {% include nested_pages.html parent_path=parent_path %}
