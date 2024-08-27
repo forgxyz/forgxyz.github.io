@@ -7,18 +7,26 @@
   {% if path_depth == include.level %}
     <li>
       {% if item.name == "README.md" %}
-        <a href="{{ item.url | relative_url }}">{{ item.title | default: path_parts[path_depth | minus: 2] | capitalize }}</a>
-      {% else %}
+        {% assign folder_name = path_parts[path_depth | minus: 2] | capitalize %}
+        <a href="{{ item.url | relative_url }}">{{ folder_name }}</a>
+        
+        {% assign children = sorted_pages | where_exp: "p", "p.path contains item.path and p.path != item.path" %}
+        {% assign next_level = include.level | plus: 1 %}
+        
+        {% if children.size > 0 %}
+          <ul>
+            {% for child in children %}
+              {% assign child_parts = child.path | split: "/" %}
+              {% if child_parts.size == next_level and child.name != "README.md" %}
+                <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+            
+            {% include navigation.html level=next_level parent=item.path %}
+          </ul>
+        {% endif %}
+      {% elsif path_depth == 2 and item.name != "README.md" %}
         <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-      {% endif %}
-      
-      {% assign next_level = include.level | plus: 1 %}
-      {% assign children = sorted_pages | where_exp: "p", "p.path contains item.path and p.path != item.path" %}
-      
-      {% if children.size > 0 %}
-        <ul>
-          {% include navigation.html level=next_level parent=item.path %}
-        </ul>
       {% endif %}
     </li>
   {% endif %}
