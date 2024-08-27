@@ -91,28 +91,39 @@
             background-color: #4c3a0d;
             border-color: #b58900;
         }
+        .nav ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .nav > ul {
+            padding-left: 0;
+        }
+        .nav li {
+            margin-bottom: 10px;
+        }
+        .nav li > ul {
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="nav">
         <h2>SQL 101</h2>
         <ul>
-            {% for item in site.sql_101 %}
-                {% assign depth = item.path | split: "/" | size %}
-                {% if depth == 2 %}
+            {% assign sorted_pages = site.sql_101 | sort: "path" %}
+            {% for item in sorted_pages %}
+                {% assign path_parts = item.path | split: "/" %}
+                {% if path_parts.size == 2 and item.name == "README.md" %}
                     <li>
-                        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                        {% if item.path contains 'README.md' %}
-                            <ul>
-                            {% for subitem in site.sql_101 %}
-                                {% if subitem.path contains item.path | split: "/" | first %}
-                                    {% unless subitem.path == item.path %}
-                                        <li><a href="{{ subitem.url | relative_url }}">{{ subitem.title }}</a></li>
-                                    {% endunless %}
+                        <a href="{{ item.url | relative_url }}">{{ item.title | default: path_parts[0] | capitalize }}</a>
+                        <ul>
+                            {% for subitem in sorted_pages %}
+                                {% assign subitem_parts = subitem.path | split: "/" %}
+                                {% if subitem_parts.size == 3 and subitem_parts[0] == path_parts[0] and subitem.name != "README.md" %}
+                                    <li><a href="{{ subitem.url | relative_url }}">{{ subitem.title }}</a></li>
                                 {% endif %}
                             {% endfor %}
-                            </ul>
-                        {% endif %}
+                        </ul>
                     </li>
                 {% endif %}
             {% endfor %}
