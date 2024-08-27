@@ -1,3 +1,7 @@
+---
+layout: tutorial
+title: Analytics Showcase
+---
 # Analytics Showcase
 
 | Provider   | Details                  | Links                                                                                                                                 |

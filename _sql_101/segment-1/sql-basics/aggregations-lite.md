@@ -1,3 +1,8 @@
+---
+layout: tutorial
+title: Aggregations, Lite
+---
+
 # Aggregations, Lite
 
 ## COUNT

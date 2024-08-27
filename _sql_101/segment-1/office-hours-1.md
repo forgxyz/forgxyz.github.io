@@ -1,8 +1,10 @@
 ---
+layout: tutorial
 description: >-
   Office Hours take place weekly on Wednesdays 7-8pm ET on MetricsDAO Discord
   for the duration of the course. Below is the recap of the first office hours
   (August 3rd, 2022):
+title: Office Hours 1
 ---
 
 # Office Hours 1

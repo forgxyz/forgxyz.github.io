@@ -1,4 +1,6 @@
 ---
+layout: tutorial
+title: SELECTing Data
 description: Accessing the data we want and need.
 ---
 

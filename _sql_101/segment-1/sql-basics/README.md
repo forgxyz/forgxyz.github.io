@@ -1,3 +1,8 @@
+---
+layout: tutorial
+title: SQL Basics
+---
+
 # SQL Basics
 
 Continue on to the nested pages.

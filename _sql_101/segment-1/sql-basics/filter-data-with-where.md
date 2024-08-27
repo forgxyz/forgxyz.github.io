@@ -1,4 +1,6 @@
 ---
+layout: tutorial
+title: Filter data with WHERE
 description: Filtering & ordering our results.
 ---
 

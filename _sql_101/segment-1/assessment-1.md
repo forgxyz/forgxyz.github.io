@@ -1,3 +1,8 @@
+---
+layout: tutorial
+title: Assessment 1
+---
+
 # Assessment 1
 
 {% include link-card.html url="https://s2w1pibxi3c.typeform.com/metricsdao" %}
