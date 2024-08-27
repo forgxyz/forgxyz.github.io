@@ -1,0 +1,25 @@
+{% assign sorted_pages = site.sql_101 | sort: "path" %}
+
+{% for item in sorted_pages %}
+  {% assign path_parts = item.path | split: "/" %}
+  {% assign path_depth = path_parts | size %}
+  
+  {% if path_depth == include.level %}
+    <li>
+      {% if item.name == "README.md" %}
+        <a href="{{ item.url | relative_url }}">{{ item.title | default: path_parts[path_depth | minus: 2] | capitalize }}</a>
+      {% else %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endif %}
+      
+      {% assign next_level = include.level | plus: 1 %}
+      {% assign children = sorted_pages | where_exp: "p", "p.path contains item.path and p.path != item.path" %}
+      
+      {% if children.size > 0 %}
+        <ul>
+          {% include navigation.html level=next_level parent=item.path %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endif %}
+{% endfor %}
