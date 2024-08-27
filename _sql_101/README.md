@@ -4,7 +4,8 @@ description: >-
   data using SQL.
 cover: ../../.gitbook/assets/desktop-header(1).jpg
 coverY: -471.4150453955901
-layout: landing
+layout: tutorial
+title: Blockchain Data 101
 ---
 
 # 🧑🏫 Blockchain Data 101

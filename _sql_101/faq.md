@@ -1,5 +1,7 @@
 ---
+layout: tutorial
 description: Blockchain Data 101 Course FAQ
+title: FAQ
 ---
 
 # FAQ

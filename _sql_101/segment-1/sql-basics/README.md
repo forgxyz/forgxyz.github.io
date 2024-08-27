@@ -7,14 +7,6 @@ title: SQL Basics
 
 Continue on to the nested pages.
 
-{% content-ref url="selecting-data.md" %}
-[selecting-data.md](selecting-data.md)
-{% endcontent-ref %}
-
-{% content-ref url="filter-data-with-where.md" %}
-[filter-data-with-where.md](filter-data-with-where.md)
-{% endcontent-ref %}
-
-{% content-ref url="aggregations-lite.md" %}
-[aggregations-lite.md](aggregations-lite.md)
-{% endcontent-ref %}
+{% include link-card.html url="selecting-data.md" %}
+{% include link-card.html url="filter-data-with-where.md" %}
+{% include link-card.html url="aggregations-lite.md" %}
