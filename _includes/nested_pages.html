@@ -8,7 +8,8 @@
       <li>
         {% if nested_page.name == "README.md" %}
           <a href="{{ nested_page.url | relative_url }}">{{ nested_path_parts | last | capitalize }}</a>
-          {% include nested_pages.html parent_path=nested_page.path | split: ".md" | first %}
+          {% assign new_parent_path = nested_page.path | split: ".md" | first %}
+          {% include nested_pages.html parent_path=new_parent_path %}
         {% else %}
           <a href="{{ nested_page.url | relative_url }}">{{ nested_page.title }}</a>
         {% endif %}
