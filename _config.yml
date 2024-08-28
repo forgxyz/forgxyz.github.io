@@ -25,9 +25,22 @@ description: >-
 baseurl: ""
 url: "https://forgash.io"
 collections:
-  sql_101:
+  courses:
     output: true
-    permalink: /sql-101/:path/
+    permalink: /:path
+
+defaults:
+  - scope:
+      path: ""
+      type: "courses"
+    values:
+      layout: "module"
+  - scope:
+      path: "_courses/*.md"
+      type: "courses"
+    values:
+      layout: "course"
+
 twitter_username: forgash_
 github_username:  forgxyz
 

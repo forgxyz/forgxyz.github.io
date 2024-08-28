@@ -1,16 +1,23 @@
-<h3>Navigation:</h3>
-<ul>
-{% for page in site.sql_101 %}
-  <li>
-    {% assign segment = page.path | split: "/" %}
-    {{ segment[1] | split: "-" | slice: 1, 1 }}
-    <a href="{{ page.url | relative_url }}">
-      {% if page.title %}
-        {{ page.title }}
-      {% else %}
-        {{ page.name | remove: ".md" | capitalize }}
+{% assign current_course = page.course %}
+{% assign course_pages = site.courses | where: "course", current_course %}
+<nav class="sidebar" id="sidebar">
+  <button id="sidebar-toggle" class="sidebar-toggle">☰ Menu</button>
+  <div class="sidebar-content">
+    <h2><a href="/{{ current_course }}">{{ current_course | capitalize | replace: "-", " " }}</a></h2>
+    {% assign segments = course_pages | group_by: "segment_id" | sort: "name" %}
+    {% for segment in segments %}
+      {% assign first_module = segment.items | first %}
+      {% if first_module.segment %}
+        <h3>{{ first_module.segment }}</h3>
+        <ul>
+          {% assign modules = segment.items | sort: "lesson_id" %}
+          {% for module in modules %}
+            <li>
+              <a href="{{ module.url | relative_url }}">{{ module.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
       {% endif %}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+    {% endfor %}
+  </div>
+</nav>
