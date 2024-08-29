@@ -1,7 +1,0 @@
-<div class="link-card">
-    <a href="{{ include.url }}" target="_blank" rel="noopener noreferrer">
-      <h3>{{ include.title }}</h3>
-      <p>{{ include.description }}</p>
-      <span class="link-url">{{ include.url | remove: "https://" | remove: "http://" | split: "/" | first }}</span>
-    </a>
-</div>
