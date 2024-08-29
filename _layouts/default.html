@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forgash_</title>
+    <title>{{ page.title | default: site.title }}</title>
     <style>
         body {
             background-color: #002b36;
@@ -22,10 +22,7 @@
 </head>
 <body>
     <div class="content">
-        <div style="margin-left: 33%;">
-&gt; Hello
-</div>
-
+        {{ content }}
     </div>
 </body>
 </html>
