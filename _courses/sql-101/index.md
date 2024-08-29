@@ -12,4 +12,4 @@ This course will teach you the basics of SQL. Here's what you'll learn:
 2. Advanced Queries
 3. Database Management
 
-Choose a module from the sidebar to get started.
+Choose a module from the navigation bar to get started.
