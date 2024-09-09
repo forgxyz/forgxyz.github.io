@@ -1,0 +1,104 @@
+<!-- _includes/lesson_navigation.html -->
+{% assign current_course = page.course %}
+{% assign all_course_pages = site.courses | where: "course", current_course %}
+
+{% comment %} Separate index page and content pages {% endcomment %}
+{% assign index_page = all_course_pages | where: "name", "index.md" | first %}
+{% assign content_pages = all_course_pages | where_exp: "item", "item.name != 'index.md' and item.segment_id and item.lesson_id" %}
+
+{% comment %} Custom sorting {% endcomment %}
+{% assign sorted_pages = content_pages | sort: "segment_id" | sort: "lesson_id" %}
+{% assign properly_sorted_pages = "" | split: "" %}
+{% for page in sorted_pages %}
+  {% assign sort_key = page.segment_id | prepend: '000' | slice: -3, 3 %}
+  {% assign sort_key = sort_key | append: '-' | append: page.lesson_id | prepend: '000' | slice: -3, 3 %}
+  {% assign page_with_sort_key = page | merge: {"sort_key": sort_key} %}
+  {% assign properly_sorted_pages = properly_sorted_pages | push: page_with_sort_key %}
+{% endfor %}
+{% assign sorted_pages = properly_sorted_pages | sort: "sort_key" %}
+
+{% comment %} Debug information {% endcomment %}
+<div style="display: none;">
+  <p>Current page: {{ page.url }}</p>
+  <p>segment_id: {{ page.segment_id }}, lesson_id: {{ page.lesson_id }}</p>
+  <p>Total content pages: {{ sorted_pages.size }}</p>
+  <p>Sorted pages order:</p>
+  <ul>
+  {% for p in sorted_pages %}
+    <li>{{ p.segment_id }}-{{ p.lesson_id }}: {{ p.title }}</li>
+  {% endfor %}
+  </ul>
+</div>
+
+{% comment %} Determine current, previous, and next pages {% endcomment %}
+{% assign current_index = -1 %}
+{% for p in sorted_pages %}
+  {% if p.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if current_index > 0 %}
+  {% assign prev_index = current_index | minus: 1 %}
+  {% assign prev_page = sorted_pages[prev_index] %}
+{% elsif current_index == 0 and index_page %}
+  {% assign prev_page = index_page %}
+{% endif %}
+
+{% if current_index < sorted_pages.size | minus: 1 and current_index != -1 %}
+  {% assign next_index = current_index | plus: 1 %}
+  {% assign next_page = sorted_pages[next_index] %}
+{% endif %}
+
+{% comment %} Handle navigation for index page {% endcomment %}
+{% if page.name == "index.md" and sorted_pages.size > 0 %}
+  {% assign next_page = sorted_pages | first %}
+{% endif %}
+
+<nav class="lesson-navigation">
+  {% if prev_page %}
+    <a href="{{ prev_page.url | relative_url }}" class="nav-button prev-button">&larr; Previous: {{ prev_page.title }}</a>
+  {% else %}
+    <span class="nav-button prev-button disabled">&larr; Previous</span>
+  {% endif %}
+  
+  {% if next_page %}
+    <a href="{{ next_page.url | relative_url }}" class="nav-button next-button">Next: {{ next_page.title }} &rarr;</a>
+  {% else %}
+    <span class="nav-button next-button disabled">Next &rarr;</span>
+  {% endif %}
+</nav>
+
+<style>
+  .lesson-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid var(--text-color);
+    width: 100%;
+  }
+  .nav-button {
+    padding: 10px 15px;
+    background-color: var(--sidebar-bg);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .nav-button:hover:not(.disabled) {
+    background-color: var(--link-color);
+    color: var(--bg-color);
+  }
+  .prev-button {
+    margin-right: auto;
+  }
+  .next-button {
+    margin-left: auto;
+  }
+  .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+</style>

@@ -45,7 +45,7 @@ twitter_username: forgash_
 github_username:  forgxyz
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 

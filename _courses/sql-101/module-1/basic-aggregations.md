@@ -1,18 +1,21 @@
 ---
-layout: tutorial
-title: Aggregations, Lite
+title: Aggregations Part 1
+description: Introducing aggregations in SQL.
+course: sql-101
+segment: Title TBD
+segment_id: 1
+lesson: basic-aggregations
+lesson_id: 0
 ---
-
-# Aggregations, Lite
 
 ## COUNT
 
 To get the number of records, we can use `COUNT()` and pass in a column name. If we want just distinct records, we can simply add `DISTINCT` to the function.&#x20;
 
 {% capture hint_content %}
-Run the below query with and without `DISTINCT`, do we get the same number of transactions? What about with `ez_nft_sales`? Join the [course chat channel](https://discord.com/channels/902943676685230100/992490932412883064) to discuss what you found and what your thoughts are!
+Run the below query with and without `DISTINCT`, do we get the same number of transactions? What about with `ez_nft_sales`?
 {% endcapture %}
-{% include hint.html type="success" title="Success" content=hint_content %}
+{% include hint.html type="success" title="Try it and compare" content=hint_content %}
 
 ```sql
 SELECT 
@@ -27,11 +30,10 @@ WHERE block_timestamp::date BETWEEN '2022-06-01' AND '2022-06-30'
       );
 ```
 
-[Link to Query](https://app.flipsidecrypto.com/velocity/queries/a1aaee95-873e-4847-a5dd-2b2e543745c1)
 
 ## SUM
 
-Let's move on from dex swaps and look at NFTs and the `ethereum.core.ez_nft_sales` table.&#x20;
+Let's move on from dex swaps and look at NFTs and the `ethereum.core.ez_nft_sales` table.
 
 `SUM()` allows us to pass in a numeric column and total up all records over the result set. In this case, we are summing up the OpenSea platform fees in token and USD amounts over the month of June.
 
@@ -45,15 +47,11 @@ WHERE block_timestamp::DATE BETWEEN '2022-06-01' AND '2022-06-30'
 ```
 
 {% capture hint_content %}
-Ok so we have around $12mm in USD and.... a massive number for native token fees. Why is this? We should check the [table documentation](https://docs.flipsidecrypto.com/our-data/tables/ethereum\_core-tables) for the `total_platform_fee` column to see what we're working with in here.
+Ok so we have around $12mm in USD and.... a massive number for native token fees. Why is this? We should check the [table documentation](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum_models.nft__ez_nft_sales) for the `total_platform_fee` column to see what we're working with in here.
 
 Is there anything that leads us to question our data or change approach?
-{% endcapture %}
-{% include hint.html type="warning" title="Warning" content=hint_content %}
 
-<details>
-
-<summary>We may want to dive deeper into the data.</summary>
+We may want to dive deeper into the data.
 
 We can see from the documentation that the column _is_ decimal adjusted, so it's not that. There's a hint in there, though, the words: "in the transaction's currency" ...
 
@@ -78,9 +76,8 @@ WHERE block_timestamp BETWEEN '2022-06-01' AND '2022-06-30'
     AND currency_symbol = 'ETH';
 ```
 
-[Link to Query](https://app.flipsidecrypto.com/velocity/queries/75e7a743-09e3-4252-b33e-4ca6f5921dab)
-
-</details>
+{% endcapture %}
+{% include hint.html type="warning" title="Dive Deeper" content=hint_content %}
 
 ## Metrics: AVG, MIN, MAX, MEDIAN
 
@@ -98,5 +95,3 @@ WHERE block_timestamp::DATE BETWEEN '2022-06-01' AND '2022-06-30'
     AND platform_name = 'opensea'
     AND currency_symbol = 'ETH';
 ```
-
-[Link to Query](https://app.flipsidecrypto.com/velocity/queries/198d49f9-643a-4c90-8aae-27dbb252219f)

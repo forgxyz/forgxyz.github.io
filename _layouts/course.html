@@ -13,6 +13,8 @@
             --sidebar-bg: #073642;
             --sidebar-toggle-bg: #073642;
             --code-bg: #00212b;
+            --inline-code-bg: #073642;
+            --inline-code-color: #93a1a1;
         }
 
         .light-theme {
@@ -22,6 +24,8 @@
             --sidebar-bg: #eee8d5;
             --sidebar-toggle-bg: #eee8d5;
             --code-bg: #fbf1d1;
+            --inline-code-bg: #eee8d5;
+            --inline-code-color: #586e75;
         }
 
         body {
@@ -29,10 +33,13 @@
             flex-direction: column;
             color: var(--text-color);
             background-color: var(--bg-color);
-            font-family: monospace;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
             min-height: 100vh;
+            /* Prevent horizontal scrolling on the body */
+            overflow-x: hidden; 
             transition: background-color 0.3s, color 0.3s;
         }
         .sidebar {
@@ -46,8 +53,17 @@
         }
         .main-content {
             flex-grow: 1;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
             padding: 20px;
             overflow-y: auto;
+            max-width: 100%; /* Ensure content doesn't exceed viewport width */
+            overflow-x: hidden; /* Prevent horizontal scrolling in main content */
+            margin: 0 auto;
+        }
+        .lesson-content {
+            flex: 1;
         }
 
         a { color: var(--link-color); }
@@ -100,6 +116,9 @@
             .sidebar-content.active {
                 display: block;
             }
+            .main-content {
+                padding: 10px;
+            }
         }
 
         @media (min-width: 769px) {
@@ -122,17 +141,86 @@
             background: var(--code-bg);
             border-radius: 4px;
             margin: 1em 0;
+            max-width: 100%;
+            overflow-x: auto; /* Enable horizontal scrolling */
+            white-space: pre; /* Preserve whitespace */
+            word-wrap: normal; /* Prevent word wrapping */
         }
         code[class*="language-"] {
+            white-space: pre; /* Preserve whitespace */
+        }
+        code:not([class*="language-"]) {
+            background-color: var(--inline-code-bg);
+            color: var(--inline-code-color);
+            padding: 2px 4px;
+            border-radius: 3px;
             font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
             font-size: 0.9em;
+        }
+        /* Styles for inline code */
+        :not(pre) > code {
+            word-break: break-word; /* Break long inline code */
+            white-space: normal; /* Allow wrapping for inline code */
+        }
+
+        /* Ensure images don't cause horizontal scrolling */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Style for hint blocks */
+        .hint {
+            padding: 15px;
+            border-left: 5px solid;
+            margin-bottom: 20px;
+        }
+        .hint-info { border-color: #57b2e3; background-color: rgba(42, 161, 152, 0.1); }
+        .hint-success { border-color: #859900; background-color: rgba(133, 153, 0, 0.1); }
+        .hint-warning { border-color: #b58900; background-color: rgba(181, 137, 0, 0.1); }
+
+
+        /* Link Card Styles */
+        .link-card {
+            background-color: var(--link-card-bg);
+            border: 1px solid var(--link-card-border);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .link-card:hover {
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .link-card a {
+            text-decoration: none;
+            color: var(--text-color);
+        }
+
+        .link-card h3 {
+            margin-top: 0;
+            color: var(--link-color);
+        }
+
+        .link-card p {
+            margin-bottom: 10px;
+        }
+
+        .link-card .link-url {
+            font-size: 0.9em;
+            color: var(--link-color);
         }
     </style>
 </head>
 <body>
     {% include navigation.html %}
     <main class="main-content">
-        {{ content }}
+        <div class="lesson-content">
+            {{ content }}
+        </div>
+        {% include lesson_navigation.html %}
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
@@ -168,6 +256,30 @@
                     setTheme('light');
                 }
             });
+
+            // function updateLinkCardTitles() {
+
+            //     const linkCards = document.querySelectorAll('.link-card');
+            //     linkCards.forEach(card => {
+            //         const url = card.dataset.url;
+            //         const titleElement = card.querySelector('.link-title');
+
+            //         fetch(`https://cors-anywhere.herokuapp.com/${url}`)
+            //             .then(response => response.text())
+            //             .then(html => {
+            //                 const parser = new DOMParser();
+            //                 const doc = parser.parseFromString(html, 'text/html');
+            //                 const pageTitle = doc.querySelector('title').textContent;
+            //                 titleElement.textContent = pageTitle;
+            //             })
+            //             .catch(error => {
+            //                 console.error('Error fetching page title:', error);
+            //                 titleElement.textContent = 'Title unavailable';
+            //             });
+            //     });
+            // }
+
+            // updateLinkCardTitles();
 
         });
     </script>
