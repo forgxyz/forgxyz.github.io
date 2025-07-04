@@ -4,28 +4,382 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forgash_</title>
-    <style>
-        body {
-            background-color: #002b36;
-            color: #839496;
-            font-family: monospace;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .content {
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
 </head>
 <body>
-    <div class="content">
-        <div style="margin-left: 33%;">
-&gt; Hello
+    <div class="game-container">
+        <header class="header-bar">
+    <div class="window-controls">
+        <button class="control-btn minimize" aria-label="Minimize">-</button>
+        <button class="control-btn maximize" aria-label="Maximize">□</button>
+        <button class="control-btn close" aria-label="Close">×</button>
+    </div>
+    <div class="system-title">forgash_</div>
+    <div class="system-info">
+        <span class="system-date">SYS_DATE: <span id="current-time">00:00:00</span></span>
+    </div>
+</header>
+        <nav class="nav-tabs">
+    <button class="nav-tab active" data-tab="about">ABOUT</button>
+    <button class="nav-tab" data-tab="skills">SKILLS</button>
+    <button class="nav-tab" data-tab="projects">PROJECTS</button>
+    <button class="nav-tab" data-tab="contact">CONTACT</button>
+</nav>
+        
+        <main class="content">
+            <!-- ABOUT Tab Content -->
+<div class="tab-content active" id="about-tab">
+    <div class="character-screen">
+        <div class="personal-log">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="/assets/img/profile.png" alt="Profile Image" class="profile-img" width="100" height="100" />
+                </div>
+                <div class="profile-text">
+                    <p>Hey there! I'm Jack, a data professional who lives at the intersection of blockchain technology and analytics. 
+When I'm not diving deep into on-chain data or building data pipelines, you can find me exploring the Colorado 
+mountains with my dog, hitting the trails, or planning the next outdoor adventure. I believe in the power of 
+data to tell stories and drive decisions, especially in the rapidly evolving world of crypto and DeFi.
+</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="character-card">
+            <div class="card-header">CHARACTER STATUS</div>
+            <div class="stats-grid">
+                <div class="stat-row">
+                    <span class="stat-label">NAME:</span>
+                    <span class="stat-value">Jack Forgash</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">CLASS:</span>
+                    <span class="stat-value">Data Professional</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">GUILD:</span>
+                    <span class="stat-value">Flipside Crypto</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">SPEC:</span>
+                    <span class="stat-value">Blockchain Data</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">LOCATION:</span>
+                    <span class="stat-value">Denver, CO</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">ALIGNMENT:</span>
+                    <span class="stat-value">Outdoors Enthusiast / Dog Owner / Mountain Dweller</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 </div>
 
+<!-- SKILLS Tab Content -->
+<div class="tab-content" id="skills-tab">
+    <div class="system-dashboard">
+        <div class="dashboard-header">SYSTEM STATUS</div>
+        <div class="skills-grid">
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">SQL</span>
+                    <span class="skill-status status-mastered">MASTERED</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="95"></div>
+                    </div>
+                    <span class="progress-text">95%</span>
+                </div>
+                <div class="skill-category">Database</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Python</span>
+                    <span class="skill-status status-mastered">MASTERED</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="90"></div>
+                    </div>
+                    <span class="progress-text">90%</span>
+                </div>
+                <div class="skill-category">Programming</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">dbt</span>
+                    <span class="skill-status status-active">ACTIVE</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="85"></div>
+                    </div>
+                    <span class="progress-text">85%</span>
+                </div>
+                <div class="skill-category">Data Engineering</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Blockchain Analytics</span>
+                    <span class="skill-status status-mastered">MASTERED</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="88"></div>
+                    </div>
+                    <span class="progress-text">88%</span>
+                </div>
+                <div class="skill-category">Specialized</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">JavaScript</span>
+                    <span class="skill-status status-active">ACTIVE</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="75"></div>
+                    </div>
+                    <span class="progress-text">75%</span>
+                </div>
+                <div class="skill-category">Programming</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">PostgreSQL</span>
+                    <span class="skill-status status-mastered">MASTERED</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="92"></div>
+                    </div>
+                    <span class="progress-text">92%</span>
+                </div>
+                <div class="skill-category">Database</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Git</span>
+                    <span class="skill-status status-mastered">MASTERED</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="87"></div>
+                    </div>
+                    <span class="progress-text">87%</span>
+                </div>
+                <div class="skill-category">Development</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Docker</span>
+                    <span class="skill-status status-active">ACTIVE</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="80"></div>
+                    </div>
+                    <span class="progress-text">80%</span>
+                </div>
+                <div class="skill-category">DevOps</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Snowflake</span>
+                    <span class="skill-status status-active">ACTIVE</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="83"></div>
+                    </div>
+                    <span class="progress-text">83%</span>
+                </div>
+                <div class="skill-category">Data Platform</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">AWS</span>
+                    <span class="skill-status status-online">ONLINE</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="70"></div>
+                    </div>
+                    <span class="progress-text">70%</span>
+                </div>
+                <div class="skill-category">Cloud</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Terraform</span>
+                    <span class="skill-status status-online">ONLINE</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="65"></div>
+                    </div>
+                    <span class="progress-text">65%</span>
+                </div>
+                <div class="skill-category">Infrastructure</div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Solidity</span>
+                    <span class="skill-status status-learning">LEARNING</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="45"></div>
+                    </div>
+                    <span class="progress-text">45%</span>
+                </div>
+                <div class="skill-category">Blockchain</div>
+            </div>
+            
+        </div>
     </div>
+</div>
+
+<!-- PROJECTS Tab Content -->
+<div class="tab-content" id="projects-tab">
+    <div class="projects-grid">
+        <div class="projects-header">PROJECT LIBRARY</div>
+        
+        <div class="project-library-item" onclick="openProjectModal('DeFi Protocol Analytics Dashboard', 'Built a comprehensive analytics dashboard for tracking DeFi protocol metrics including TVL, volume, and user behavior across multiple chains. Features real-time data updates and interactive visualizations.', 'Python, dbt, Snowflake, Streamlit', 'DEPLOYED', 'https://github.com/forgxyz/defi-analytics', 'https://defi-dashboard.example.com')">
+            <div class="library-item-label">DeFi Protocol Analytics Dashboard</div>
+            <div class="library-item-tech">Python, dbt, Snowflake, Streamlit</div>
+            <div class="library-item-status status-deployed">DEPLOYED</div>
+        </div>
+        
+        <div class="project-library-item" onclick="openProjectModal('Cross-Chain Bridge Monitor', 'Monitoring system for cross-chain bridge transactions with anomaly detection and alerting. Tracks bridge health, transaction volumes, and identifies potential security issues.', 'Python, PostgreSQL, Docker, Grafana', 'ACTIVE', 'https://github.com/forgxyz/bridge-monitor', '')">
+            <div class="library-item-label">Cross-Chain Bridge Monitor</div>
+            <div class="library-item-tech">Python, PostgreSQL, Docker, Grafana</div>
+            <div class="library-item-status status-active">ACTIVE</div>
+        </div>
+        
+        <div class="project-library-item" onclick="openProjectModal('NFT Market Analysis Tool', 'Comprehensive analysis tool for NFT market trends, pricing models, and trading patterns. Includes rarity scoring algorithms and market manipulation detection.', 'Python, pandas, Jupyter, Plotly', 'COMPLETED', 'https://github.com/forgxyz/nft-analysis', '')">
+            <div class="library-item-label">NFT Market Analysis Tool</div>
+            <div class="library-item-tech">Python, pandas, Jupyter, Plotly</div>
+            <div class="library-item-status status-completed">COMPLETED</div>
+        </div>
+        
+        <div class="project-library-item" onclick="openProjectModal('Blockchain Data Pipeline', 'Scalable data pipeline for ingesting, transforming, and analyzing blockchain data from multiple sources. Handles millions of transactions daily with automated quality checks.', 'Python, Airflow, AWS, Terraform', 'PRODUCTION', 'https://github.com/forgxyz/blockchain-etl', '')">
+            <div class="library-item-label">Blockchain Data Pipeline</div>
+            <div class="library-item-tech">Python, Airflow, AWS, Terraform</div>
+            <div class="library-item-status status-production">PRODUCTION</div>
+        </div>
+        
+        <div class="project-library-item" onclick="openProjectModal('Crypto Portfolio Tracker', 'Personal project for tracking cryptocurrency portfolios with advanced analytics, DeFi position tracking, and tax reporting features.', 'React, Node.js, PostgreSQL, Chart.js', 'BETA', 'https://github.com/forgxyz/crypto-portfolio', 'https://crypto-tracker.example.com')">
+            <div class="library-item-label">Crypto Portfolio Tracker</div>
+            <div class="library-item-tech">React, Node.js, PostgreSQL, Chart.js</div>
+            <div class="library-item-status status-beta">BETA</div>
+        </div>
+        
+        <div class="project-library-item" onclick="openProjectModal('Smart Contract Audit Dashboard', 'Automated smart contract analysis tool that performs security audits, gas optimization suggestions, and vulnerability detection using static analysis.', 'Solidity, Python, Web3.py, Flask', 'DEVELOPMENT', 'https://github.com/forgxyz/contract-audit', '')">
+            <div class="library-item-label">Smart Contract Audit Dashboard</div>
+            <div class="library-item-tech">Solidity, Python, Web3.py, Flask</div>
+            <div class="library-item-status status-development">DEVELOPMENT</div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- CONTACT Tab Content -->
+<div class="tab-content" id="contact-tab">
+    <div class="contact-panel">
+        <div class="panel-header">COMMUNICATION LINKS</div>
+        <div class="contact-grid">
+            
+            <div class="contact-card" onclick="handleContactClick('email', 'jack@forgash.email')">
+                <div class="contact-icon">📧</div>
+                <div class="contact-info">
+                    <div class="contact-name">Email</div>
+                    <div class="contact-desc">Drop me a line</div>
+                </div>
+            </div>
+            
+            <div class="contact-card" onclick="handleContactClick('url', 'https://github.com/forgxyz')">
+                <div class="contact-icon">🐙</div>
+                <div class="contact-info">
+                    <div class="contact-name">GitHub</div>
+                    <div class="contact-desc">Check out my code</div>
+                </div>
+            </div>
+            
+            <div class="contact-card" onclick="handleContactClick('url', 'https://linkedin.com/in/jack-forgash')">
+                <div class="contact-icon">💼</div>
+                <div class="contact-info">
+                    <div class="contact-name">LinkedIn</div>
+                    <div class="contact-desc">Let's connect professionally</div>
+                </div>
+            </div>
+            
+            <div class="contact-card" onclick="handleContactClick('url', 'https://twitter.com/forgash_')">
+                <div class="contact-icon">🐦</div>
+                <div class="contact-info">
+                    <div class="contact-name">Twitter</div>
+                    <div class="contact-desc">Follow my thoughts</div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="message-prompt">
+            <div class="prompt-header">SEND_MESSAGE</div>
+            <div class="prompt-input">
+                <input type="text" placeholder="Type your message..." disabled="" />
+                <button disabled="">SEND</button>
+            </div>
+            <div class="prompt-note">* Message system currently offline - use contact links above</div>
+        </div>
+    </div>
+</div>
+
+        </main>
+        
+        <!-- Project Modal -->
+<div id="project-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 id="modal-title">Project Details</h3>
+            <button class="modal-close" onclick="closeModal('project-modal')">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div id="modal-description"></div>
+            <div class="modal-tech-stack">
+                <strong>Tech Stack:</strong> <span id="modal-tech"></span>
+            </div>
+            <div class="modal-status">
+                <strong>Status:</strong> <span id="modal-status"></span>
+            </div>
+            <div class="modal-links" id="modal-links"></div>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+    
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>

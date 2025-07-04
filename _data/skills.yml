@@ -1,0 +1,59 @@
+- name: "SQL"
+  status: "MASTERED"
+  progress: 95
+  category: "Database"
+
+- name: "Python"
+  status: "MASTERED"
+  progress: 90
+  category: "Programming"
+
+- name: "dbt"
+  status: "ACTIVE"
+  progress: 85
+  category: "Data Engineering"
+
+- name: "Blockchain Analytics"
+  status: "MASTERED"
+  progress: 88
+  category: "Specialized"
+
+- name: "JavaScript"
+  status: "ACTIVE"
+  progress: 75
+  category: "Programming"
+
+- name: "PostgreSQL"
+  status: "MASTERED"
+  progress: 92
+  category: "Database"
+
+- name: "Git"
+  status: "MASTERED"
+  progress: 87
+  category: "Development"
+
+- name: "Docker"
+  status: "ACTIVE"
+  progress: 80
+  category: "DevOps"
+
+- name: "Snowflake"
+  status: "ACTIVE"
+  progress: 83
+  category: "Data Platform"
+
+- name: "AWS"
+  status: "ONLINE"
+  progress: 70
+  category: "Cloud"
+
+- name: "Terraform"
+  status: "ONLINE"
+  progress: 65
+  category: "Infrastructure"
+
+- name: "Solidity"
+  status: "LEARNING"
+  progress: 45
+  category: "Blockchain"

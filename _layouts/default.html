@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | default: site.title }}</title>
-    <style>
-        body {
-            background-color: #002b36;
-            color: #839496;
-            font-family: monospace;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .content {
-            padding: 20px;
-        }
-    </style>
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
 </head>
 <body>
-    <div class="content">
-        {{ content }}
+    <div class="game-container">
+        {% include header-bar.html %}
+        {% include nav.html %}
+        
+        <main class="content">
+            {{ content }}
+        </main>
+        
+        {% include modals.html %}
     </div>
+    
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 </body>
 </html>
