@@ -4,33 +4,23 @@
   category: "Database"
 
 - name: "Python"
-  status: "MASTERED"
-  progress: 90
+  status: "ACTIVE"
+  progress: 80
   category: "Programming"
 
 - name: "dbt"
   status: "ACTIVE"
-  progress: 85
+  progress: 90
   category: "Data Engineering"
 
 - name: "Blockchain Analytics"
   status: "MASTERED"
-  progress: 88
+  progress: 95
   category: "Specialized"
 
-- name: "JavaScript"
-  status: "ACTIVE"
-  progress: 75
-  category: "Programming"
-
-- name: "PostgreSQL"
-  status: "MASTERED"
-  progress: 92
-  category: "Database"
-
 - name: "Git"
-  status: "MASTERED"
-  progress: 87
+  status: "ACTIVE"
+  progress: 80
   category: "Development"
 
 - name: "Docker"
@@ -44,16 +34,6 @@
   category: "Data Platform"
 
 - name: "AWS"
-  status: "ONLINE"
-  progress: 70
-  category: "Cloud"
-
-- name: "Terraform"
-  status: "ONLINE"
-  progress: 65
-  category: "Infrastructure"
-
-- name: "Solidity"
   status: "LEARNING"
-  progress: 45
-  category: "Blockchain"
+  progress: 30
+  category: "Cloud"
