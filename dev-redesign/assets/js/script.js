@@ -90,7 +90,7 @@ function openProjectModal(title, description, techStack, status, github, demo) {
         demoLink.href = demo;
         demoLink.target = '_blank';
         demoLink.rel = 'noopener noreferrer';
-        demoLink.textContent = 'Live Demo';
+        demoLink.textContent = 'Demo';
         linksContainer.appendChild(demoLink);
     }
     
