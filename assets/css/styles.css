@@ -414,6 +414,8 @@ body {
 .status-completed { background: var(--accent-secondary); color: var(--bg-base); }
 .status-beta { background: var(--warning); color: var(--bg-base); }
 .status-development { background: var(--accent-tertiary); color: var(--bg-base); }
+.status-archived { background: #fbca04; color: var(--bg-base); }
+.status-deprecated { background: #e99695; color: var(--bg-base); }
 
 /* Contact Panel */
 .contact-panel {

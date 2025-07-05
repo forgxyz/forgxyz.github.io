@@ -8,6 +8,14 @@
     See the linked repository for an MCP-only MVP of the project.
   github: "https://github.com/forgxyz/data-discovery"
 
+- title: "elizaOS AI Agent"
+  tech_stack: "TypeScript, elizaOS framework"
+  status: "DEVELOPMENT"
+  description: >-
+    Built a custom AI Agent using the elizaOS framework with Twitter and Telegram integration to listen for trends on Crypto Twitter and post tweets with data behind the narratives.
+    Telegram integration allows for a more direct ask-and-answer experience.
+    Integrated with various MCP servers to provide data access to the agent.
+
 - title: "Internal AI Hackathon Winning Team"
   tech_stack: "Python, SQL, dbt"
   status: "COMPLETED"
@@ -16,3 +24,32 @@
     My primary contibution was a data definition framework that allowed the system to understand the data models, how to use them, and the schema of the data.
     This project was a proof of concept that would later become the Flipside Growth MCP and the data-discovery service that I would later build to support it.
 
+- title: "Blockchain Data Models"
+  tech_stack: "SQL, dbt"
+  status: "PRODUCTION"
+  description: >-
+    Built and maintain data models for various blockchain in my work at Flipside. My primary focus is on Near, Bitcoin, Flow, and other various alternative Layer 1s, like Aptos, Stellar, Movement, etc.
+  github: "https://github.com/FlipsideCrypto/near-models"
+
+- title: "Blockchain Analytics on Flipside"
+  tech_stack: "SQL, Retool, Flipside Crypto"
+  status: "ARCHIVED"
+  description: >-
+    Before joining Flipside full time, I was a solo data analyst building dashboards and reports for blockchain projects. An archive of my old work is available in the following link. Note: As of August 2025, Flipside has deprecated SQL studio and dashboard links will no longer work. I am considering archiving some of my older work for preservation.
+  demo: "/dev-archive"
+
+- title: "Anchor Protocol Stats Dashboard"
+  tech_stack: "SQL, dbt, Snowflake, Retool"
+  status: "ARCHIVED"
+  description: >-
+    A dashboard for Anchor Protocol commissioned by the Anchor team to track deposits and collateral TVL in late 2021. I build the data models for this dashboard with bespoke dbt models prior to joining the Flipside data team. A member of the Flipside team granted me a Snowflake data share upon which to build my data models, as I had found discrepancies in the accuracy of the Anchor data that was being modeled by them at the time. Deposit yield was accrued without event emission, so I developed an estimation that tracked the actual amounts within 99% accuracy of what the Anchor team was reporting.
+  github: "https://github.com/forgxyz/flipside"
+  demo: "https://forgash.retool.com/embedded/public/e54597fe-837b-4a13-8dbc-332c8226f6f4"
+
+- title: "Expensifly, a personal budgeting tool"
+  tech_stack: "Python, Django, Heroku"
+  status: "DEPRECATED"
+  description: >-
+    A personal budgeting tool built with Django and deployed to Heroku. This project was a learning experience in building a full-stack application with a database backend.
+    The project was deprecated in favor of a more modern approach to personal budgeting.
+  github: "https://github.com/forgxyz/expensifly"
