@@ -21,3 +21,9 @@
   value: "https://twitter.com/forgash_"
   icon: "🐦"
   description: "Follow my thoughts"
+
+- name: "Telegram"
+  type: "url"
+  value: "https://t.me/forg_jm"
+  icon: "💬"
+  description: "Reach out directly for a quick chat"
