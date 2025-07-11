@@ -17,7 +17,7 @@ layout: default
         </div>
         
         <div class="character-card">
-            <div class="card-header">CHARACTER STATUS</div>
+            <div class="card-header">STATUS</div>
             <div class="stats-grid">
                 <div class="stat-row">
                     <span class="stat-label">NAME:</span>
@@ -28,7 +28,7 @@ layout: default
                     <span class="stat-value">{{ site.data.about.class }}</span>
                 </div>
                 <div class="stat-row">
-                    <span class="stat-label">GUILD:</span>
+                    <span class="stat-label">ORG:</span>
                     <span class="stat-value">{{ site.data.about.guild }}</span>
                 </div>
                 <div class="stat-row">
@@ -36,12 +36,8 @@ layout: default
                     <span class="stat-value">{{ site.data.about.specialization }}</span>
                 </div>
                 <div class="stat-row">
-                    <span class="stat-label">LOCATION:</span>
+                    <span class="stat-label">LOC:</span>
                     <span class="stat-value">{{ site.data.about.location }}</span>
-                </div>
-                <div class="stat-row">
-                    <span class="stat-label">ALIGNMENT:</span>
-                    <span class="stat-value">{{ site.data.about.alignment }}</span>
                 </div>
             </div>
         </div>
