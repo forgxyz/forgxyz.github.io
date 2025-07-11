@@ -26,4 +26,14 @@ Gemfile.lock
 
 # Claude Code
 .claude.
+=======
+_site
+.sass-cache
+.jekyll-cache/
+.jekyll-metadata
+vendor
+
+.DS_Store
+
+.claude/
 CLAUDE.md
