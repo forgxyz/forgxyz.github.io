@@ -102,14 +102,5 @@ layout: default
             </div>
             {% endfor %}
         </div>
-        
-        <div class="message-prompt">
-            <div class="prompt-header">SEND_MESSAGE</div>
-            <div class="prompt-input">
-                <input type="text" placeholder="Type your message..." disabled>
-                <button disabled>SEND</button>
-            </div>
-            <div class="prompt-note">* Message system currently offline - use contact links above</div>
-        </div>
     </div>
 </div>

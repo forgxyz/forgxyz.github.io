@@ -25,7 +25,6 @@
 </header>
         <nav class="nav-tabs">
     <button class="nav-tab active" data-tab="about">ABOUT</button>
-    <button class="nav-tab" data-tab="skills">SKILLS</button>
     <button class="nav-tab" data-tab="projects">PROJECTS</button>
     <button class="nav-tab" data-tab="contact">CONTACT</button>
 </nav>
@@ -89,118 +88,6 @@ I am a self-taught developer with a mind for data and a passion for building too
         <div class="dashboard-header">SYSTEM STATUS</div>
         <div class="skills-grid">
             
-            <div class="skill-item">
-                <div class="skill-header">
-                    <span class="skill-name">SQL</span>
-                    <span class="skill-status status-mastered">MASTERED</span>
-                </div>
-                <div class="skill-progress">
-                    <div class="progress-bar">
-                        <div class="progress-fill" data-width="95"></div>
-                    </div>
-                    <span class="progress-text">95%</span>
-                </div>
-                <div class="skill-category">Database</div>
-            </div>
-            
-            <div class="skill-item">
-                <div class="skill-header">
-                    <span class="skill-name">Python</span>
-                    <span class="skill-status status-active">ACTIVE</span>
-                </div>
-                <div class="skill-progress">
-                    <div class="progress-bar">
-                        <div class="progress-fill" data-width="80"></div>
-                    </div>
-                    <span class="progress-text">80%</span>
-                </div>
-                <div class="skill-category">Programming</div>
-            </div>
-            
-            <div class="skill-item">
-                <div class="skill-header">
-                    <span class="skill-name">dbt</span>
-                    <span class="skill-status status-active">ACTIVE</span>
-                </div>
-                <div class="skill-progress">
-                    <div class="progress-bar">
-                        <div class="progress-fill" data-width="90"></div>
-                    </div>
-                    <span class="progress-text">90%</span>
-                </div>
-                <div class="skill-category">Data Engineering</div>
-            </div>
-            
-            <div class="skill-item">
-                <div class="skill-header">
-                    <span class="skill-name">Blockchain Analytics</span>
-                    <span class="skill-status status-mastered">MASTERED</span>
-                </div>
-                <div class="skill-progress">
-                    <div class="progress-bar">
-                        <div class="progress-fill" data-width="95"></div>
-                    </div>
-                    <span class="progress-text">95%</span>
-                </div>
-                <div class="skill-category">Specialized</div>
-            </div>
-            
-            <div class="skill-item">
-                <div class="skill-header">
-                    <span class="skill-name">Git</span>
-                    <span class="skill-status status-active">ACTIVE</span>
-                </div>
-                <div class="skill-progress">
-                    <div class="progress-bar">
-                        <div class="progress-fill" data-width="80"></div>
-                    </div>
-                    <span class="progress-text">80%</span>
-                </div>
-                <div class="skill-category">Development</div>
-            </div>
-            
-            <div class="skill-item">
-                <div class="skill-header">
-                    <span class="skill-name">Docker</span>
-                    <span class="skill-status status-active">ACTIVE</span>
-                </div>
-                <div class="skill-progress">
-                    <div class="progress-bar">
-                        <div class="progress-fill" data-width="80"></div>
-                    </div>
-                    <span class="progress-text">80%</span>
-                </div>
-                <div class="skill-category">DevOps</div>
-            </div>
-            
-            <div class="skill-item">
-                <div class="skill-header">
-                    <span class="skill-name">Snowflake</span>
-                    <span class="skill-status status-active">ACTIVE</span>
-                </div>
-                <div class="skill-progress">
-                    <div class="progress-bar">
-                        <div class="progress-fill" data-width="83"></div>
-                    </div>
-                    <span class="progress-text">83%</span>
-                </div>
-                <div class="skill-category">Data Platform</div>
-            </div>
-            
-            <div class="skill-item">
-                <div class="skill-header">
-                    <span class="skill-name">AWS</span>
-                    <span class="skill-status status-learning">LEARNING</span>
-                </div>
-                <div class="skill-progress">
-                    <div class="progress-bar">
-                        <div class="progress-fill" data-width="30"></div>
-                    </div>
-                    <span class="progress-text">30%</span>
-                </div>
-                <div class="skill-category">Cloud</div>
-            </div>
-            
         </div>
     </div>
 </div>
@@ -210,22 +97,22 @@ I am a self-taught developer with a mind for data and a passion for building too
     <div class="projects-grid">
         <div class="projects-header">PROJECT LIBRARY</div>
         
+        <div class="project-library-item" onclick="openProjectModal('MCP Output Token Cost Estimator', 'A quick and dirty tool to estimate the token cost of a MCP tool call. Allows the user to configure an MCP server, call a tool, and run the response through the Anthropic `count_tokens` function to estimate the cost of the call. This tool aids in the development of the Flipside MCP tools by providing insight into the context consumed by respective tools.', 'Python, MCP', 'DEVELOPMENT', 'https://github.com/forgxyz/token-ct', '')">
+            <div class="library-item-label">MCP Output Token Cost Estimator</div>
+            <div class="library-item-tech">Python, MCP</div>
+            <div class="library-item-status status-development">DEVELOPMENT</div>
+        </div>
+        
+        <div class="project-library-item" onclick="openProjectModal('Flipside Dashboard Evolution Toolkit', 'A toolkit for archiving Flipside dashboards and evolve them into LLM-generated artifacts. `dashboard-dl` allows analysts to download their queries, result sets, and visualization configurations to preserve their hard work. I then wrote a robust set of Cursor rules to guide the workflow of interpreting the archives into context, how to interact with the Flipside MCP toolkit, and how to build simple HTML-based pages to redeploy their work with new-age analytics tools.', 'Python, Claude, Context Engineering, MCP', 'DEPLOYED', 'https://github.com/forgxyz/dashboard-dl', 'https://x.com/forgash_/status/1943087740632895578')">
+            <div class="library-item-label">Flipside Dashboard Evolution Toolkit</div>
+            <div class="library-item-tech">Python, Claude, Context Engineering, MCP</div>
+            <div class="library-item-status status-deployed">DEPLOYED</div>
+        </div>
+        
         <div class="project-library-item" onclick="openProjectModal('dbt data-discovery Server', 'A basic MCP server that retrieves dbt JSON artifacts from dbt projects deployed to GitHub for use in an LLM client.  This project has been forked to the FlipsideCrypto organization and taken private for production deployment. Recent changes on the production server include a refactor to be a REST API-first server using the FastAPI frameworkwith MCP wrapped around GET endpoints with the fastapi_mcp library. This API serves metadata about our data models to the internal ai-insights tool to enhance table selection and query generation by the LLM. See the linked repository for an MCP-only MVP of the project.', 'Python, MCP, FastAPI', 'DEPLOYED', 'https://github.com/forgxyz/data-discovery', '')">
             <div class="library-item-label">dbt data-discovery Server</div>
             <div class="library-item-tech">Python, MCP, FastAPI</div>
             <div class="library-item-status status-deployed">DEPLOYED</div>
-        </div>
-        
-        <div class="project-library-item" onclick="openProjectModal('elizaOS AI Agent', 'Built a custom AI Agent using the elizaOS framework with Twitter and Telegram integration to listen for trends on Crypto Twitter and post tweets with data behind the narratives. Telegram integration allows for a more direct ask-and-answer experience. Integrated with various MCP servers to provide data access to the agent.', 'TypeScript, elizaOS framework', 'DEVELOPMENT', '', '')">
-            <div class="library-item-label">elizaOS AI Agent</div>
-            <div class="library-item-tech">TypeScript, elizaOS framework</div>
-            <div class="library-item-status status-development">DEVELOPMENT</div>
-        </div>
-        
-        <div class="project-library-item" onclick="openProjectModal('Internal AI Hackathon Winning Team', 'Winning team of the Flipside Crypto internal AI hackathon in January 2025. This project was a proof of concept for using LLMs to generate SQL queries to support non-technical users with answering data questions. My primary contibution was a data definition framework that allowed the system to understand the data models, how to use them, and the schema of the data. This project was a proof of concept that would later become the Flipside Growth MCP and the data-discovery service that I would later build to support it.', 'Python, SQL, dbt', 'COMPLETED', '', '')">
-            <div class="library-item-label">Internal AI Hackathon Winning Team</div>
-            <div class="library-item-tech">Python, SQL, dbt</div>
-            <div class="library-item-status status-completed">COMPLETED</div>
         </div>
         
         <div class="project-library-item" onclick="openProjectModal('Blockchain Data Models', 'Built and maintain data models for various blockchain in my work at Flipside. My primary focus is on Near, Bitcoin, Flow, and other various alternative Layer 1s, like Aptos, Stellar, Movement, etc.', 'SQL, dbt', 'PRODUCTION', 'https://github.com/FlipsideCrypto/near-models', '')">
@@ -293,15 +180,6 @@ I am a self-taught developer with a mind for data and a passion for building too
                 </div>
             </div>
             
-        </div>
-        
-        <div class="message-prompt">
-            <div class="prompt-header">SEND_MESSAGE</div>
-            <div class="prompt-input">
-                <input type="text" placeholder="Type your message..." disabled="" />
-                <button disabled="">SEND</button>
-            </div>
-            <div class="prompt-note">* Message system currently offline - use contact links above</div>
         </div>
     </div>
 </div>

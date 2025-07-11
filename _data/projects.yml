@@ -1,3 +1,23 @@
+
+- title: "MCP Output Token Cost Estimator"
+  tech_stack: "Python, MCP"
+  status: "DEVELOPMENT"
+  description: >-
+    A quick and dirty tool to estimate the token cost of a MCP tool call.
+    Allows the user to configure an MCP server, call a tool, and run the response through the Anthropic `count_tokens` function to estimate the cost of the call.
+    This tool aids in the development of the Flipside MCP tools by providing insight into the context consumed by respective tools.
+  github: "https://github.com/forgxyz/token-ct"
+
+- title: "Flipside Dashboard Evolution Toolkit"
+  tech_stack: "Python, Claude, Context Engineering, MCP"
+  status: "DEPLOYED"
+  description: >-
+    A toolkit for archiving Flipside dashboards and evolve them into LLM-generated artifacts.
+    `dashboard-dl` allows analysts to download their queries, result sets, and visualization configurations to preserve their hard work.
+    I then wrote a robust set of Cursor rules to guide the workflow of interpreting the archives into context, how to interact with the Flipside MCP toolkit, and how to build simple HTML-based pages to redeploy their work with new-age analytics tools.
+  github: "https://github.com/forgxyz/dashboard-dl"
+  demo: "https://x.com/forgash_/status/1943087740632895578"
+
 - title: "dbt data-discovery Server"
   tech_stack: "Python, MCP, FastAPI"
   status: "DEPLOYED"
@@ -7,22 +27,6 @@
     This API serves metadata about our data models to the internal ai-insights tool to enhance table selection and query generation by the LLM.
     See the linked repository for an MCP-only MVP of the project.
   github: "https://github.com/forgxyz/data-discovery"
-
-- title: "elizaOS AI Agent"
-  tech_stack: "TypeScript, elizaOS framework"
-  status: "DEVELOPMENT"
-  description: >-
-    Built a custom AI Agent using the elizaOS framework with Twitter and Telegram integration to listen for trends on Crypto Twitter and post tweets with data behind the narratives.
-    Telegram integration allows for a more direct ask-and-answer experience.
-    Integrated with various MCP servers to provide data access to the agent.
-
-- title: "Internal AI Hackathon Winning Team"
-  tech_stack: "Python, SQL, dbt"
-  status: "COMPLETED"
-  description: >-
-    Winning team of the Flipside Crypto internal AI hackathon in January 2025. This project was a proof of concept for using LLMs to generate SQL queries to support non-technical users with answering data questions.
-    My primary contibution was a data definition framework that allowed the system to understand the data models, how to use them, and the schema of the data.
-    This project was a proof of concept that would later become the Flipside Growth MCP and the data-discovery service that I would later build to support it.
 
 - title: "Blockchain Data Models"
   tech_stack: "SQL, dbt"
