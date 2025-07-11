@@ -1,3 +1,32 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby
+.bundle/
+vendor/
+Gemfile.lock
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# Logs
+*.log
+
+# Temporary files
+*~
+.tmp
+
+# Claude Code
+.claude.
+=======
 _site
 .sass-cache
 .jekyll-cache/

@@ -1,0 +1,23 @@
+- name: "Email"
+  type: "email"
+  value: "jack@forgash.email"
+  icon: "📧"
+  description: "Drop me a line"
+
+- name: "GitHub"
+  type: "url"
+  value: "https://github.com/forgxyz"
+  icon: "🐙"
+  description: "Check out my code"
+
+- name: "LinkedIn"
+  type: "url"
+  value: "https://linkedin.com/in/jack-forgash"
+  icon: "💼"
+  description: "Let's connect professionally"
+
+- name: "Twitter"
+  type: "url"
+  value: "https://twitter.com/forgash_"
+  icon: "🐦"
+  description: "Follow my thoughts"
