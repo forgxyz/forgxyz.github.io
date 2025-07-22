@@ -11,7 +11,7 @@ layout: default
                     <img src="{{ site.data.about.profile_image | relative_url }}" alt="Profile Image" class="profile-img" width="100" height="100">
                 </div>
                 <div class="profile-text">
-                    <p>{{ site.data.about.personal_log }}</p>
+                    <p>{{ site.data.about.personal_log | newline_to_br }}</p>
                 </div>
             </div>
         </div>
